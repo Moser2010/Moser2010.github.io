@@ -1,0 +1,539 @@
+@font-face {
+  font-family: Endoralt;
+  src: url(/Transer_folder/Fonts/ENDORALT.ttf);
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Elven;
+  src: url(/Transer_folder/Fonts/halfelven.ttf);
+  font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: ENDORALT;
+}
+h1{
+  font-size: 5em;
+}
+h2 {
+  font-size: 4em;
+}
+h3 {
+  font-size: 3em;
+}
+h4 {
+  font-size: 2em;
+}
+body {
+  margin: 0px;
+  background-size: 30vw 100vh;
+  background-repeat: no-repeat;
+  background-position: -223px 0px;
+  color: white;
+}
+
+hr {
+  margin-bottom: 20px;
+}
+
+#map {
+  margin: 0;
+  background: white !important;
+  position: relative;
+  height: 100vh;
+  top: 0;
+  right: 0;
+  left: 0px;
+  bottom: 50px;
+  z-index: 0;
+}
+
+.exit {
+  font-size: 3em;
+  cursor: pointer;
+  color: white;
+  border: solid white 3px;
+}
+#sidebarWrap {
+  background-color: rgba(0,0,0,0.5);
+}
+#sidebar {
+  width: 350px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 5;
+  background-color: transparent;
+  background-size: 100% 100%;
+  font-family: 'PFDinTextCondPro', Arial, sans-serif;
+  color: #fff;
+}
+
+#sidebar .module {
+  max-width: 100%;
+  margin: 7px 0;
+}
+
+#video {
+  margin: 30px 0px;
+  width: 65vw;
+  height: 48.9vh;
+}
+
+#hide-sidebar {
+  display: block;
+  position: fixed;
+  padding: 3px;
+  left: 0px;
+  top: 0vh;
+  background: rgba(0, 0, 0, .7) url('https://simpleicon.com/wp-content/uploads/arrow-18.png') no-repeat 0px 3px;
+  border-bottom-right-radius: 8px;
+  width: 28px;
+  height: 32px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+
+/* Transitions */
+
+.Translate {
+  -webkit-transition: .7s;
+  -moz-transition: .7s;
+  -ms-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
+  /*transform:translateX(0px)!important;*/
+}
+
+
+/*Bootstrap Changes*/
+
+.glyphicon-menu-hamburger {
+  font-size: 20px;
+  color: white;
+}
+
+
+/*Text on image */
+
+.module {
+  background-position: 0 730px;
+  width: 100%;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
+
+.module>div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px 10px;
+}
+
+.module>div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-attachment: fixed;
+  -webkit-filter: blur(12px);
+  filter: blur(15px);
+  transform: scale(1) translateY(20px);
+}
+
+.module>div>h3 {
+  margin: 0;
+  color: white;
+  position: relative;
+  z-index: 1;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#image {
+  width: 100%;
+  margin-top: 10%;
+  border-radius: 10px;
+}
+
+.HIST {
+  background: url(https://s-media-cache-ak0.pinimg.com/736x/f8/1c/bb/f81cbb23f6c9ca4bfdac62afd869cd52.jpg);
+  background-size: cover;
+  background-position: 0px 806px;
+}
+
+#MC {
+  background: url(./Transer_folder/Images/worldMap.jpg);
+  background-size: 100%;
+}
+
+#CR {
+  background: url(https://s-media-cache-ak0.pinimg.com/564x/6d/40/a1/6d40a1883a15b66b4a61445cd2596dc2.jpg);
+  background-size: 100%;
+}
+
+.KC {
+  background: url(https://i.warosu.org/data/tg/img/0393/91/1429237587525.png);
+  background-size: 100%;
+}
+
+#worldHistory {
+  width: 100%;
+  background: #191919;
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+}
+
+.worldHistory {
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.7;
+  padding: 20px;
+}
+
+.wrapper {
+  width: 60%;
+  margin: 0 auto;
+}
+
+button img {
+  width: 100%;
+}
+
+.accordianImage {
+  width: 100%;
+}
+
+.buttonTitle {
+  text-align: center;
+}
+
+
+/*.leaflet-marker-icon {
+  display: none;
+}*/
+
+
+/*Marker bar*/
+
+#markerInfo {
+  position: absolute;
+  padding: 10px 35px;
+  z-index: 1;
+  /*background: rgba(0,0,0,.85) !important;*/
+  color: white;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  background: black;
+  height: 400px;
+  overflow: auto;
+}
+
+#kingdomsAndBorders {
+  position: relative;
+  overflow: hidden;
+}
+
+.mySlides {
+  background: black;
+}
+
+.slides {
+  display: block;
+  margin: auto;
+  width: 40%;
+  cursor: pointer;
+}
+
+
+/*Mobile view */
+
+@media (max-width: 650px) {
+  .wrapper{
+    width:100%;
+  }
+  nav {
+    display: none;
+  }
+  #sidebar {
+    width: 100vw !important;
+    z-index: 5;
+    overflow: auto;
+  }
+  #hide-sidebar {
+    position: fixed;
+    top: 0px !important;
+    left: 0px !important;
+    z-index: 5;
+  }
+  #MC,
+  .KC,
+  .HIST {
+    background-size: cover;
+    background-position: 0px 806px;
+  }
+  #markerInfo {
+    height: 100vh;
+    z-index: 10;
+    background: black;
+    padding-top: 80px;
+  }
+  #video {
+    width: 90vw;
+  }
+  .slides {
+    width: 100%;
+  }
+  .worldHistory {
+    width: 100%;
+    padding: 10px;
+  }
+  .panelColumnOne {
+    border-right:none;
+    margin: auto;
+  }
+  .accordianImage {
+    width: 100%;
+  }
+}
+
+.openModal {
+  cursor: pointer;
+}
+
+.row>#column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* The Modal (background) */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+
+/* Modal Content */
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+
+/* The Close Button */
+
+.closeModal {
+  color: white;
+  position: relative;
+  margin: 10px;
+  font-size: 35px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  height: 30vh;
+  cursor: pointer;
+  /* Or whatever */
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+.panelColumnOne{
+    border-right: Solid white 2px;
+  margin: 10px 0px 10px 0px;
+  padding: 10px;
+}
+.pannelColumnOneImage {
+  border-bottom: solid white 2px;
+  padding-bottom: 10px;
+}
+.panelColumnTwoBody {
+  padding:30px;
+}
+
+.flex-container {
+  background: black;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  padding: 5px;
+  margin-top: 10px;
+  line-height: 150px;
+  color: white;
+  font-weight: bold;
+  font-size: 3em;
+  text-align: center;
+}
+
+nav {
+  position: fixed;
+  width: 100vw;
+  height: 5vh;
+  z-index: 100000;
+  background: #191919;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  float: left;
+}
+
+nav .dropdown li {
+  width: 100%;
+}
+
+nav img {
+  width: 100%;
+}
+
+#logo {
+  width: 110px;
+  height:80px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  padding: 0px;
+  cursor:pointer;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.leaflet-top {
+  margin-top: 5vh;
+}
+
+.padding-top {
+  padding-top: 8%;
+}
+
+
+/* Style the buttons that are used to open and close the accordian panel */
+
+button.accordian {
+  background-color: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+
+button.accordian.active,
+button.accordian:hover {
+  background-color: #ddd;
+}
+
+
+/* Style the accordian panel. Note: hidden by default */
+
+div.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  color: black;
+}
+.panel {
+  background-color:transparent;
+  border-radius:0px;
+  
+  
+}
+.panel h2{
+  text-align: center;
+  
+} 
