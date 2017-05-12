@@ -10,7 +10,7 @@ var mymap = L.map('map', {
     zoomControl: false,
     attributionControl: false,
 }).setView([0, 0], 2);
-L.tileLayer('/Transer_folder/tiles/tiles/{z}/{x}/{y}.jpg', {
+L.tileLayer('/Transer_folder/tiles/tiles/{z}/{x}/{y}.png', {
     minZoom: 1,
     maxZoom: 4,
     continuousWorld: false,
@@ -18,7 +18,7 @@ L.tileLayer('/Transer_folder/tiles/tiles/{z}/{x}/{y}.jpg', {
     bounds: bounds
 }).addTo(mymap);
 L.control.zoom({
-    position: 'topright'
+    position: 'topleft'
 }).addTo(mymap);
 
 //Layers defined
@@ -39,7 +39,7 @@ let OrcCitadel = L.layerGroup([]);
 let Town = L.layerGroup([]);
 let Watchtower = L.layerGroup([]);
 let portalGroup = L.layerGroup([]);
-let markers = L.layerGroup([Watchtower, Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, OrcTown, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
+let markers = L.layerGroup([Watchtower, Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
 
 var baseLayers = {
     "Markers": markers
@@ -55,7 +55,6 @@ var overlays = {
     "Farms": Farms,
     "Citadel": Citadel,
     "Dragons": Dragon,
-    "Orc Town": OrcTown,
     "Outpost": Outpost,
     "Ruins": Ruins,
     "Dungeon Tower": DungeonTower,
@@ -63,9 +62,12 @@ var overlays = {
     "Orc Citadel": OrcCitadel,
     "Watchtower": Watchtower,
     "Portal": portalGroup,
+    "Orc Town": OrcTown,
 
 };
-L.control.layers(baseLayers, overlays).addTo(mymap);
+L.control.layers(baseLayers, overlays, {
+    position: "topleft"
+}).addTo(mymap);
 
 //Map boundries
 var corner1 = L.latLng(85, 200),
@@ -338,6 +340,17 @@ function addMarkers() {
                     });
                     // code
                     break;
+                case 'Orc Town':
+                    markerData.Markers[0]["Orc Town"].forEach(function() {
+                        var newMarker = L.marker(markerData.Markers[0]["Orc Town"][i]["Cordidinates"], {
+                            icon: orcTown,
+                            riseOnHover: true
+                        }).bindPopup(markerData.Markers[0]["Orc Town"][i]["Name"]);
+                        OrcTown.addLayer(newMarker);
+                        i++;
+                    });
+                    // code
+                    break;
             }
         }
     })
@@ -426,9 +439,9 @@ for (var b in markerData.KingdomData[0]) {
 for (let i = 0; i < navHist.length; i++) {
     navHist[i].addEventListener('click', rotate);
     navKC[i].addEventListener('click', rotate);
-    navLogo.addEventListener('click', rotate);
+    //navLogo.addEventListener('click', rotate);
     navHome.addEventListener('click', rotate);
-    navMHome.addEventListener('click',rotate);
+    //navMHome.addEventListener('click', rotate);
 };
 
 
@@ -436,7 +449,7 @@ for (let i = 0; i < navHist.length; i++) {
 oModal[0].addEventListener('click', openModal);
 cModal[0].addEventListener('click', closeModal);
 worldHistoryContent[0].innerHTML = markerData["World History"];
-mButton.addEventListener('click', toggleNav);
+//mButton.addEventListener('click', toggleNav);
 mymap.addEventListener('click', function() {
     mBarState = false;
     mBar.style.display = 'none';
@@ -474,6 +487,10 @@ function toggleNav() {
 
 function rotate(navElement) {
     if (navElement.target.classList.contains("HIST")) {
+        var audio = document.getElementById("audio");
+        audio.volume = 0.1;
+        audio.autoplay = true;
+        audio.load();
         map.style.height = "0vh";
         historySection.style.height = "100vh";
         kingdomsAndBorders.style.height = "0vh";
@@ -482,6 +499,9 @@ function rotate(navElement) {
         historySection.style.overflow = "auto";
     }
     else if (navElement.target.classList.contains("KC")) {
+        var audio = document.getElementById("audio");
+        audio.autoplay = false;
+        audio.load();
         map.style.height = "0vh";
         historySection.style.height = "0vh";
         kingdomsAndBorders.style.height = "100vh";
@@ -489,7 +509,10 @@ function rotate(navElement) {
         kingdomsAndBorders.className += " padding-top";
         historySection.classList.remove("padding-top");
     }
-    else if (navElement.target.id == navLogo.id || navElement.target.id == navHome.id || navElement.target.id == navMHome.id) {
+    else if (navElement.target.id == navHome.id) {
+        var audio = document.getElementById("audio");
+        audio.autoplay = false;
+        audio.load();
         map.style.height = "100vh";
         historySection.style.height = "0vh";
         kingdomsAndBorders.style.height = "0vh";
@@ -503,6 +526,9 @@ function rotate(navElement) {
 
 function onMarkerClick(e) {
     mBarState = true;
+    while (localImg.length > 0) {
+        column.removeChild(localImg[0]);
+    }
     if (mBarState == true) {
         mBar.style.display = "block";
     }
@@ -522,7 +548,7 @@ mymap.on('popupopen', function(e) {
             let b = markerData.Markers[0][c][i]["Name"];
             let obj = markerData.Markers[0][c][i];
             //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
-            let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"],obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
+            let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"], obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
             let domArray = [races, ruler, description, government, religion, history, ammenaties, localIssues, localJobs];
             var d = 0;
 
@@ -533,9 +559,7 @@ mymap.on('popupopen', function(e) {
                     if (jsonArray[d] != undefined && jsonArray[d].length != 0) {
                         markerItemTitle[d].style.display = "block";
                         domArray[d].style.display = "block";
-                        
                         domArray[d].innerHTML = jsonArray[d];
-                        
                     }
                     else {
                         domArray[d].style.display = "none";
@@ -579,9 +603,11 @@ function removeSlideImages() {
 function changeSlide(e) {
     for (var c in markerData.Markers[0]) {
         for (let i = 0; i < markerData.Markers[0][c].length; i++) {
-            for (let h = 0; h < markerData.Markers[0][c][i]["Images"][1]['Regional Images'].length; h++) {
-                if (e.target.src == markerData.Markers[0][c][i]["Images"][1]['Regional Images'][h]) {
-                    mySlides[0].src = markerData.Markers[0][c][i]["Images"][1]['Regional Images'][h];
+            if (markerData.Markers[0][c][i]["Images"] != undefined) {
+                for (let h = 0; h < markerData.Markers[0][c][i]["Images"][1]['Regional Images'].length; h++) {
+                    if (e.target.src == markerData.Markers[0][c][i]["Images"][1]['Regional Images'][h]) {
+                        mySlides[0].src = markerData.Markers[0][c][i]["Images"][1]['Regional Images'][h];
+                    }
                 }
             }
         }
@@ -591,10 +617,12 @@ function changeSlide(e) {
 function openModal() {
     document.getElementById('myModal').style.display = "block";
     mBar.style.overflow = "hidden";
+    document.getElementsByTagName('nav')[0].style.display = "none";
 }
 
 function closeModal() {
     document.getElementById('myModal').style.display = "none";
+    document.getElementsByTagName('nav')[0].style.display = "block";
     mBar.style.overflow = "auto";
     while (localImg.length > 0) {
         column.removeChild(localImg[0]);

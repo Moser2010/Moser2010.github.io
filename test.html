@@ -3,7 +3,8 @@
 
 <head>
     <title>Lost Isles: Interactive Map</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
     <link href='/Transer_folder/Leaflet/leaflet.css' rel='stylesheet' />
@@ -15,54 +16,67 @@
 
 <body>
 
-    <div class='container-fluid col-xs-hidden'>
-        <nav class='row'>
-            <div class='col-sm-5'>
-                <ul>
-                    <li><a id="home">Home</a></li>
-                    <li><a class="HIST" href=#>History</a></li>
-                    <li><a class='KC' href="#">Kingdoms & Major Characters</a></li>
-                    <li><a id='crafting' target="_blank" href="http://paizo.com/pathfinderRPG/prd/coreRulebook/skills/craft.html">Crafting</a></a>
-                    </li>
-                </ul>
-            </div>
-            <div class='col-sm-2'>
-                <a href="#"><img id="logo" src="./Transer_folder/dndLogomall.png"></img>
-                </a>
-                </a>
-            </div>
-            <div class='col-sm-5'>
-                <ul>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DM Tools<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li>
-                                <a title='DonJon Generator' target='_blank' href="http://donjon.bin.sh/"><img src='https://upload.wikimedia.org/wikipedia/fr/7/7a/Logo_Donjon.png'></a>
-                            </li>
-                            <li>
-                                <a title='Pathfinder Refrence Guide' target='_blank' href="http://paizo.com/pathfinderRPG/prd/"><img class="col-xs-12" src='http://paizo.com/pathfinderRPG/prd/include/PRD-Logo.png'>
-                                </a>
-                            </li>
-                            <li>
-                                <a title='Ambient Scene Maker' target='_blank' href="http://app.rpg-ambience.com/">
-                                    <p style="font-weight:bold;">RPG Ambience</p>
-                                </a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li>
-                                <a title='Roll20' target='_blank' href="https://roll20.net/"><img src="https://app.roll20.net/v2/images/roll20-logo.png"></img>
-                                </a>
-                            </li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="http://rpg.ambient-mixer.com/back-d-d-market">Ambience Sounds</a></li>
-                            <li><a href="http://redkatart.com/dnd5tools/#roomBox">Random Room Description</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <header>
+        <h1 style="text-align:center; font-size:3em !important;">The Lost Isles</h1>
+        <nav class="menu">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+            <label class="menu-open-button" for="menu-open">
+            <img class="logo" src="/Transer_folder/Images/dragonlogo.png"></img>
+        <span class="hamburger hamburger-1"></span>
+        <span class="hamburger hamburger-2"></span>
+        <span class="hamburger hamburger-3"></span>
+        </label>
 
+            <a href="#" id="home" class="menu-item"> Home </a>
+            <a href="#" class="HIST menu-item"> Hist </a>
+            <a href="#" class="KC menu-item"> K & MC</a>
+            <a href="http://paizo.com/pathfinderRPG/prd/coreRulebook/skills/craft.html" id="crafting" class="menu-item" target="_blank"> Craft</a>
+            <a href="#" class="dropdown-toggle menu-item" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DM-T<span class="caret"></span></a>
+            <ul class="dropdown-menu dropDowns">
+                <li>
+                    <a title='DonJon Generator' target='_blank' href="http://donjon.bin.sh/"><img src='https://upload.wikimedia.org/wikipedia/fr/7/7a/Logo_Donjon.png'></a>
+                </li>
+                <li>
+                    <a title='Pathfinder Refrence Guide' target='_blank' href="http://paizo.com/pathfinderRPG/prd/"><img class="col-xs-12" src='http://paizo.com/pathfinderRPG/prd/include/PRD-Logo.png'>
+                    </a>
+                </li>
+                <li>
+                    <a title='Ambient Scene Maker' target='_blank' href="http://app.rpg-ambience.com/">
+                        <p style="font-weight:bold;">RPG Ambience</p>
+                    </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li>
+                    <a title='Roll20' target='_blank' href="https://roll20.net/"><img src="https://app.roll20.net/v2/images/roll20-logo.png"></img>
+                    </a>
+                </li>
+                <li role="separator" class="divider"></li>
+                <li><a href="http://rpg.ambient-mixer.com/back-d-d-market">Ambience Sounds</a></li>
+                <li><a href="http://redkatart.com/dnd5tools/#roomBox">Random Room Description</a></li>
+            </ul>
+        </nav>
+        <!-- filters -->
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none;">
+    <defs>
+      <filter id="shadowed-goo">
+          
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
+          <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
+          <feOffset in="shadow" dx="1" dy="1" result="shadow" />
+          <feBlend in2="shadow" in="goo" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+      <filter id="goo">
+          <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
+          <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+          <feBlend in2="goo" in="SourceGraphic" result="mix" />
+      </filter>
+    </defs>
+</svg>
+
+    </header>
     <div id="map" class="Translate" style="height:100vh;">
     </div>
 
@@ -73,14 +87,11 @@
                     <h1>World History</h1>
                     <hr/>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-12" style="margin-top:20px;">
-                    <iframe width="560" style="max-width:100%;" height="315" src="https://www.youtube.com/embed/yXjcVwmfVes?ecver=1" frameborder="0" allowfullscreen></iframe>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-12" style="width:100vw; margin:0 auto; ">
-                    <h3>Indepth History</h3>
-
+                <div class="col-sm-12 col-md-12 col-lg-12 audio" style="margin-top:20px;">
+                    <audio id="audio" controls>
+                      <source src="./Transer_folder/Wintershade - Witchcraft (Powerful Positive Bold Heroic Triumphant).mp3" type="audio/mp3">
+                    </audio>
+                    <p>Witchcraft by Wintershade</p>
                 </div>
             </div>
             <div class="row">
@@ -90,12 +101,10 @@
             </div>
         </div>
     </section>
-
-
     <section id="kingdomsAndBorders" class="container-fluid Translate" style="height:0vh;">
         <div class="row">
             <div class="wrapper">
-                <div class="col-md-12">
+                <div class="col-md-12 margin">
                     <img src="./Transer_folder/Images/MapBorders.jpg" style="width:100%;"></img>
                 </div>
                 <button class="accordian">
@@ -131,7 +140,7 @@
                         <hr/>
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
                         <hr />
                         <div class="col-md-6">
@@ -143,7 +152,17 @@
                             <p class="kingdomMajorCharactersDescription"></p>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
+                        <div class="col-md-6">
+                            <img class="majorCharacterImage" src="" style="width:100%;"></img>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="kingdomMajorCharactersName"></p>
+                            <p class="kingdomMajorCharactersTitle"></p>
+                            <p class="kingdomMajorCharactersDescription"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-12 margin">
                         <div class="col-md-6">
                             <img class="majorCharacterImage" src="" style="width:100%;"></img>
                         </div>
@@ -187,7 +206,7 @@
                         <hr/>
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
                         <hr />
                         <div class="col-md-6">
@@ -199,9 +218,9 @@
                             <p class="kingdomMajorCharactersDescription"></p>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <div class="col-md-6">
-                            <img class="majorCharacterImage" src="" style="width:100%;"></img>
+                            <img id="evilKing" class="majorCharacterImage" src="" style="width:100%;"></img>
                         </div>
                         <div class="col-md-6">
                             <p class="kingdomMajorCharactersName"></p>
@@ -210,7 +229,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <div class="col-md-6">
                             <img class="majorCharacterImage" src="" style="width:100%;"></img>
                         </div>
@@ -254,24 +273,21 @@
                         <hr/>
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
                         <hr />
-                        <div class="col-md-6">
-                            <img class="majorCharacterImage" src="" style="width:100%;"></img>
+                        <div class="col-md-12">
+                            <div class="col-md-6"><img class="majorCharacterImage" src="" style="width:100%;"></img>
+                            </div>
+                            <div class="col-md-6"><img class="majorCharacterImage" src="" style="width:100%;"></img>
+                            </div>
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <p class="kingdomMajorCharactersName"></p>
                             <p class="kingdomMajorCharactersTitle"></p>
                             <p class="kingdomMajorCharactersDescription"></p>
                         </div>
-                    </div>
-                    <div class="col-md-12">
-                        <hr />
-                        <div class="col-md-6">
-                            <img class="majorCharacterImage" src="" style="width:100%;"></img>
-                        </div>
-                        <div class="col-md-6">
+                        <div style="display:none;" class="col-md-6">
                             <p class="kingdomMajorCharactersName"></p>
                             <p class="kingdomMajorCharactersTitle"></p>
                             <p class="kingdomMajorCharactersDescription"></p>
@@ -311,19 +327,8 @@
                         <hr/>
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
-                        <hr />
-                        <div class="col-md-6">
-                            <img class="majorCharacterImage" src="" style="width:100%;"></img>
-                        </div>
-                        <div class="col-md-6">
-                            <p class="kingdomMajorCharactersName"></p>
-                            <p class="kingdomMajorCharactersTitle"></p>
-                            <p class="kingdomMajorCharactersDescription"></p>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
                         <hr />
                         <div class="col-md-6">
                             <img class="majorCharacterImage" src="" style="width:100%;"></img>
@@ -368,7 +373,7 @@
                         <hr/>
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
                         <hr />
                         <div class="col-md-6">
@@ -380,7 +385,7 @@
                             <p class="kingdomMajorCharactersDescription"></p>
                         </div>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <hr />
                         <div class="col-md-6">
                             <img class="majorCharacterImage" src="" style="width:100%;"></img>
@@ -421,7 +426,7 @@
                     <div class="col-sm-12 col-md-6 panelColumnTwoBody">
                         <p class="kingdomHistory"></p>
                     </div>
-                    <div class="col-md-12">
+                    <div class="col-md-12 margin">
                         <h2>Leaders and Major Characters</h2>
                         <hr />
                         <div class="col-md-6">
@@ -437,89 +442,6 @@
             </div>
         </div>
     </section>
-
-    <!-- What will this map contain?
-    Shops, Kingdoms, Job boards, Guilds, Dungeons
-
-    Steps in the process?
-    X    1. Add a map that you can zoom and pan.
-         2. Add markers and information for those markers.
-            a. Add one icon for each location
-            b. Add popup for each location
-         3. Add an interface
-         4. Zoom in reveals other maps like small cities.
-  -->
-
-    <div id="sidebar" class="Translate" style="left:-100vw;">
-        <div class="container-fluid">
-            <div id="sidebarWrap">
-                <div class="row">
-                    <a href="#"><img id="logo" src="./Transer_folder/dndLogomall.png"></img>
-                    </a>
-                    <h1 id="mHome" style="margin-bottom:0px;text-align:center;">The Lost Isles</h1>
-                    <h4 style="margin-top:0px;text-align:center;">Welcome To The Dragon Circlet</h4>
-                </div>
-                <hr />
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <a href="#worldHistory">
-                            <div class="module HIST">
-                                <div>
-                                    <h3>
-                                        History
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                    <div class="col-xs-6 col-sm-6">
-                        <a href="https://paizo.com/pathfinderRPG/prd/coreRulebook/skills/craft.html" target="_blank">
-                            <div class="module" id="CR">
-                                <div>
-                                    <h3>
-                                        Crafting
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class=" col-xs-6 col-sm-6">
-                        <a href="#majorCharacters">
-                            <div class="module" id="MC">
-                                <div>
-                                    <h3>
-                                        World Map
-                                    </h3>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-12 ">
-                        <a href="#kingdoms">
-                            <div class="module KC">
-                                <div>
-                                    <h3>Kingdom & Cultures</h3>
-                                </div>
-                            </div>
-                        </a>
-
-                    </div>
-                </div>
-                 <div class="row">
-                    <div class="col-sm-12 ">
-                        <p><a href="/Transer_folder/Images/worldMap.jpg">@Copy right</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="hide-sidebar" class="Translate">
-        <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true"></span>
-    </div>
-
     <div id='markerInfo' class='container-fluid Translate verticleTranslate' style="display:none;">
         <div class='row'>
             <div class='col-sm-12'>
@@ -527,7 +449,9 @@
             </div>
             <section id="myModal" class="modal">
                 <div class='wrapper'>
-                    <div class=" closeModal cursor">&times;</div>
+                    <div class="col-sm-12">
+                        <span class="glyphicon glyphicon-remove closeModal cursor"></span>
+                    </div>
                 </div>
                 <div class="modal-content">
 
@@ -548,45 +472,34 @@
                 </div>
 
             </section>
-            <div class='col-sm-12 col-md-3 col-lg-3'>
+            <div class='col-sm-12 col-md-3 col-lg-3 padding'>
+
                 <img id="image" class="openModal"></img>
-                <h1 class='title' style="margin:0;"></h1>
-                <hr />
                 <h3 class="markerItemTitle">Races</h3>
                 <p id="races"></p>
                 <h3 class="markerItemTitle">Ruler</h3>
                 <p id="ruler"></p>
             </div>
-            <div class='col-sm-12  col-md-9 col-lg-9' style="margin-bottom:50px;">
-
+            <div class='col-sm-12  col-md-9 col-lg-9 padding' style="margin-bottom:50px;">
+                <h1 class='title' style="margin:0;"></h1>
+                <hr />
                 <h3 class="markerItemTitle">Description</h3>
                 <p id="description"></p>
                 <h3 class="markerItemTitle">Government</h3>
-
                 <p id="government"></p>
-
                 <h3 class="markerItemTitle">Religion & Gods</h3>
                 <p id="religion"></p>
-
                 <h3 class="markerItemTitle">History</h3>
                 <p id="history"></p>
-
                 <h3 class="markerItemTitle">Ammenaties</h3>
                 <p id="ammenaties"></p>
-
                 <h3 class="markerItemTitle"> Local Events</h3>
                 <p id="localIssues"></p>
-
                 <h3 class="markerItemTitle">Local Jobs</h3>
                 <p id="localJob"></p>
-
             </div>
         </div>
     </div>
-
-
-
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/Transer_folder/Leaflet/leaflet.js"></script>
     <script type="text/javascript" src='/build/bundle.js'></script>

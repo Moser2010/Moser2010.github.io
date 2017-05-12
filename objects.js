@@ -7,7 +7,7 @@ var markerData = {
     "Markers": [{
         "Capitol": [{
             "Name": "Crustead",
-            "Cordidinates": [-10.48781, -89.64844],
+            "Cordidinates": [-5.17848, -86.13281],
             "Icon": "Capitol",
             "Ruler": "King Marcus Mercer",
             "Government": "Ruled by one King where leadership is passed on based on lineage and blood line.",
@@ -153,7 +153,7 @@ var markerData = {
             "Name": "Stardenn",
             "Cordidinates": [-40.71396, 107.40234],
             "Icon": "City",
-            "Ruler": "Captain Gangplank",
+            "Ruler": "Captain Dwennon",
             "Government": "We live by the pirate code even though they are more like guidlines.",
             "Races": [],
             "Religion and Gods": {
@@ -161,7 +161,7 @@ var markerData = {
                 "Gods": ['Besmara']
             },
             "History": "After the wars many men returned home to thier wives to find their sons gone. For the large number of those fatherless sons and sonless fathers they turned to the call of the sea. Many of the people of the free marches struggle on a day to day basis trying to recoup the losses under the old king and it is because of these things that they have become outlaws and brigadans. This city is built on the grave yard of sunken ships durring the wars. The currents of the great open sea flow right past this cove and thus provided pleanty of floating lumber, as well as some other nice trinkets. Welcome maties!",
-            "Description": "In a country where all people are free to live how they like there are always those that take up a li of crime and for them Stardenn is a haven. The city is in a small island cove built out of the remains of flallen ships with bridges crossing from place to place. Most of the people spend their days drinking away and counting the hall that they had brought in from the last raid on an unsuspecting ship or village. What keeps the corruption from breaking out into total chaose? One man or pirate king by the name of gangplank is able to keep the piece through fear.",
+            "Description": "In a country where all people are free to live how they like there are always those that take up a li of crime and for them Stardenn is a haven. The city is in a small island cove built out of the remains of flallen ships with bridges crossing from place to place. Most of the people spend their days drinking away and counting the hall that they had brought in from the last raid on an unsuspecting ship or village. What keeps the corruption from breaking out into total chaose? One man or pirate king by the name of Dwennon is able to keep the piece through fear.",
             "Images": [{
                 "Main Image": "http://universe-meeps.leagueoflegends.com/v1/assets/images/factions/bilgewater_splash.jpg"
             }, {
@@ -170,16 +170,66 @@ var markerData = {
             "Local Events": "",
             "Local Jobs": ["A group of pirates have not paid me their owed share of what they have plundered. I believe that they are held up in the dungeon tower to the north and I want you to go and get me my money.", "Strange creatures have been attacking pirate ships and they are reporting these creatures are coming from Red Spire. Go and clear them out and I will reward you greatly."],
             "Ammenaties": ["Class School: Pirate, Rouge, Exemplar, Mutagenic Mauler, Flying Blade, Bounty Hunter, Grave Warden,Black Powder Hood", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+        }, {
+            "Name": "City 1",
+            "Cordidinates": [74.86789, -153.28125],
+            "Icon": "City",
+            "Ruler": "",
+            "Government": "",
+            "Races": [],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": ['']
+            },
+            "History": "",
+            "Description": "",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/3d/a2/00/3da2007f896eb2349a780316262232df.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/3d/a2/00/3da2007f896eb2349a780316262232df.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [""],
+            "Ammenaties": ["Class School: ", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+        }, {
+            "Name": "Kerndohr",
+            "Cordidinates": [51.06902, -78.57422],
+            "Icon": "City",
+            "Ruler": "Thezzaic Chainbrow",
+            "Government": "Thezzaic follows the leadership of the dwarven king. But here he is in charge of the city and making sure that all is peaceful and that everyone is profitable.",
+            "Races": ["Dwarves"],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": ['']
+            },
+            "History": "A grand mining city the first and largest of its kind. This city started out as just a small mine and dwarves where living at the base of the mountain but since it has grown and a large city was built into the mountain where many Dwarves have moved here to call a new home.",
+            "Description": "Built into the mountain side tunneling deep into its heart the dwarves mine this mountain for ores and other minerals used to create their powerful flying machines an firearms.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/4f/5f/2b/4f5f2b891a1909e9a48e8651e41c3db7.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4f/5f/2b/4f5f2b891a1909e9a48e8651e41c3db7.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [""],
+            "Ammenaties": ["Class School: ", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }],
         "Docs": [{
             "Name": "Ferry from Half Skull Prision",
             "Cordidinates": [10.91962, 81.65039],
             "Icon": "Docs",
         }, {
+            "Name": "White Axe Landing",
+            "Cordidinates": [72.52813, -3.16406],
+            "Icon": "Docs",
+        }, {
+            "Name": "Docs 1",
+            "Cordidinates": [10.31492, -103.00781],
+            "Icon": "Docs",
+        }, {
             "Name": "Port of Closteles",
             "Cordidinates": [68.4638, 145.10742],
-            "Icon": "",
-            "Description": "",
+            "Icon": "Docs",
+          
             "Images": [{
                 "Main Image": ""
             }, {
@@ -331,6 +381,14 @@ var markerData = {
         }, {
             "Name": "Yean Alora Trading Port",
             "Cordidinates": [8.14624, -50.625],
+            "Icon": "Docs",
+        }, {
+            "Name": "",
+            "Cordidinates": [74.21198, -163.82813],
+            "Icon": "Docs",
+        }, {
+            "Name": "",
+            "Cordidinates": [21.45307, -68.29102],
             "Icon": "Docs",
         }, {
             "Name": "",
@@ -564,6 +622,86 @@ var markerData = {
             "Local Events": "",
             "Local Jobs": [],
             "Ammenaties": []
+        }, {
+            "Name": "Goblin City",
+            "Cordidinates": [70.98835, -67.06055],
+            "Icon": "Dungeon Tower",
+            "Races": ["Goblins"],
+            "History": "Not much is known about this place other than it is inhabited by Goblins deep underground.",
+            "Images": [{
+                "Main Image": "http://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg"
+            }, {
+                "Regional Images": ["http://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg","https://s-media-cache-ak0.pinimg.com/564x/1f/66/71/1f6671d744e0a650a5ef18c82e758c65.jpg"]
+            }],
+            "Local Events": "Come down down down to goblin town. Maybe you will get lucky and find a demolitions expert or maybe you will be a friend to their spear heads.",
+            
+        }, {
+            "Name": "Westhaven Watchtower",
+            "Cordidinates": [-26.6671, -161.10352],
+            "Icon": "Dungeon Tower",
+            "History": "Previously this tower belonged to the Pruvell Kingdom and was used to keep watch for incomeing threats from the west. Since the Orcs invaded its defenders have fled and darker beings have inhabit its halls. If you travel here be prepared to face a hord of orcs.",
+            "Description": "",
+            "Images": [{
+                "Main Image": "http://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"
+            }, {
+                "Regional Images": ["http://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"]
+            }],
+        }, ],
+        "Orc Town": [{
+            "Name": "Gurdurd",
+            "Cordidinates": [6.05316, -156.88477],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"]
+            }],
+            "Local Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
+        }, {
+            "Name": "Arkugh",
+            "Cordidinates": [-46.55886, -118.82813],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"]
+            }],
+        }, {
+            "Name": "Noddird Dokh",
+            "Cordidinates": [-42.81152, -164.00391],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"]
+            }],
+        }, {
+            "Name": "Dragu",
+            "Cordidinates": [-76.26869, -149.41406],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "http://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"
+            }, {
+                "Regional Images": ["http://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"]
+            }],
+        }, {
+            "Name": "Zralkan",
+            "Cordidinates": [18.64625, -161.10352],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ac/47/f1/ac47f132efe8bb7a2073b161a43204d1.jpg"]
+            }],
+        }, {
+            "Name": "Ba Arza",
+            "Cordidinates": [21.61658, -166.28906],
+            "Icon": "Orc Town",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/04/ad/0b/04ad0b27c8e527c545235f61ee1249a2.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/04/ad/0b/04ad0b27c8e527c545235f61ee1249a2.jpg"]
+            }],
         }],
         "Citadel": [{
             "Name": "Home of the sea god.",
@@ -581,6 +719,17 @@ var markerData = {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"]
             }],
             "Local Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
+        }, {
+            "Name": "Count Diago Montoia's Castle",
+            "Cordidinates": [22.75592, -164.70703],
+            "Icon": "Citadel",
+            "History": "This castle used to belong to Count Diago Montoia, a very rich man with nobel blood, but the orcs have slowly been pushing into Pruvell from the West. Being that this castle is in a mountain canyon range it proved difficult to get assistance from the King as they where cut off. The battle for the estate was hard fought but eventually the supperior strength of the Orcs outmatched the Counts own forces.",
+            "Description": "",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"]
+            }],
         }, {
             "Name": "Forgotten Kingdom of White Spring",
             "Cordidinates": [70.25945, 176.48438],
@@ -613,7 +762,7 @@ var markerData = {
             }],
         }, {
             "Name": "Black Gate Citadel",
-            "Cordidinates": [60.8877, -147.48047],
+            "Cordidinates": [58.53959, -133.24219],
             "Icon": "Citadel",
             "Religion and Gods": {
                 "special": "",
@@ -637,6 +786,19 @@ var markerData = {
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/14/73/a8/1473a8741a251ecdfdbb60421985d924.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/14/73/a8/1473a8741a251ecdfdbb60421985d924.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/6f/7d/c9/6f7dc959c1bcd1ebeb5a1306cb1e819a.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/d5/2e/4d/d52e4d3294e81140687b04b70a0cf8ac.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/ce/b0/2b/ceb02b2fa718fe0c1590c73e4ff72328.jpg']
+            }],
+
+        }, {
+            "Name": "Sanctus Draculum",
+            "Cordidinates": [-62.59334, -87.71484],
+            "Icon": "Citadel",
+            "Ruler": "Aleister Nestor",
+            "History": "This castle was once inhabited by a very wealth family of the Pruvell Kingdom but when the orcs attacked they all lost their lives. Since then a group of vampires and othe rdark spawn have moved into the Castle. The orcs will attack every now and again but even they are no match for the unholy strength that the vampires posses. Hopefully someone can deal with them before the Orcs make an allience with them or worse. ",
+            "Description": "",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/e7/72/f4/e772f4853214223bc03d95115f861df4.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/e7/72/f4/e772f4853214223bc03d95115f861df4.jpg", "https://s-media-cache-ak0.pinimg.com/564x/5a/19/03/5a1903976313f8dac409d9103e8960e4.jpg"]
             }],
 
         }, {
@@ -682,6 +844,50 @@ var markerData = {
             "Local Events": "",
             "Local Jobs": [],
         }, {
+            "Name": "M Tower 1",
+            "Cordidinates": [-7.62389, -149.94141],
+            "Icon": "Military Tower",
+            "Ruler": "",
+            "Races": ["Dwarf"],
+            "History": "",
+            "Description": "",
+            "Images": [{
+                "Main Image": ""
+            }, {
+                "Regional Images": [""]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+        }, {
+            "Name": "M Tower 2",
+            "Cordidinates": [72.44879, -142.20703],
+            "Icon": "Military Tower",
+            "Ruler": "",
+            "Races": ["Dwarf"],
+            "History": "",
+            "Description": "",
+            "Images": [{
+                "Main Image": ""
+            }, {
+                "Regional Images": [""]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+        }, {
+            "Name": "Talons Canyon Pass Tower",
+            "Cordidinates": [-25.00597, -103.00781],
+            "Icon": "Military Tower",
+            "Ruler": "Commander Lorcas Fonvund",
+            "Races": ["Human","Halfling"],
+            "Description": "This tower is bult into the canyon with two towers and a large gate connected between them. This is a very strong chocke point for orcs that attack, which they often do almost as if they are doing so just to test our defences. Should it fall the Orcs will be able to advance into the kingdom of Pruvell and attack the capitol.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/originals/c7/35/50/c735504f63330b9ab4538bf41a33e089.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/originals/c7/35/50/c735504f63330b9ab4538bf41a33e089.jpg","https://s-media-cache-ak0.pinimg.com/564x/73/55/48/735548003f6ec0a654aa075e72f1a610.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+        }, {
             "Name": "Black Spire",
             "Cordidinates": [-55.57834, 126.03516],
             "Icon": "Military Tower",
@@ -701,24 +907,31 @@ var markerData = {
         "Orc Capitol": [{
             "Name": "Druzdrug",
             "Cordidinates": [-55.9738, -163.82813],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
+            "Icon": "Orc Citadel",
+            "Ruler": "Eri Daughter of Kallel",
+            "Government": "<q>I am warchief. You follow me or you die!</q>",
+            "Races": ["Orcs", "Goblins", "Ogers", "Trolls"],
             "Religion and Gods": {
                 "special": "",
-                "Gods": []
+                "Gods": ['Bargrieke', 'Orcus']
             },
-            "History": "",
-            "Description": "",
+            "History": "The first Orc city that was built when the Orcs invaded this land. It is the largest and strongest stronghold that the orcs have. It is here that the warchief resides commanding Orcish raiding parties.",
             "Images": [{
-                "Main Image": ""
+                "Main Image": "https://static1.squarespace.com/static/53b47904e4b078d8d9d974f6/53b4797ce4b0637b8d44b12a/53c44036e4b097c07c1c2f48/1405370430127/orgrimmar_8_6.jpg?format=1500w"
             }, {
-                "Regional Images": [""]
+                "Regional Images": ["https://static1.squarespace.com/static/53b47904e4b078d8d9d974f6/53b4797ce4b0637b8d44b12a/53c44036e4b097c07c1c2f48/1405370430127/orgrimmar_8_6.jpg?format=1500w"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
+        }, {
+            "Name": "Ghul Koshbikh",
+            "Cordidinates": [-8.05923, -169.80469],
+            "Icon": "Orc Citadel",
+            "Races": ["Orcs","Goblins","Trolls","Ogers"],
+            "Description": "This is one of the forward strongholds that the Orcs have had a chance to set up. There is a good chance that there is a large sume of gold and treasure here.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/da/7c/e0/da7ce022ea9c65401a19f754b491e966.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/da/7c/e0/da7ce022ea9c65401a19f754b491e966.jpg"]
+            }],
         }],
         "Outpost": [{
             "Name": "Northstorm Fortress",
@@ -741,6 +954,37 @@ var markerData = {
             "Local Events": "Come one come all to the tournament of champions. The winner will recieve fame and fortune as well as the skill an artifact of great power.",
             "Local Jobs": [],
             "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+        }, {
+            "Name": "Icial Peak Pass Outpost",
+            "Cordidinates": [76.20597, -5.18555],
+            "Icon": "Outpost",
+            "Ruler": "General Hammek Hornback",
+            "Races": ["Dwarves","Elves"],
+            "History": "This outpost was built not to long ago by the Dwarves to combat the Dragonkin durring the war. Icial peak Pass is the only non-mountianious area into Dronem and so it creates a great choke point for the Dwarves to defend.",
+            "Images": [{
+                "Main Image": "http://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"
+            }, {
+                "Regional Images": ["http://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+            "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+        }, {
+            "Name": "Eagles Talon Outpost",
+            "Cordidinates": [-16.97274, -105.82031],
+            "Icon": "Outpost",
+            "Ruler": "Grand Magis Sodum",
+            "Races": [],
+            "History": "After the Orcs invaded this was one of the earliest outpost built. This fortress was designed to the last defence for the kingdom thus it's location just at the edge of the mountains pass.",
+            "Description": "Built at the base of the mountain they can deploy troops fast to combat the threat of the Orcs. From here Grand Magis Sodum issues order to troops preparing for the next attacks that come their way.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/16/a1/2b/16a12b5ff41e4e36817b52f2f59841d9.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/16/a1/2b/16a12b5ff41e4e36817b52f2f59841d9.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+            "Ammenaties": [""]
         }, {
             "Name": "Dragons Tail Keep",
             "Cordidinates": [9.79568, 106.69922],
@@ -771,7 +1015,50 @@ var markerData = {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/41/05/8e/41058e58ede43e8fdf03617e82892b16.jpg", "https://s-media-cache-ak0.pinimg.com/564x/38/ff/4e/38ff4ead0c6a09bfabe7fd055d364b7d.jpg"]
             }],
         }, {
-            "Name": "",
+            "Name": "Temple of a Forgotten God",
+            "Cordidinates": [-67.54217, -108.80859],
+            "Icon": "Ruins",
+            "History": "This temple was origionally erected to worship and old god of great power and poise long ago. No one know for sure who the god was but most believe that it was a god from a previous people who lived here. The temple was ransacted by the Pruvell kingdom taking their relics and little god that they had.",
+            "Description": "Lost to the desert and to time this temple has fallen into ruin and has slowly begun to crumble. However reports of sightings of hooded figures around these parts is call for investigation by someone.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/be/07/49/be0749c635ef1457ab5a852e004b74ba.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/be/07/49/be0749c635ef1457ab5a852e004b74ba.jpg"]
+            }],
+        }, {
+            "Name": "Colousem of Fallen Champions",
+            "Cordidinates": [-74.49641, -80.85938],
+            "Icon": "Ruins",
+            "History": "",
+            "Description": "<span title='This giant burried colouseum is filled with great warriors who have been resurrected by a Necromancer who is just looking to add some entertainment to his life. The warriors are from every race and nation in the Dragon Circlet and are forced to fight in an arena for the spirits of the dead.'>A small opening protrueds from the ground. As it turns out this is the entrance to a massive underground colouseum that has been burried beneth the dirt and rubble of the wasteland. Who knows what amazing weapons, armor, or artifacts await here.</span>",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/1d/08/90/1d08900600618642b224912fa872c576.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/1d/08/90/1d08900600618642b224912fa872c576.jpg","https://cdnb.artstation.com/p/assets/images/images/000/035/521/large/GOWA_MP_Persia_sm.jpg?1400215921"]
+            }],
+        }, {
+            "Name": "Fallen Town of white Axe",
+            "Cordidinates": [74.14008, -8.26172],
+            "Icon": "Ruins",
+            "History": "This city origionaly built to help aid the elves in grasp for power so that they could enjoy the freedoms that the Dwarves have has turned into nothing but rubble hidden beneath the snows. This place is now but a battle ground in a war between the Dwarves and the Dragonkin.",
+            "Description": "This city is the for front for the war at this time and though it has been lost and retaken time and time again neither side seems to tire. It is this point that keeps the Dragonkin from pressing further inland. Icial Peaks Pass is the breaking point for the Dwarves and if the Dragonkin can take that then the war may be all but won.",
+            "Images": [{
+                "Main Image": "https://images4.alphacoders.com/269/thumb-1920-269838.jpg"
+            }, {
+                "Regional Images": ["https://images4.alphacoders.com/269/thumb-1920-269838.jpg"]
+            }],
+        }, {
+            "Name": "White Willow Cave",
+            "Cordidinates": [77.65535, -54.66797],
+            "Icon": "Ruins",
+            "Description": "Located at the base of a large white willow tree and almost hidden from sight by overgrowth and dim light the enterance to this cave looks untouched. But echoing out from within the belly of this cave growling can be heard. Be this beast of but the wind running through the caves passages none dare to find out.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/90/86/be/9086beff8d3a4e330c478b951a8c97c3.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/90/86/be/9086beff8d3a4e330c478b951a8c97c3.jpg"]
+            }],
+        }, {
+            "Name": "Ruins 3",
             "Cordidinates": [57.51582, -106.875],
             "Icon": "",
             "Ruler": "",
@@ -870,7 +1157,7 @@ var markerData = {
             "Ammenaties": ["Food", "Drink", "Lodging", "Class School: White Necromancer, Spellslinger, Shadowcaster, Primalist, Pact Wizard", "Mercenary"]
         }, {
             "Name": "Temple 2",
-            "Cordidinates": [52.21434, -79.10156],
+            "Cordidinates": [43.58039, -98.4375],
             "Icon": "",
             "Ruler": "",
             "Government": "",
@@ -882,9 +1169,9 @@ var markerData = {
             "History": "",
             "Description": "",
             "Images": [{
-                "Main Image": ""
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/6b/ea/fe/6beafe20676c4862ec953e665aacd882.jpg"
             }, {
-                "Regional Images": [""]
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/6b/ea/fe/6beafe20676c4862ec953e665aacd882.jpg"]
             }],
             "Local Events": "",
             "Local Jobs": [],
@@ -907,7 +1194,7 @@ var markerData = {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/cd/3f/ef/cd3fef0a0ecb17e808d1390d5a486e05.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/f9/49/63/f94963c1e95254788cbbb937da924e92.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/17/4a/17/174a17e44bfec9c11f6c9bf40cbf4ca5.jpg']
             }],
             "Local Events": "I Shadow Lord Kilean am willing to fight anyone that can find my temple to a duel. Should you succeed you will take the mantle of Shadow Lord and I will bestow upon you a legendary weapon forged of dragon bone, steel, and imbued with a dragons magic.",
-            "Local Jobs": ["Kill: Grand Mage Xarath in Shroudcrest", "Kill: Leader of Druzdrug", "<span title='His daught wants him dead because Gangplank killed her mother'>Kill: Gangplank</span>", "Kill: Throruck Hammerhand and bring the war to an end", "Kill: The mayor of Dogwich"],
+            "Local Jobs": ["Kill: Grand Mage Xarath in Shroudcrest", "Kill: Leader of Druzdrug", "<span title='His daught wants him dead because Dwennon killed her mother'>Kill: Dwennon</span>", "Kill: Throruck Hammerhand and bring the war to an end", "Kill: The mayor of Dogwich"],
             "Ammenaties": ["Class School: -Prestige: Assasin, Formless Ninja, Advanced Rouge"]
         }, {
             "Name": "Temple 3",
@@ -1016,6 +1303,22 @@ var markerData = {
             "Local Jobs": ["<strong>Iron Claw:</strong> Loud roaring can be heard at night coming from the east. I want you to investigate it. I believe that it is coming from the forgotten citadel.", "<span title='The track a very large creature to a small cave where they have to stop it from attacking the caravans from now on.'>Our shipments to Ulaxdale are being attacked by something. We want you to track it down and kill it!</span>"],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
+            "Name": "Donbadihr",
+            "Cordidinates": [76.63923, -98.78906],
+            "Icon": "Town",
+            "Ruler": "Weralgamri Orcfoot",
+            "Races": ["Dwarves"],
+            "History": "",
+            "Description": "",
+            "Images": [{
+                "Main Image": "http://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"
+            }, {
+                "Regional Images": ["http://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [""],
+            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+        },  {
             "Name": "Evermere",
             "Cordidinates": [-67.3737, 80.15625],
             "Icon": "Town",
@@ -1036,7 +1339,28 @@ var markerData = {
             "Local Events": "",
             "Local Jobs": [],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
-        }, {
+        }, 
+         {
+            "Name": "Vehl Harbor",
+            "Cordidinates": [20, -73],
+            "Icon": "Town",
+            "Ruler": "Lord Bastion Tah'kul",
+            "Government": "Lord Bastion sees himself in high esteem and so he keeps the town under strict rules. Though he has guards a plenty watching the streets for criminals crime still happens beneath the city streets.",
+            "Races": [""],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": []
+            },
+            "History": "This town was erected to be a town for travelers. Most of the east cost of Purvell is cliff making this town the best way for travelers to come in and out of the kingdom. Origionally this town was inhabited by people traveling from country to country and by merchants, and traders. It has since evolved into a wellspring of trade and commers inviting all to the Pruvell kingdom.",
+            "Description": "This is a small harbor town built for both customs to that regulate who and what comes into the country as well as a town where travelers of the seas can take a break. You can find all manner of things here from crafting, supplies, and so much more.",
+            "Images": [{
+                "Main Image": "http://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"
+            }, {
+                "Regional Images": ["http://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+        },{
             "Name": "Shroudcrest",
             "Cordidinates": [-75.32003, -10.63477],
             "Icon": "City",
@@ -1060,6 +1384,27 @@ var markerData = {
         }, {
             "Name": "Dogwich",
             "Cordidinates": [-76.4346, 150.29297],
+            "Icon": "Town",
+            "Ruler": "Mayor Brundwich",
+            "Government": "The leader of this small town who is quite wealthy.",
+            "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
+            },
+            "History": "The city has always been like this. Leader after leader down the blood line of the mayor the city of Dogwich has suffered. Most have lost hope that one day someone would come along and make their town great like many of the other cities in Free Haven.",
+            "Description": "The mayor of this town is as greedy and as vile as they come. The only way he will do anything to help the starving people of this city is if it affects him or they start making a big enough fuss over the issue.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"]
+            }],
+            "Local Events": "Rat Catchers needed.",
+            "Local Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
+            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+        }, {
+            "Name": "Town 3",
+            "Cordidinates": [21.04349, -129.81445],
             "Icon": "Town",
             "Ruler": "Mayor Brundwich",
             "Government": "The leader of this small town who is quite wealthy.",
@@ -1227,6 +1572,90 @@ var markerData = {
         }, {
             "Name": "Yean Alora",
             "Cordidinates": [10.14193, -45.70313],
+            "Icon": "Village",
+            "Ruler": "Chief Smooth Scales",
+            "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
+            "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": []
+            },
+            "History": "The village of Yean Alora is very new. It has only been a few years now since it was settled. The people of the surrounding cities and desert saw a need for a port town to the east of Elen Veil for merchants and for travelers. They saw a profit in it and took it.",
+            "Description": "An odd village where most are not elves. The elves of Elin Veil are not happy that they settled here but they put up with it because the need for this town is logical. They are not fond of having other races other than elves living there though. This city has even attracted dhampires who have made it their home between traveling from place to place.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+            "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
+        }, {
+            "Name": "Dumwihr",
+            "Cordidinates": [74.82193, -74.88281],
+            "Icon": "Village",
+            "Ruler": "Sargut Amberfury",
+            "Government": "Sargut is known as the Iron Master. Proud owner of one of the two largest black smithys in this town he rules the town with his influence. He can be a little hot headed sometimes but not without good reason. He is quite prideful of his position and love that everyone in the town looks up to him, other than his brother that is. ",
+            "Races": ["Dwarves"],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": []
+            },
+            "History": "",
+            "Description": "Both Sargut and his brother Hadrar live in this town which makes things very interesting. Both brothers own their own black smithy company and in most cases are in compatition with each other. Although they are both ruthless business men they are very close and end each day drinking at the local bar in town. This village is full of inventors and crafters specializing in both odd crafts as well as the more commonly practiced. If you are looking for good steal or just want to test your skills as a black smith this town will give you a challenge.",
+            "Images": [{
+                "Main Image": "https://cdnb.artstation.com/p/assets/images/images/003/728/007/large/sergey-vasnev-tundrus-final-arts.jpg?1476872943"
+            }, {
+                "Regional Images": ["https://cdnb.artstation.com/p/assets/images/images/003/728/007/large/sergey-vasnev-tundrus-final-arts.jpg?1476872943"]
+            }],
+            "Local Events": "Come one come all to the black smithing tournament. Care to test your metal against the best black smiths in all of the Dragon Circlet well look no further. You are all invited to participate in this tournament.",
+            "Local Jobs": [],
+            "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
+        }, {
+            "Name": "Village 3",
+            "Cordidinates": [53.64464, -140.88867],
+            "Icon": "Village",
+            "Ruler": "Chief Smooth Scales",
+            "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
+            "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": []
+            },
+            "History": "The village of Yean Alora is very new. It has only been a few years now since it was settled. The people of the surrounding cities and desert saw a need for a port town to the east of Elen Veil for merchants and for travelers. They saw a profit in it and took it.",
+            "Description": "An odd village where most are not elves. The elves of Elin Veil are not happy that they settled here but they put up with it because the need for this town is logical. They are not fond of having other races other than elves living there though. This city has even attracted dhampires who have made it their home between traveling from place to place.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [],
+            "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
+        }, {
+            "Name": "Dunnin Bark",
+            "Cordidinates": [29.76438, -122.95898],
+            "Icon": "Village",
+            "Ruler": "Bailen Christian",
+            "Government": "",
+            "Races": [""],
+            "Religion and Gods": {
+                "special": "",
+                "Gods": [""]
+            },
+            "History": "A farmer origionaly owned this land it it was here that he lived. Being that there was no where for travelers to stop and rest or get food on the road for many days many of them found themselves at his front door and him giving them food. Soon the king was approched asking him to help fund a settlement on the route north as it would allow traders and travelers a place to stay. The king agreed to this and help fund a settlement to be built right on the farmers land. This village has grown is a great stopping place for those wearie of their travels and in need of a break. The farmer needless to say has since moved his farm further north east.",
+            "Description": "",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/68/1e/53/681e5336889b0e010fc404e235354fd0.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/68/1e/53/681e5336889b0e010fc404e235354fd0.jpg"]
+            }],
+            "Local Events": "",
+            "Local Jobs": [""],
+            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+        },{
+            "Name": "Village 1",
+            "Cordidinates": [11.43696, -106.25977],
             "Icon": "Village",
             "Ruler": "Chief Smooth Scales",
             "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
@@ -1527,7 +1956,7 @@ var markerData = {
             "Ammenaties": []
         }, {
             "Name": "Farm 7",
-            "Cordidinates": [37.43997, -131.13281],
+            "Cordidinates": [45.64477, -148.35938],
             "Icon": "",
             "Description": "",
             "Images": [{
@@ -1613,15 +2042,20 @@ var markerData = {
             "Law Enforcement": "<strong>White Hand:</strong><br/>A Small army that the high Priest controlls in order to keep the citizens in order. It is primarly used in law enforcement but in special cases they have been used to deal with threat to the land it its people. The white hand is made of the finest warriors and though they may be feared they are also highly honored.",
             "Religion": "The Dragonkin believe that dragons created the world and it is because of that belief that the older dragons make the laws for the land. They don't worship traditional gods but in stead honor the memories of their ancestors and a few other gods that have connections to their ancestors",
             "Major Characters": [{
-                "Name": "Priest Gramrot",
+                "Name": "High Priest Gramrot",
                 "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
                 "Title": "The Redeemer",
-                "Description": "",
+                "Description": "<span title='Gildrunth is manipulating Gramrot and forcing him to do things that are against his moral compas but out of fear what might happen to him or to the people if he is no the one to do it he does it begrudgingly. If Gramrot tries to stand up to Gildrunth then Gildrunth calls him out as a liar and tries to have him executed for lieing to the people for so long.'>Dedicating his life to service of the Elder Dragons Gramrot is their voice. The Elders make the rules and he is the enforcer of those rules. A soft hearted man old in age Gramrot has served the last 10 generations of Elder dragons and until he himself dies he will have this post as High Priest. He is a very wise man and is not the quickest to trust those that are outsiders due to the events that have transpiled in the past but deep down he knows that a change for the dragonkin and the Dragon Circlet is coming be it a good change or a bad change he is not sure. He is not a brave warrior like most of his allies and has found himself in a situation under the thumb of a power that has caused him hurt the very people that he is trying to protect.</span>",
             }, {
-                "Name": "Elder Dragon blah blah blah",
+                "Name": "Gildrunth Torig",
                 "Image": "https://s-media-cache-ak0.pinimg.com/564x/a3/5c/bc/a35cbc59499146a5dcdd16aadbaa79c6.jpg",
-                "Title": "Black Fang",
-                "Description": "I will eat you RAWWWRRRR",
+                "Title": "Elder Dragon Black Fang",
+                "Description": "<span title='His newborn was kidnapped and sold to researchers to study the magic that dragons have innately. He is also manipulating Gramrot forcing him to prepare the DragonKin for war mentally as he schemes to take power away from the council.'>A Dragon that serves on the council of elders. He is one of the head council members and is one of the loudest. He believes that the other countries are below the Dragonkin and it is the Dragonkin that should rule the earth and the skies bringing order through power and fear. Many believe that he was not always such a hard hearted dragon but he became this way after the dwarves killed his olderst child take all that they could for its resources and leaving only what they didn't want. It wasn't that only event that turned his heart to stone but also his newly birthed child being kidnapped by bandits.</span>",
+            }, {
+                "Name": "Killage Soulflare",
+                "Image": "https://cdna.artstation.com/p/assets/images/images/003/221/816/large/todor-hristov-dragonborn6f.jpg?1471280342",
+                "Title": "Holy Knight of the White Hand",
+                "Description": "<span title=''>'Honorable, Noble, Trusting, and Just. All qualaties that a I am as a Holy Knight of the White Hand. I will protect the people from evil be it inside our borders or outside. For now my life is in the capitiol but who knows maybe someday I will travel the land protecting it from all other threats.' A very good hearted DragonKin who seeks for truth and justice in the kingdom. As a defender of these he has a suspicion that something is going on int he capitiol that is dark and sinaster but has of yet had the chance to figure out what that is.</span>",
             }],
         },
         "Free Haven": {
@@ -1632,21 +2066,20 @@ var markerData = {
             "Law Enforcement": "Each city, town, village uses their own way to keep things in order and has their own system of rules.",
             "Religion": "All races are welcomed be it local or outsider. As such this has created a country with a plethera of differnt religious beliefs.",
             "Major Characters": [{
-                "Name": "Gangplank",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Scourage",
-                "Description": "",
-            },{
-                "Name": "King Something Something",
-                "Image": "https://s-media-cache-ak0.pinimg.com/564x/2d/20/34/2d2034eb7e0fea74c9bc5598c332acdd.jpg",
+                "Name": "Dwennon",
+                "Image": "http://s1.sinaimg.cn/bmiddle/63fe3cadxb342298e48a0&690",
+                "Title": "The Scourage of the sea",
+                "Description": "I was cutting throats and sinking war galleys when you were still pissing your britches, boy. You don’t want to take me on. As unpredictable as he is brutal, the reaver king known as Dwennon is feared far and wide. Where he goes, death and ruin follow, and such is his infamy and reputation that the merest sight of his black sails on the horizon causes panic among even the hardiest crew. Having grown rich preying upon the trade routes of the Twelve Seas, Dwennon has made himself many powerful enemies. He has incurred the wrath of the order of assasions  after ransacking the Temple of the Jagged Knife. While Dwennon has incurred the wrath of many, none have yet been able to bring him to justice, despite assassins, bounty hunters, and entire armadas being sent after him. He takes grim pleasure in the ever-increasing rewards posted for his head, and makes sure to nail them to the Bounty Board in Bilgewater for all to see whenever he returns to port, his ships heavy with loot. <br />Now with all the gold and power that he has mustered he has created a new city under the banner of the black flag with himself at the helm of the people. ",
+            }, {
+                "Name": "Zaros Roseberg",
+                "Image": "",
                 "Title": "The Black Hearted",
-                "Description": "I will eat you RAWWWRRRR",
-            },
-            {
+                "Description": "<span title='Revived by a necromancer and becoming a Lich king he has been creating an army of undead, with the necromancers help, to reclaim the lands that he lost in death but first he must overcome the white necromancers living close by ho are getting aid from the warriors at DragonTail Keep.'>I am the rightful king of this land and all those who opposed me will now feel my wrath.<br/><br/> The former king of Free Haven, slain by Von, ruled the land with out mercy taking what he liked from the people until they had almost nothing left. Ruthless and despised by all what remains of him lay in is castle just south of the Dragon Tail Mountains.</span>",
+            }, {
                 "Name": "Von Zalir",
                 "Image": "https://s-media-cache-ak0.pinimg.com/236x/76/76/8f/76768fff6bf203e784c614ddcb313ca6.jpg",
-                "Title": "The Cursed",
-                "Description": "I will eat you RAWWWRRRR",
+                "Title": "The Cursed Rebel",
+                "Description": "Hey the name is Von. They call me a noble knight, a hero, and sometimes even savior. Truth is I am none of those. Im just a guy looking to have some adventure in my life.Von is reveared by everyone in Free Haven and lead the people in the rebellion against Zaros the Black Hearted. In the raid it was Von who struck the final blow to end the kings life. Though he had no interest in the throne he was elected to take the seat and for a time he did. But as usual he got bord of playing that game and ended up passing the power on to those that he though where a good fit. Though he may not have been great king material the decisions that he made while he was in the throne have impacted the kingdom in a far greater way than most expected it to.<br/> <br/> <strong>The Cure:</strong> Von has always had a nack for getting in trouble even when he was a kid. When he was a boy he snuck into the tower of a wizard curious of the wonders that he possed and stole a magical dagger. Little did he know that this dagger was cursed and when drawn from the scabbered that seals the curse he would mutate into a beast.",
             }],
         },
         "Elen Veil": {
@@ -1657,17 +2090,16 @@ var markerData = {
             "Law Enforcement": "<strong>The High Guard:</strong><br /> The Elven High Guard is summoned to deal with problems that cause a threat to the country and its people. ",
             "Religion": "The Elves worship the elements and the seasons.",
             "Major Characters": [{
-                "Name": "Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
-            }, 
-            {
-                "Name": "Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
-            }],
+                "Name": "Fainwen Dagnis and Angren Dagnis",
+                "Image": "http://media-cache-ec0.pinimg.com/736x/9f/a8/a1/9fa8a174d2a047d435582da94424c7cb.jpg",
+                "Title": "Pathfinder: High Guard",
+                "Description": "My brother and I fought in the revolution to create our country. Durring that war we where assigned to a special legion designed to deal with threats of demonic nature. Durring that time we became known as Pathfinders paithing the way through the darkness for all other legions to follow so that we may reign victorious. Today we serve as High Guards for Elin Veil and have been tasked with keeping any demon or those that might consider summoning demons from doing so. ",
+            }, {
+                "Name": "Fainwen Dagnis and Angren Dagnis",
+                "Image": "http://www.blizz-art.com/illustrations/6/innj7sza255ikiswzebrh28u5ermss.jpg",
+                "Title": "Pathfinder: High Guard",
+                "Description": "My brother and I fought in the revolution to create our country. Durring that war we where assigned to a special legion designed to deal with threats of demonic nature. Durring that time we became known as Pathfinders paithing the way through the darkness for all other legions to follow so that we may reign victorious. Today we serve as High Guards for Elin Veil and have been tasked with keeping any demon or those that might consider summoning demons from doing so. ",
+            }, ],
         },
         "Dread Lands": {
             "Name": "Dred Lands",
@@ -1677,34 +2109,29 @@ var markerData = {
             "Law Enforcement": "What is Law",
             "Religion": "<a href='http://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/bargrieke/'>Bargrieke</a> and <a href='http://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/orcus/'>Orcus</a>",
             "Major Characters": [{
-                "Name": "Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
-            }, {
-                "Name": "Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
-            }],
+                "Name": "Eri Daughter of Kallel ",
+                "Image": "http://pre13.deviantart.net/723b/th/pre/f/2016/309/a/3/eri_by_bayardwu-dandqac.jpg",
+                "Title": "Warchief",
+                "Description": "Don't think that just because I am she orc that you can best me.<br /><br /> A strong leader whose father was war chieftan before her. There are those that think that she only got the throne because of her lineage but her father taught her to be strong and how to fight. Many have challenged her but none have ever bested her and though things are changing in the world of the orcs one thing remains true. All land belongs to orcs, all lives belong to orcs. KILL THEM ALL. RAAAWWWWWAAARRRRGGGG! ",
+            }, ],
         },
         "Pruvell": {
             "Name": "Pruvell Kingdom",
             "Crest": "./Transer_folder/Images/pruvellEmblem.png",
             "History": "Once a large and beautiful kingdom full of magic and science that controlled more than half of the Dragon Circlet has fallen in to much despair and desperation. Since the Rupture they have had a large civil war which resulted in the loss of half of all the land and resource that they controlled including the lands to the north now occupied by the Dwarves and the island to the east now controlled by the Elves known as Elen Veil. And now what is worse is Orcs from other islands within the Lost Isles invaded their lands to the south and have taken control of them. The Orcs seem only interested in killing and Pruvell is locked in a war that threatens what remains of their home. They are seek aid to deal with this looming threat and warn other kingdoms that these Orcs threaten the whole of the Dragon Circlet if they do not help stop them before it is to late.",
             "Government": "Ruled by one King where the throne is passed on based on lineage and blood line.",
-            "Law Enforcement": "<strong>Specters:</strong>,/br > The best trained warriors in the land in both the magical arts as well as martial skill with weapons. They are sent by the king on missions as well are put in charge of upholding the law. Most fallow the laws of the land in fear that they might have a Specter visit their door one day.",
+            "Law Enforcement": "<strong>Specters:</strong></br > The best trained warriors in the land in both the magical arts as well as martial skill with weapons. They are sent by the king on missions as well are put in charge of upholding the law. Most fallow the laws of the land in fear that they might have a Specter visit their door one day.",
             "Religion": "There is very little religion as both magic and science has taken its place. Though in the shadows forming cults that mix the three together.",
             "Major Characters": [{
-                "Name": "Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
-            },{
-                "Name": "John Carter",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
-                "Title": "The Redeemer",
-                "Description": "",
+                "Name": "Austen Dewitt",
+                "Image": "https://cdna.artstation.com/p/assets/images/images/002/611/418/large/stephen-garrett-rusk-king.jpg?1463620029",
+                "Title": "King of Pruvell",
+                "Description": "The king is a good man at heart and believes in truth and justice. Though these things may be true it is now that he must make the hard choices to ensure the survival of his people and the kingdom. Under Austens rule the kingdom has been happier than ever before and the cival war that wounded the country has had time to heal with great help from him. Those that came before him used their power to destroy the relations with other countries but he has been working frivously to mend those relationships as they may be what saves the kingdom in the end.",
+            }, {
+                "Name": "Avremegast",
+                "Image": "https://s-media-cache-ak0.pinimg.com/564x/c8/88/70/c88870d14b5e8609293116f8aae579fb.jpg",
+                "Title": "Grand Battle Mage",
+                "Description": "Teacher, student, advisor, warrior. I am all of these. I grew up in Pruvell and studied magic at the school for mages by the capitol. Unlike many other who magic came naturally for I struggled but eventually found my skill in infusion magic. When I finished my schooling I was immediatly recruted to fight for the kingdom. I have since been in many victorious battles and eventually caught the kings gaze. I am now a royal advisor to the kingdom helping us teach future generations and fight back the onslaught of the orcish hords that threaten my home. ",
             }],
         },
         "Dronem": {
@@ -1718,7 +2145,7 @@ var markerData = {
                 "Name": "Hadrar IronHammer",
                 "Image": "https://s-media-cache-ak0.pinimg.com/564x/cc/8d/b8/cc8db84a0f39fec0a578d607b5531b16.jpg",
                 "Title": "The Earth Shaker and Master Forger",
-                "Description": '"I am Hadrar IronHammer the Master Forger. It was in those hard times that I turn to my mastery of Alchemy and Smithing to find peace of mind. It was in a time just as this that I created the first firearms and black powder. I can make masterworks of any material and can infuse magical properties into it. If you need something made my hammer and my anvil can make it."<br /> Hadrar is a master at his craft and a genious at that and he knows he but is a humble dwarf. After he created the mighty weapons that defeated the Orcs many a time was he praised and asked to be the new leader of the dwarves but he always declined saying "I will be the master of none other than my hammer besides I am at peace when I work in the smithy." Though it was his creations that won the fight against the Orcs he is not to be triffled with. He fought on the front lines with his own personalized war hammer combined with the fire power of a canon. He is loyal and cool under pressure and though likes to be alone at times to tinker and create new things he also loves to travel and learn about other lands so that he may grow in wisdom and become better at his craft.',
+                "Description": "I am Hadrar IronHammer the Master Forger. It was in those hard times that I turn to my mastery of Alchemy and Smithing to find peace of mind. It was in a time just as this that I created the first firearms and black powder. I can make masterworks of any material and can infuse magical properties into it. If you need something made my hammer and my anvil can make it.<br /> Hadrar is a master at his craft and a genious at that and he knows he but is a humble dwarf. After he created the mighty weapons that defeated the Orcs many a time was he praised and asked to be the new leader of the dwarves but he always declined saying I will be the master of none other than my hammer besides I am at peace when I work in the smithy. Though it was his creations that won the fight against the Orcs he is not to be triffled with. He fought on the front lines with his own personalized war hammer combined with the fire power of a canon. He is loyal and cool under pressure and though likes to be alone at times to tinker and create new things he also loves to travel and learn about other lands so that he may grow in wisdom and become better at his craft.",
             }],
         },
     }]
