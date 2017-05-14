@@ -12,19 +12,19 @@ var markerData = {
             "Ruler": "King Marcus Mercer",
             "Government": "Ruled by one King where leadership is passed on based on lineage and blood line.",
             "Races": ["Human", " Half Elf", " Half Orc", " Dwarf", " Dhampire", " Tiefling", " Tengu", " Gnome", " Halfling", " Catfolk", " Ratfolk", " Vanara"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Nethys', 'Abraxas', 'Asmodeus', 'Barbatos', 'Circiatto', 'Korada', 'Orcus', 'Sivanah', 'Urgathoa', 'Yuelral']
             },
             "History": "Long before the the division of the world from the Dragon Circlet Crustead was a bountiful kingdom that ruled over more lands than any other both to the north and to the south. Crustead scientists and researchers where among the first to discover magic and unlock the powers of summoning creatures from differnt planes as well as other magical spells. It was a bountiful time for them and they where able to easily control the entire contenint that they lived on from the Dwarven Mountains to the north all the way to the once lush forests and plains to the south. After the division the Dwarves to the north made the decision that they would be better off if they didn't have to pay tribute to the human king. They fought a bloody war for territory but where able to defend their lands. It wasn't long after this loss that the Orcs to the south invaded the land and started to pillage and attack villages. Due to the large mountains between them and thier souther territory they where unalbe to defend their people. For years they struggled to fend of the orcs but for now they are able to hold them back from coming any farther to the north.",
             "Description": "A city both built and run on magic. Education both of magic as well as research are a priority in this city and you can see the artwork in the artwork of the runes that decorate the city throughout. ",
             "Images": [{
-                "Main Image": "http://orig10.deviantart.net/2f46/f/2011/090/4/8/sages_of_ioun_by_noahbradley-d3cvhab.jpg"
+                "Main Image": "https://orig10.deviantart.net/2f46/f/2011/090/4/8/sages_of_ioun_by_noahbradley-d3cvhab.jpg"
             }, {
-                "Regional Images": ["http://orig10.deviantart.net/2f46/f/2011/090/4/8/sages_of_ioun_by_noahbradley-d3cvhab.jpg", "https://cdnb.artstation.com/p/assets/images/images/000/662/243/large/jeon-min-seok-minbak1.jpg?1430188781"]
+                "Regional Images": ["https://orig10.deviantart.net/2f46/f/2011/090/4/8/sages_of_ioun_by_noahbradley-d3cvhab.jpg", "https://cdnb.artstation.com/p/assets/images/images/000/662/243/large/jeon-min-seok-minbak1.jpg?1430188781"]
             }],
-            "Local Events": ["Poverty and lack of food for the poor", "<span title =' A powerful noble/wizard is hosting a masquerade ball where the guests are polymorphedinto monster as their costume, but an actual monster attends to kill the noble/wizard'>Come one come all to the mascarade ball hosted by Noble lord Holnor and be sure to wear your finest secound face!</span>"],
-            "Local Jobs": ["Give Aid to the king to fight the Orcs.", "Get Help from other countries.", "Get us better weapons and supplies.", "Convince the Dwarves to trade us fire arms.", "<span title= 'A mage’s guild seeks thieves to steal an artifact that will hamper the use of magic. They plan to use it to control all magic in the city.' >Help Wanted: Mages guild!</span>"],
+            "Events": ["Poverty and lack of food for the poor", "<span title =' A powerful noble/wizard is hosting a masquerade ball where the guests are polymorphedinto monster as their costume, but an actual monster attends to kill the noble/wizard'>Come one come all to the mascarade ball hosted by Noble lord Holnor and be sure to wear your finest secound face!</span>"],
+            "Jobs": ["Give Aid to the king to fight the Orcs.", "Get Help from other countries.", "Get us better weapons and supplies.", "Convince the Dwarves to trade us fire arms.", "<span title= 'A mage’s guild seeks thieves to steal an artifact that will hamper the use of magic. They plan to use it to control all magic in the city.' >Help Wanted: Mages guild!</span>"],
             "Ammenaties": ["Magic Guild", "  Thieves Guild", "  Assasins Guild", "  Merchant Guild", "  Mercenary Guild", "  Adventurers Guilds", " Food", "  Drink", "  Lodging", "  Medicin", "  Magic Shop", "  Oddity Shop", "  Gear", "  Crafting Shop", " Blacksmith", "  Bowmen", " Alchemy", " Enchanters", " Library", " Museum"]
         }, {
             "Name": "Dhir Ladur",
@@ -33,7 +33,7 @@ var markerData = {
             "Ruler": "Throruck Hammerhand",
             "Government": "Ruled by one King where leadership is passed on based on lineage and blood line.",
             "Races": ["Dwarf", " Oread", "Drow"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Abbathor',
                     'Berronar Truesilver',
@@ -54,12 +54,12 @@ var markerData = {
             "History": "Under the rule of the Pruvell Kingdom the Dwarves where ill treated and forced to pay rediculous sums of money to the king.The Dwarves have forged a new country by the Clashing of Steel and the spilling of blood they earn their independence from The Pruvell Kingdom. This country of dwarves may not be skilled in the ways of Science and magic but in the ways of engineering, foraging, and Alchemy they are unmatched. With that knowledge they created black powder and have been able to create the first black powder Firearms and explosives. After the Dragon Circlet was seperated from the rest of the world the dwarves came under attack from orcish tribes. They pushed all the way in to the capitol city but by that time the Dwarves had invented gun powder and firearms. ",
             "Description": "Dhir Ladur also known as Crater City. This city was built in a crater. The city is made up of two differnt levels one being inside the crater and the other being at sea level. The city has no need for gates because the canyouns walls make for plenty of safety as is. Their homes are carved into the sides of these walls. The dwarves get around the city from the upper levels to their homes by a series of bridges, ziplines, and flying trollies that they have all concocted. The upper level is what they call the trading hub. It is here that shops and merchants can all be found and where the largest majority of the dwarven people can be found. On the edges of the trading hub the you can find hanging landing pads and wooden docs. You see the dwarves are engineering geniouses. Not only have they created black powder guns and explosives but they have also crafted flying machines. With these flying machines they have created trade routes accross the whole of the Dragon Circlet without fear of pirates or so they believe and they are able to survey their country. The people of crustead spend their days at the forge and the alchemy tables crafting new engineering masterpieces while their brothers in the mountains just to the south spend their days minig for the precious minerals that are used. If you are looking for a well forged weapon or suit of armor custom made the dwarves of crustead are the ones to talk to even if the cost is high.",
             "Images": [{
-                "Main Image": "http://img00.deviantart.net/8a72/i/2011/033/7/b/secret_of_the_abandoned_land_by_camilkuo-d38n12k.jpg"
+                "Main Image": "https://img00.deviantart.net/8a72/i/2011/033/7/b/secret_of_the_abandoned_land_by_camilkuo-d38n12k.jpg"
             }, {
-                "Regional Images": ["http://img00.deviantart.net/8a72/i/2011/033/7/b/secret_of_the_abandoned_land_by_camilkuo-d38n12k.jpg", 'https://s-media-cache-ak0.pinimg.com/originals/cc/a3/cb/cca3cb34663d53ab204a799726030a36.jpg', 'https://cdna.artstation.com/p/assets/images/images/000/550/434/large/matthew-harris-139.jpg?1426492709', 'https://s-media-cache-ak0.pinimg.com/564x/64/d7/4d/64d74d4540bf02e7747fd6aa2c9a3cd2.jpg', 'http://designspartan.com/wp-content/uploads/2013/07/pres_fan3.jpg', ]
+                "Regional Images": ["https://img00.deviantart.net/8a72/i/2011/033/7/b/secret_of_the_abandoned_land_by_camilkuo-d38n12k.jpg", 'https://s-media-cache-ak0.pinimg.com/originals/cc/a3/cb/cca3cb34663d53ab204a799726030a36.jpg', 'https://cdna.artstation.com/p/assets/images/images/000/550/434/large/matthew-harris-139.jpg?1426492709', 'https://s-media-cache-ak0.pinimg.com/564x/64/d7/4d/64d74d4540bf02e7747fd6aa2c9a3cd2.jpg', 'https://designspartan.com/wp-content/uploads/2013/07/pres_fan3.jpg', ]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title = '8. Shipments from a nearby mine have stopped, when the PCs investigate they find the minerscrazed and covered with red welts apparently from exposure to a new element they uncovered' >Shipments from our mines in the mountains have stopped coming and we want you to go and see what is going on!</span>", "<span title='A local craftsmen: Marble carved from a newfound quarry is animating.'>One of our local marbel quaries is under attack and we need some able bodies to help deal with the threat!</span>"],
+            "Events": "",
+            "Jobs": ["<span title = '8. Shipments from a nearby mine have stopped, when the PCs investigate they find the minerscrazed and covered with red welts apparently from exposure to a new element they uncovered' >Shipments from our mines in the mountains have stopped coming and we want you to go and see what is going on!</span>", "<span title='A local craftsmen: Marble carved from a newfound quarry is animating.'>One of our local marbel quaries is under attack and we need some able bodies to help deal with the threat!</span>"],
             "Ammenaties": ["Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }, {
@@ -69,7 +69,7 @@ var markerData = {
             "Ruler": "Bishop Gramrot, The Redeemer",
             "Government": "Bishops: The religious leaders follow & enforce the laws that are set up by the Council of elder dragons.",
             "Races": ["DragonKin", "Kobold", " PolarKin", "Half-Wolf", " Half-Owl", "Half-Stag(Deer like human)"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "Before life began there was Nigrum and Alba. Each believed that they where alone in the void of nothingness. Alba whith her great power created a light that brought warmth to the void. This light created the effect of time passing from day to night and night to day. It was at the edge of this cycle that Alba and Nigrum first saw eachother. For the next centry they talked to each other during these shifts each day until their love for one another became to strong. It was then that they used all of their power to cross between the light and the dark. When they came together their bodies entwined and formed the world and all life that inhabits it. The dragons that inhabit the world are their offspring and they recieved some of their magic.",
                 "Gods": ["Draco alba", "Nigrum Draco"]
             },
@@ -78,10 +78,10 @@ var markerData = {
             "Images": [{
                 "Main Image": "./Transer_folder/Images/UlaxdaleHome.jpg"
             }, {
-                "Regional Images": ["https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/UlaxdaleHome.jpg", 'https://cdnb.artstation.com/p/assets/images/images/001/983/137/large/victoriya-anda-0209-riverside-3.jpg?1466590847', 'https://dxthpu4318olx.cloudfront.net/assets/images/000/254/984/large/1425879474.jpg?1425909794', 'https://s-media-cache-ak0.pinimg.com/564x/a1/2e/34/a12e34a75adcbe1136bd50e11943adc7.jpg', 'http://pre02.deviantart.net/834e/th/pre/i/2016/179/4/c/dragonborn_samurai_by_sixteenmoons16-da80to0.jpg', 'https://s-media-cache-ak0.pinimg.com/originals/58/6b/3e/586b3e1b37786114912fe03655a9fea5.jpg', 'http://68.media.tumblr.com/53654c48b2d8a791261375a253c7ec53/tumblr_nxmgo1FREn1rnnsbeo1_1280.jpg', 'https://68.media.tumblr.com/361aa0bdcb1a1e35eec481412ebf7fbb/tumblr_ok3jp7OjCi1uq3z2uo1_1280.jpg', 'http://68.media.tumblr.com/2e464c91e1fd091eaee91d4639bd345f/tumblr_niyv4qDSqQ1td8817o1_1280.jpg', 'https://cf.geekdo-images.com/images/pic1530426_md.jpg', 'http://orig06.deviantart.net/c852/f/2015/078/6/a/owl_by_forrestimel-d8m6m16.png', 'http://i.imgur.com/tDDkzn2.jpg', 'http://i.imgur.com/wWw2ZFM.jpg', 'https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/wolfs.jpg', 'https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/dragonKin.jpg']
+                "Regional Images": ["https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/UlaxdaleHome.jpg", 'https://cdnb.artstation.com/p/assets/images/images/001/983/137/large/victoriya-anda-0209-riverside-3.jpg?1466590847', 'https://dxthpu4318olx.cloudfront.net/assets/images/000/254/984/large/1425879474.jpg?1425909794', 'https://s-media-cache-ak0.pinimg.com/564x/a1/2e/34/a12e34a75adcbe1136bd50e11943adc7.jpg', 'https://pre02.deviantart.net/834e/th/pre/i/2016/179/4/c/dragonborn_samurai_by_sixteenmoons16-da80to0.jpg', 'https://s-media-cache-ak0.pinimg.com/originals/58/6b/3e/586b3e1b37786114912fe03655a9fea5.jpg', 'https://68.media.tumblr.com/53654c48b2d8a791261375a253c7ec53/tumblr_nxmgo1FREn1rnnsbeo1_1280.jpg', 'https://68.media.tumblr.com/361aa0bdcb1a1e35eec481412ebf7fbb/tumblr_ok3jp7OjCi1uq3z2uo1_1280.jpg', 'https://68.media.tumblr.com/2e464c91e1fd091eaee91d4639bd345f/tumblr_niyv4qDSqQ1td8817o1_1280.jpg', 'https://cf.geekdo-images.com/images/pic1530426_md.jpg', 'https://orig06.deviantart.net/c852/f/2015/078/6/a/owl_by_forrestimel-d8m6m16.png', 'https://i.imgur.com/tDDkzn2.jpg', 'https://i.imgur.com/wWw2ZFM.jpg', 'https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/wolfs.jpg', 'https://dnd-april-backup-moser2010.c9users.io/Transer_folder/Images/dragonKin.jpg']
             }],
-            "Local Events": "At war with Dronem Empire.",
-            "Local Jobs": ["<span title='Priest: Reports that a gold dragon is ravaging the countryside turn out to be true. The dragon, sick with a rare disease, has gone mad and must be stopped'>I have recieved reports that our a dragon is causing chaos in Norwich and I want you to go verify if this is true or not as well as what might be the cause. If it is and you cant find a cause then the council wants their brother put down.</span>", "Gather the crests from each nation and unlock the sphere so that we may once again be apart of the world and grow bountiful in trade.", "Gramrot: I want to end this war one way or another no matter the cost. I want you to either help us make peace with the Dwarven king or for you to kill him."],
+            "Events": "At war with Dronem Empire.",
+            "Jobs": ["<span title='Priest: Reports that a gold dragon is ravaging the countryside turn out to be true. The dragon, sick with a rare disease, has gone mad and must be stopped'>I have recieved reports that our a dragon is causing chaos in Norwich and I want you to go verify if this is true or not as well as what might be the cause. If it is and you cant find a cause then the council wants their brother put down.</span>", "Gather the crests from each nation and unlock the sphere so that we may once again be apart of the world and grow bountiful in trade.", "Gramrot: I want to end this war one way or another no matter the cost. I want you to either help us make peace with the Dwarven king or for you to kill him."],
             "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }, {
@@ -91,7 +91,7 @@ var markerData = {
             "Ruler": "Your Mom",
             "Government": "Each region is ruled by its own leader but major decisions such as war and what is best for all are made in a council which is made up of those rulers.",
             "Races": ["Elves", " Half Elves", " Drow"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "Worship the gods of nature.",
                 "Gods": ['Alseta', 'Calistria', 'Cernunnos', 'Desna', 'Findeladlara', 'Ketephys', 'Nethys', 'Yuelral']
             },
@@ -100,10 +100,10 @@ var markerData = {
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/3f/f8/7f/3ff87f9f414f2711a3f119afba11f7f1.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/3f/f8/7f/3ff87f9f414f2711a3f119afba11f7f1.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/56/86/d7/5686d7dd5cb60f6bf51de898501ebd4a.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/fc/e7/59/fce7595cd08d59fed865e84b1f6b36d3.jpg', 'http://pre03.deviantart.net/4e9b/th/pre/i/2013/345/4/4/tree_village_by_suiatsu-d6x7ut3.jpg']
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/3f/f8/7f/3ff87f9f414f2711a3f119afba11f7f1.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/56/86/d7/5686d7dd5cb60f6bf51de898501ebd4a.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/fc/e7/59/fce7595cd08d59fed865e84b1f6b36d3.jpg', 'https://pre03.deviantart.net/4e9b/th/pre/i/2013/345/4/4/tree_village_by_suiatsu-d6x7ut3.jpg']
             }],
-            "Local Events": "Bad stuff has been happening here",
-            "Local Jobs": ["There is always work to be had"],
+            "Events": "Bad stuff has been happening here",
+            "Jobs": ["There is always work to be had"],
             "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }],
@@ -114,7 +114,7 @@ var markerData = {
             "Ruler": "Eban Sual",
             "Government": "",
             "Races": ["Elves", " Half Elves", " Drow"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Alseta', 'Calistria', 'Cernunnos', 'Desna', 'Findeladlara', 'Ketephys', 'Nethys', 'Yuelral']
             },
@@ -125,8 +125,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/9f/aa/0b/9faa0bc82653b691798fa9620927d049.jpg", "https://s-media-cache-ak0.pinimg.com/564x/a3/4f/cf/a34fcf75dffd4dc2b0515890668b9d56.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/1a/5f/fc/1a5ffcb5137d44d3db36708b4a1d8e52.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/35/48/32/354832b1e87efe876423986cb816ca9b.jpg']
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Frozen Port",
@@ -135,7 +135,7 @@ var markerData = {
             "Ruler": "Bishop Jezuar",
             "Government": "The town is directed by a priest who represents the will of both the bishop an the council of elder dragons.",
             "Races": ["DragonKin", "Kobold", " PolarKin", "Half-Wolf", " Half-Owl", "Half-Stag(Deer like human)", "Human", " Halfling", "Dwarf"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Draco alba", "Nigrum Draco']
             },
@@ -144,10 +144,10 @@ var markerData = {
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/f5/16/1a/f5161afc194d76f593630bb74fc457d8.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/f5/16/1a/f5161afc194d76f593630bb74fc457d8.jpg", 'http://i341.photobucket.com/albums/o368/Crisis-The-Striker/Death_king/696_large_zps59d11f82.jpg']
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/f5/16/1a/f5161afc194d76f593630bb74fc457d8.jpg", 'https://i341.photobucket.com/albums/o368/Crisis-The-Striker/Death_king/696_large_zps59d11f82.jpg']
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title='As they travel deep underground all the way into the heart of the mountain they find a massive monster that has been controlling all the other creatures down here.'>The city has come under attack from creatures that live deep underground in the caves and paths under the mountain. Bishop Jezuar would like you to travel deep into the mountain and quell this disturbance before it gets worce.</span>"],
+            "Events": "",
+            "Jobs": ["<span title='As they travel deep underground all the way into the heart of the mountain they find a massive monster that has been controlling all the other creatures down here.'>The city has come under attack from creatures that live deep underground in the caves and paths under the mountain. Bishop Jezuar would like you to travel deep into the mountain and quell this disturbance before it gets worce.</span>"],
             "Ammenaties": ["Thieves Guild", " Assasins Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }, {
             "Name": "Stardenn",
@@ -156,19 +156,19 @@ var markerData = {
             "Ruler": "Captain Dwennon",
             "Government": "We live by the pirate code even though they are more like guidlines.",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Besmara']
             },
             "History": "After the wars many men returned home to thier wives to find their sons gone. For the large number of those fatherless sons and sonless fathers they turned to the call of the sea. Many of the people of the free marches struggle on a day to day basis trying to recoup the losses under the old king and it is because of these things that they have become outlaws and brigadans. This city is built on the grave yard of sunken ships durring the wars. The currents of the great open sea flow right past this cove and thus provided pleanty of floating lumber, as well as some other nice trinkets. Welcome maties!",
             "Description": "In a country where all people are free to live how they like there are always those that take up a li of crime and for them Stardenn is a haven. The city is in a small island cove built out of the remains of flallen ships with bridges crossing from place to place. Most of the people spend their days drinking away and counting the hall that they had brought in from the last raid on an unsuspecting ship or village. What keeps the corruption from breaking out into total chaose? One man or pirate king by the name of Dwennon is able to keep the piece through fear.",
             "Images": [{
-                "Main Image": "http://universe-meeps.leagueoflegends.com/v1/assets/images/factions/bilgewater_splash.jpg"
+                "Main Image": "https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/bilgewater_splash.jpg"
             }, {
-                "Regional Images": ["http://universe-meeps.leagueoflegends.com/v1/assets/images/factions/bilgewater_splash.jpg", "https://s-media-cache-ak0.pinimg.com/564x/f2/0a/23/f20a23554ce51bd4668c4e9cdb572bc8.jpg"]
+                "Regional Images": ["https://universe-meeps.leagueoflegends.com/v1/assets/images/factions/bilgewater_splash.jpg", "https://s-media-cache-ak0.pinimg.com/564x/f2/0a/23/f20a23554ce51bd4668c4e9cdb572bc8.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["A group of pirates have not paid me their owed share of what they have plundered. I believe that they are held up in the dungeon tower to the north and I want you to go and get me my money.", "Strange creatures have been attacking pirate ships and they are reporting these creatures are coming from Red Spire. Go and clear them out and I will reward you greatly."],
+            "Events": "",
+            "Jobs": ["A group of pirates have not paid me their owed share of what they have plundered. I believe that they are held up in the dungeon tower to the north and I want you to go and get me my money.", "Strange creatures have been attacking pirate ships and they are reporting these creatures are coming from Red Spire. Go and clear them out and I will reward you greatly."],
             "Ammenaties": ["Class School: Pirate, Rouge, Exemplar, Mutagenic Mauler, Flying Blade, Bounty Hunter, Grave Warden,Black Powder Hood", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "City 1",
@@ -177,7 +177,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['']
             },
@@ -188,8 +188,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/3d/a2/00/3da2007f896eb2349a780316262232df.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [""],
+            "Events": "",
+            "Jobs": [""],
             "Ammenaties": ["Class School: ", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Kerndohr",
@@ -198,7 +198,7 @@ var markerData = {
             "Ruler": "Thezzaic Chainbrow",
             "Government": "Thezzaic follows the leadership of the dwarven king. But here he is in charge of the city and making sure that all is peaceful and that everyone is profitable.",
             "Races": ["Dwarves"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['']
             },
@@ -209,8 +209,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4f/5f/2b/4f5f2b891a1909e9a48e8651e41c3db7.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [""],
+            "Events": "",
+            "Jobs": [""],
             "Ammenaties": ["Class School: ", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }],
         "Docs": [{
@@ -229,14 +229,14 @@ var markerData = {
             "Name": "Port of Closteles",
             "Cordidinates": [68.4638, 145.10742],
             "Icon": "Docs",
-          
+
             "Images": [{
                 "Main Image": ""
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Port of ",
@@ -248,8 +248,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Ship Inspection",
@@ -261,8 +261,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Ship Inspection",
@@ -274,8 +274,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -288,8 +288,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -302,8 +302,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -316,8 +316,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -330,8 +330,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -344,8 +344,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -358,8 +358,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Ferry to Half Skull Prision",
@@ -375,8 +375,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Yean Alora Trading Port",
@@ -401,8 +401,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, ],
         "Dragon": [{
@@ -412,7 +412,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -423,8 +423,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -433,7 +433,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -444,8 +444,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -454,7 +454,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -465,8 +465,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "",
@@ -475,7 +475,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -486,8 +486,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }],
         "Dungeon Tower": [{
@@ -519,7 +519,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -530,8 +530,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/00/fe/cd/00fecd9f33f0a45157c78b360d9fd784.jpg", "https://s-media-cache-ak0.pinimg.com/564x/85/f4/90/85f4902a77f0fc617c1e3cfc27248fa9.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Half Skull Prision Tower 2",
@@ -566,7 +566,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -577,8 +577,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Mountain Watch Tower",
@@ -587,7 +587,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -598,8 +598,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Mid Summer Fen",
@@ -608,7 +608,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -619,8 +619,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Goblin City",
@@ -629,12 +629,12 @@ var markerData = {
             "Races": ["Goblins"],
             "History": "Not much is known about this place other than it is inhabited by Goblins deep underground.",
             "Images": [{
-                "Main Image": "http://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg"
+                "Main Image": "https://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg"
             }, {
-                "Regional Images": ["http://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg","https://s-media-cache-ak0.pinimg.com/564x/1f/66/71/1f6671d744e0a650a5ef18c82e758c65.jpg"]
+                "Regional Images": ["https://img11.deviantart.net/4a80/i/2012/137/c/4/svirfneblin_community_by_noahbradley-d5035vj.jpg", "https://s-media-cache-ak0.pinimg.com/564x/1f/66/71/1f6671d744e0a650a5ef18c82e758c65.jpg"]
             }],
-            "Local Events": "Come down down down to goblin town. Maybe you will get lucky and find a demolitions expert or maybe you will be a friend to their spear heads.",
-            
+            "Events": "Come down down down to goblin town. Maybe you will get lucky and find a demolitions expert or maybe you will be a friend to their spear heads.",
+
         }, {
             "Name": "Westhaven Watchtower",
             "Cordidinates": [-26.6671, -161.10352],
@@ -642,9 +642,9 @@ var markerData = {
             "History": "Previously this tower belonged to the Pruvell Kingdom and was used to keep watch for incomeing threats from the west. Since the Orcs invaded its defenders have fled and darker beings have inhabit its halls. If you travel here be prepared to face a hord of orcs.",
             "Description": "",
             "Images": [{
-                "Main Image": "http://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"
+                "Main Image": "https://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"
             }, {
-                "Regional Images": ["http://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"]
+                "Regional Images": ["https://orig08.deviantart.net/5ceb/f/2015/108/3/5/ruins_by_chriscold-d8q4hvr.jpg"]
             }],
         }, ],
         "Orc Town": [{
@@ -656,7 +656,7 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"]
             }],
-            "Local Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
+            "Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
         }, {
             "Name": "Arkugh",
             "Cordidinates": [-46.55886, -118.82813],
@@ -680,9 +680,9 @@ var markerData = {
             "Cordidinates": [-76.26869, -149.41406],
             "Icon": "Orc Town",
             "Images": [{
-                "Main Image": "http://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"
+                "Main Image": "https://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"
             }, {
-                "Regional Images": ["http://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"]
+                "Regional Images": ["https://orig05.deviantart.net/bb40/f/2014/188/a/2/orc_city_by_jbrown67-d7pobfn.jpg"]
             }],
         }, {
             "Name": "Zralkan",
@@ -707,7 +707,7 @@ var markerData = {
             "Name": "Home of the sea god.",
             "Cordidinates": [19.14517, 103.35938],
             "Icon": "Citadel",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "The great temple of Gozreh",
                 "Gods": ['Gozreh']
             },
@@ -718,7 +718,7 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/4a/4d/b0/4a4db0d56b57db513976f9cd76ea0e76.jpg"]
             }],
-            "Local Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
+            "Jobs": ["Someone please clease my temple of the beasts that have come and made it their home."],
         }, {
             "Name": "Count Diago Montoia's Castle",
             "Cordidinates": [22.75592, -164.70703],
@@ -734,7 +734,7 @@ var markerData = {
             "Name": "Forgotten Kingdom of White Spring",
             "Cordidinates": [70.25945, 176.48438],
             "Icon": "Citadel",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Cayden Cailean', 'Erastil', 'Torag']
             },
@@ -749,7 +749,7 @@ var markerData = {
             "Name": "Keep of the Fallen Order",
             "Cordidinates": [34.52466, -84.02344],
             "Icon": "Citadel",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Cayden Cailean', 'Erastil', 'Torag']
             },
@@ -764,7 +764,7 @@ var markerData = {
             "Name": "Black Gate Citadel",
             "Cordidinates": [58.53959, -133.24219],
             "Icon": "Citadel",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Cayden Cailean', 'Erastil', 'Torag']
             },
@@ -826,8 +826,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/b9/89/44/b98944197d877a376033131f3d0ef33e.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
         }, {
             "Name": "Crohunn Tahh Tower",
             "Cordidinates": [74.4729, 123.22266],
@@ -841,8 +841,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/b9/89/44/b98944197d877a376033131f3d0ef33e.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
         }, {
             "Name": "M Tower 1",
             "Cordidinates": [-7.62389, -149.94141],
@@ -856,8 +856,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
         }, {
             "Name": "M Tower 2",
             "Cordidinates": [72.44879, -142.20703],
@@ -871,22 +871,22 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
         }, {
             "Name": "Talons Canyon Pass Tower",
             "Cordidinates": [-25.00597, -103.00781],
             "Icon": "Military Tower",
             "Ruler": "Commander Lorcas Fonvund",
-            "Races": ["Human","Halfling"],
+            "Races": ["Human", "Halfling"],
             "Description": "This tower is bult into the canyon with two towers and a large gate connected between them. This is a very strong chocke point for orcs that attack, which they often do almost as if they are doing so just to test our defences. Should it fall the Orcs will be able to advance into the kingdom of Pruvell and attack the capitol.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/originals/c7/35/50/c735504f63330b9ab4538bf41a33e089.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/originals/c7/35/50/c735504f63330b9ab4538bf41a33e089.jpg","https://s-media-cache-ak0.pinimg.com/564x/73/55/48/735548003f6ec0a654aa075e72f1a610.jpg"]
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/originals/c7/35/50/c735504f63330b9ab4538bf41a33e089.jpg", "https://s-media-cache-ak0.pinimg.com/564x/73/55/48/735548003f6ec0a654aa075e72f1a610.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
         }, {
             "Name": "Black Spire",
             "Cordidinates": [-55.57834, 126.03516],
@@ -900,8 +900,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/94/db/4f/94db4f298f756d658f865571b265aefc.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["If you need someone killed speak to Grotner."],
+            "Events": "",
+            "Jobs": ["If you need someone killed speak to Grotner."],
             "Ammenaties": ["Food", "Lodging", "Drinks", "Mercenary"]
         }, ],
         "Orc Capitol": [{
@@ -911,7 +911,7 @@ var markerData = {
             "Ruler": "Eri Daughter of Kallel",
             "Government": "<q>I am warchief. You follow me or you die!</q>",
             "Races": ["Orcs", "Goblins", "Ogers", "Trolls"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Bargrieke', 'Orcus']
             },
@@ -925,7 +925,7 @@ var markerData = {
             "Name": "Ghul Koshbikh",
             "Cordidinates": [-8.05923, -169.80469],
             "Icon": "Orc Citadel",
-            "Races": ["Orcs","Goblins","Trolls","Ogers"],
+            "Races": ["Orcs", "Goblins", "Trolls", "Ogers"],
             "Description": "This is one of the forward strongholds that the Orcs have had a chance to set up. There is a good chance that there is a large sume of gold and treasure here.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/da/7c/e0/da7ce022ea9c65401a19f754b491e966.jpg"
@@ -940,7 +940,7 @@ var markerData = {
             "Ruler": "General Fire Fang",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -951,23 +951,23 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/9c/f5/25/9cf5252c4d3bb2e624c2e4847e83c14d.jpg"]
             }],
-            "Local Events": "Come one come all to the tournament of champions. The winner will recieve fame and fortune as well as the skill an artifact of great power.",
-            "Local Jobs": [],
+            "Events": "Come one come all to the tournament of champions. The winner will recieve fame and fortune as well as the skill an artifact of great power.",
+            "Jobs": [],
             "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }, {
             "Name": "Icial Peak Pass Outpost",
             "Cordidinates": [76.20597, -5.18555],
             "Icon": "Outpost",
             "Ruler": "General Hammek Hornback",
-            "Races": ["Dwarves","Elves"],
+            "Races": ["Dwarves", "Elves"],
             "History": "This outpost was built not to long ago by the Dwarves to combat the Dragonkin durring the war. Icial peak Pass is the only non-mountianious area into Dronem and so it creates a great choke point for the Dwarves to defend.",
             "Images": [{
-                "Main Image": "http://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"
+                "Main Image": "https://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"
             }, {
-                "Regional Images": ["http://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"]
+                "Regional Images": ["https://pre13.deviantart.net/7f65/th/pre/i/2016/062/6/e/battle_axe__iron_fortress_by_willobrien-d8a47ej.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }, {
             "Name": "Eagles Talon Outpost",
@@ -982,8 +982,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/16/a1/2b/16a12b5ff41e4e36817b52f2f59841d9.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": [""]
         }, {
             "Name": "Dragons Tail Keep",
@@ -999,8 +999,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/f1/51/9a/f1519a09b9f03af8be787057907edfc6.jpg"]
             }],
-            "Local Events": "A tournament for the ultimate weapon and armor awaits challengers.",
-            "Local Jobs": ["Capture a dangerous fugative", "Get information from a prisioner", "Help fight in the orc rebelion."],
+            "Events": "A tournament for the ultimate weapon and armor awaits challengers.",
+            "Jobs": ["Capture a dangerous fugative", "Get information from a prisioner", "Help fight in the orc rebelion."],
             "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }],
         "Ruins": [{
@@ -1034,7 +1034,7 @@ var markerData = {
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/1d/08/90/1d08900600618642b224912fa872c576.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/1d/08/90/1d08900600618642b224912fa872c576.jpg","https://cdnb.artstation.com/p/assets/images/images/000/035/521/large/GOWA_MP_Persia_sm.jpg?1400215921"]
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/1d/08/90/1d08900600618642b224912fa872c576.jpg", "https://cdnb.artstation.com/p/assets/images/images/000/035/521/large/GOWA_MP_Persia_sm.jpg?1400215921"]
             }],
         }, {
             "Name": "Fallen Town of white Axe",
@@ -1064,7 +1064,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1075,8 +1075,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/1e/c7/08/1ec708ee670f46387a565ee62b033861.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Palace of Thorns",
@@ -1121,7 +1121,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1132,8 +1132,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/42/65/f8/4265f89d09d3d48522f1bd00ec7857f6.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Temple of the white Necromancers",
@@ -1141,7 +1141,7 @@ var markerData = {
             "Icon": "Temple",
             "Ruler": "Master Xedulus",
             "Government": "",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Pharasma']
             },
@@ -1150,10 +1150,10 @@ var markerData = {
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/77/24/38/772438d6a9784ca27410bfa02f07fb15.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/77/24/38/772438d6a9784ca27410bfa02f07fb15.jpg", 'http://staging.rpgsite.net/news/3949-first-screenshots-and-artwork-for-final-fantasy-xiv-heavensward']
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/77/24/38/772438d6a9784ca27410bfa02f07fb15.jpg", 'https://staging.rpgsite.net/news/3949-first-screenshots-and-artwork-for-final-fantasy-xiv-heavensward']
             }],
-            "Local Events": "",
-            "Local Jobs": ["The lands to the north east and south east have both darkenss fallen upon them. We want someone to investigate and bring the darkness into the light.", "We know that their is a necromancer that has taken up the old kings castle in the north east but we can not get their alone. If you would be willing to help us kill this necromancer we would be greatful."],
+            "Events": "",
+            "Jobs": ["The lands to the north east and south east have both darkenss fallen upon them. We want someone to investigate and bring the darkness into the light.", "We know that their is a necromancer that has taken up the old kings castle in the north east but we can not get their alone. If you would be willing to help us kill this necromancer we would be greatful."],
             "Ammenaties": ["Food", "Drink", "Lodging", "Class School: White Necromancer, Spellslinger, Shadowcaster, Primalist, Pact Wizard", "Mercenary"]
         }, {
             "Name": "Temple 2",
@@ -1162,7 +1162,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1173,8 +1173,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/6b/ea/fe/6beafe20676c4862ec953e665aacd882.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Casa dell'assassino",
@@ -1182,7 +1182,7 @@ var markerData = {
             "Icon": "Temple",
             "Ruler": "Shadow Lord Kilean",
             "Government": "I am the law and the code, I live and die by the creed that was set before me by our founds. Living by a strick code of laws and with no room for error there is no room for mistakes. A mistake means death in the real world and the duty of the Shadow Lord is to be the enforcer and guiding light to all under his mantel. ",
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ["Norgorber"]
             },
@@ -1193,8 +1193,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/cd/3f/ef/cd3fef0a0ecb17e808d1390d5a486e05.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/f9/49/63/f94963c1e95254788cbbb937da924e92.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/17/4a/17/174a17e44bfec9c11f6c9bf40cbf4ca5.jpg']
             }],
-            "Local Events": "I Shadow Lord Kilean am willing to fight anyone that can find my temple to a duel. Should you succeed you will take the mantle of Shadow Lord and I will bestow upon you a legendary weapon forged of dragon bone, steel, and imbued with a dragons magic.",
-            "Local Jobs": ["Kill: Grand Mage Xarath in Shroudcrest", "Kill: Leader of Druzdrug", "<span title='His daught wants him dead because Dwennon killed her mother'>Kill: Dwennon</span>", "Kill: Throruck Hammerhand and bring the war to an end", "Kill: The mayor of Dogwich"],
+            "Events": "I Shadow Lord Kilean am willing to fight anyone that can find my temple to a duel. Should you succeed you will take the mantle of Shadow Lord and I will bestow upon you a legendary weapon forged of dragon bone, steel, and imbued with a dragons magic.",
+            "Jobs": ["Kill: Grand Mage Xarath in Shroudcrest", "Kill: Leader of Druzdrug", "<span title='His daught wants him dead because Dwennon killed her mother'>Kill: Dwennon</span>", "Kill: Throruck Hammerhand and bring the war to an end", "Kill: The mayor of Dogwich"],
             "Ammenaties": ["Class School: -Prestige: Assasin, Formless Ninja, Advanced Rouge"]
         }, {
             "Name": "Temple 3",
@@ -1203,7 +1203,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1214,8 +1214,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/fc/ed/76/fced7604b945495b18a5b0410437c327.jpg", "https://s3.amazonaws.com/cgimg/t/g65/600265/1339055_large.jpg", "https://s-media-cache-ak0.pinimg.com/564x/6f/4d/c8/6f4dc89514842939c89894b414cc3d94.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Temple of the moon",
@@ -1224,7 +1224,7 @@ var markerData = {
             "Ruler": "Master Shi Foo",
             "Government": "We live seculuded from the world in our ways and in our beliefs that being strong and centered can help one stand firm against any obstacle.",
             "Races": ['All are welcome to the mountain.'],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Irori']
             },
@@ -1235,8 +1235,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/50/00/1a/50001a40539a3bee86e8ab888f3c2d19.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Lodging", "Blacksmith", "Class School: Monk of the Healing Hand, Monk of the Seven Winds, Far Strike Monk"]
         }, {
             "Name": "Temple of the Iron Mountains",
@@ -1245,19 +1245,19 @@ var markerData = {
             "Ruler": "Master Mali fight",
             "Government": "We live seculuded from the world in our ways and in our beliefs that being strong and centered can help one stand firm against any obstacle.",
             "Races": ["All are welcome to the mountain."],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Irori']
             },
             "History": "This temple was created by the first student of a traveling monk. The student learned how to make his body as hard as Iron and other technique's from his master to create a ultimate defence. ",
             "Description": "Deep in the Iron Mountains getting to the temple itself is a test of will and dedication to living the way of the monks in this remote mountain range. ",
             "Images": [{
-                "Main Image": "http://68.media.tumblr.com/363edcfd8c066de90013f8ae4486a97b/tumblr_n9lhwccEiS1qhttpto1_1280.jpg"
+                "Main Image": "https://68.media.tumblr.com/363edcfd8c066de90013f8ae4486a97b/tumblr_n9lhwccEiS1qhttpto1_1280.jpg"
             }, {
-                "Regional Images": ["http://orig15.deviantart.net/6510/f/2013/181/6/6/high_temple_by_bogdan_mrk-d6bbqdo.jpg", "http://68.media.tumblr.com/363edcfd8c066de90013f8ae4486a97b/tumblr_n9lhwccEiS1qhttpto1_1280.jpg", 'http://68.media.tumblr.com/ddbadf4597a93c9c1022b5ba2c8de3e2/tumblr_oaxlm6e2XE1u8mui0o1_1280.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/db/a9/16/dba9165eeebb9b8b4a2388ed3ce61273.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/a9/c8/7d/a9c87d7f7272d487210a0ea3bc9343a6.jpg']
+                "Regional Images": ["https://orig15.deviantart.net/6510/f/2013/181/6/6/high_temple_by_bogdan_mrk-d6bbqdo.jpg", "https://68.media.tumblr.com/363edcfd8c066de90013f8ae4486a97b/tumblr_n9lhwccEiS1qhttpto1_1280.jpg", 'https://68.media.tumblr.com/ddbadf4597a93c9c1022b5ba2c8de3e2/tumblr_oaxlm6e2XE1u8mui0o1_1280.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/db/a9/16/dba9165eeebb9b8b4a2388ed3ce61273.jpg', 'https://s-media-cache-ak0.pinimg.com/564x/a9/c8/7d/a9c87d7f7272d487210a0ea3bc9343a6.jpg']
             }],
-            "Local Events": "",
-            "Local Jobs": ["A former deciple has stolen an old manuscript with a forbidden technique on it.You must get it back and stop him from hurting any others. Technic: Hungry Ghost style"],
+            "Events": "",
+            "Jobs": ["A former deciple has stolen an old manuscript with a forbidden technique on it.You must get it back and stop him from hurting any others. Technic: Hungry Ghost style"],
             "Ammenaties": ["Lodging", "Class School: Terra-Cotta Monk, Monk of the Iron Mountain, Iron scale Monk, Student of the Stone", "Blacksmith"]
         }, {
             "Name": "Temple of Alseta",
@@ -1266,7 +1266,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1277,8 +1277,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/e2/c7/0f/e2c70fa37e1dc9da19a8672adc2eed1b.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }],
         "Town": [{
@@ -1288,19 +1288,19 @@ var markerData = {
             "Ruler": "",
             "Government": "The town is directed by a priest who represents the will of both the bishop an the council of elder dragons.",
             "Races": ["DragonKin", "Kobold", " PolarKin", "Half-Wolf", " Half-Owl", "Half-Stag(Deer like human)", "Dwarf"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ["Draco alba", "Nigrum Draco"]
             },
             "History": "A town that was once bustling and busy this was one of the few ports in all of the Dragon Circlet that was a have for trade goods and imports before the Dragon Circlet was cut off from the rest of the world. This city of trade is still running imports from other regions such as the dwarves and the elves or at least those that are not wanting to kill them.",
             "Description": "This town is a small port town not to much is unique here but you can still find some great items and crafts made from the scales and bones of dragons and at a decent price.",
             "Images": [{
-                "Main Image": "http://corwyn.wdfiles.com/local--files/trevalia/Village-10.jpg"
+                "Main Image": "https://corwyn.wdfiles.com/local--files/trevalia/Village-10.jpg"
             }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/736x/a7/a3/93/a7a393e6c7552b8c496d290569e33efd.jpg", 'http://corwyn.wdfiles.com/local--files/trevalia/Village-10.jpg']
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/736x/a7/a3/93/a7a393e6c7552b8c496d290569e33efd.jpg", 'https://corwyn.wdfiles.com/local--files/trevalia/Village-10.jpg']
             }],
-            "Local Events": "",
-            "Local Jobs": ["<strong>Iron Claw:</strong> Loud roaring can be heard at night coming from the east. I want you to investigate it. I believe that it is coming from the forgotten citadel.", "<span title='The track a very large creature to a small cave where they have to stop it from attacking the caravans from now on.'>Our shipments to Ulaxdale are being attacked by something. We want you to track it down and kill it!</span>"],
+            "Events": "",
+            "Jobs": ["<strong>Iron Claw:</strong> Loud roaring can be heard at night coming from the east. I want you to investigate it. I believe that it is coming from the forgotten citadel.", "<span title='The track a very large creature to a small cave where they have to stop it from attacking the caravans from now on.'>Our shipments to Ulaxdale are being attacked by something. We want you to track it down and kill it!</span>"],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Donbadihr",
@@ -1311,21 +1311,21 @@ var markerData = {
             "History": "",
             "Description": "",
             "Images": [{
-                "Main Image": "http://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"
+                "Main Image": "https://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"
             }, {
-                "Regional Images": ["http://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"]
+                "Regional Images": ["https://pre12.deviantart.net/6119/th/pre/f/2014/267/a/a/viking_harbor_by_alexson1-d80cjdh.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [""],
+            "Events": "",
+            "Jobs": [""],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
-        },  {
+        }, {
             "Name": "Evermere",
             "Cordidinates": [-67.3737, 80.15625],
             "Icon": "Town",
             "Ruler": "The city is run by the people.",
             "Government": "Every person in town has the privlage and right to meet at weekly political meetings and put in their words on an issue. The issues are then voted. If attendence is less then a tenth of the town then issues can not be voted upon until the end of the month where the town has a large council about the big issues.",
             "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
             },
@@ -1336,38 +1336,37 @@ var markerData = {
             }, {
                 "Regional Images": ['https://s-media-cache-ak0.pinimg.com/564x/06/68/0c/06680c77f07dee1510406b6c02f2d141.jpg', "https://s-media-cache-ak0.pinimg.com/564x/5d/cf/9b/5dcf9b9f6bb559518fc9fac379336023.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/ee/ad/58/eead58420e50d5c07db17f513bd920d5.jpg', 'https://www.pinterest.com/pin/262968065714489208/']
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
-        }, 
-         {
+        }, {
             "Name": "Vehl Harbor",
             "Cordidinates": [20, -73],
             "Icon": "Town",
             "Ruler": "Lord Bastion Tah'kul",
             "Government": "Lord Bastion sees himself in high esteem and so he keeps the town under strict rules. Though he has guards a plenty watching the streets for criminals crime still happens beneath the city streets.",
             "Races": [""],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
             "History": "This town was erected to be a town for travelers. Most of the east cost of Purvell is cliff making this town the best way for travelers to come in and out of the kingdom. Origionally this town was inhabited by people traveling from country to country and by merchants, and traders. It has since evolved into a wellspring of trade and commers inviting all to the Pruvell kingdom.",
             "Description": "This is a small harbor town built for both customs to that regulate who and what comes into the country as well as a town where travelers of the seas can take a break. You can find all manner of things here from crafting, supplies, and so much more.",
             "Images": [{
-                "Main Image": "http://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"
+                "Main Image": "https://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"
             }, {
-                "Regional Images": ["http://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"]
+                "Regional Images": ["https://orig15.deviantart.net/43a5/f/2014/013/0/a/on_the_rise_by_targete-d724s1j.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
-        },{
+            "Events": "",
+            "Jobs": [],
+        }, {
             "Name": "Shroudcrest",
             "Cordidinates": [-75.32003, -10.63477],
             "Icon": "City",
             "Ruler": "Grand Mage Xarath",
             "Government": "The city is led by a grand mage who makes all decisions for its people and what is best for them. Though he is the only leader Xarath is a kind and just man with the interest of his people and their safety above all else.",
             "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
             },
@@ -1378,8 +1377,8 @@ var markerData = {
             }, {
                 "Regional Images": ['https://s-media-cache-ak0.pinimg.com/564x/27/c9/6f/27c96f3a53fec3784def129a77fa0402.jpg', "https://s-media-cache-ak0.pinimg.com/564x/37/30/9b/37309be88707b23d0c5cc57e6bfaf415.jpg", 'https://s-media-cache-ak0.pinimg.com/564x/0c/32/f6/0c32f681286d81eaa41e847f39dbffc6.jpg']
             }],
-            "Local Events": "<span title='Xarath has had an attempt made on his life. '>A reward will be paid to any that can find the person or people responsible for this attempt on his life.</span>",
-            "Local Jobs": ["<span title='Though Xarath has saved the city it has come at a great cost. The lives essence of children who have gone missing are being sapped in order to power the device that keeps the city safe. Will they choose to destroy this device and let the hords of Orcs flood the cit or leave knowning that this will continue to happen.'>Xarath: Someone is trying to get into the citadel archive located below the city. I need you to go down there and find them and stop them.</span>", "<span title='My mother was taken by the city guards. I followed them and saw what they where doing to people. I saw them killing them. I found an assasin who would be willing to help save my mother and to kill Xarath.'>Young Boy: People in the city keep going missing and no one has seen them turn back up."],
+            "Events": "<span title='Xarath has had an attempt made on his life. '>A reward will be paid to any that can find the person or people responsible for this attempt on his life.</span>",
+            "Jobs": ["<span title='Though Xarath has saved the city it has come at a great cost. The lives essence of children who have gone missing are being sapped in order to power the device that keeps the city safe. Will they choose to destroy this device and let the hords of Orcs flood the cit or leave knowning that this will continue to happen.'>Xarath: Someone is trying to get into the citadel archive located below the city. I need you to go down there and find them and stop them.</span>", "<span title='My mother was taken by the city guards. I followed them and saw what they where doing to people. I saw them killing them. I found an assasin who would be willing to help save my mother and to kill Xarath.'>Young Boy: People in the city keep going missing and no one has seen them turn back up."],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Dogwich",
@@ -1388,7 +1387,7 @@ var markerData = {
             "Ruler": "Mayor Brundwich",
             "Government": "The leader of this small town who is quite wealthy.",
             "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
             },
@@ -1399,8 +1398,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"]
             }],
-            "Local Events": "Rat Catchers needed.",
-            "Local Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
+            "Events": "Rat Catchers needed.",
+            "Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Town 3",
@@ -1409,7 +1408,7 @@ var markerData = {
             "Ruler": "Mayor Brundwich",
             "Government": "The leader of this small town who is quite wealthy.",
             "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
             },
@@ -1420,8 +1419,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"]
             }],
-            "Local Events": "Rat Catchers needed.",
-            "Local Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
+            "Events": "Rat Catchers needed.",
+            "Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Neaenalond",
@@ -1430,7 +1429,7 @@ var markerData = {
             "Ruler": "Lord Ebon Heart",
             "Government": "One ruler over the city makes all the decisions",
             "Races": ["Elves", " Half Elves", " Drow", " Kobold", "Lizardfolk"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "Elven Gods and egyptian gods",
                 "Gods": []
             },
@@ -1441,8 +1440,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/f7/83/62/f7836290e918880663e7d2ab45325afa.jpg"]
             }],
-            "Local Events": "Come and join in on our festival of the gods. Enter trounaments, find the finest wares and oddaties, make some extra cash on the side. What ever it is the festival of gods has it here! ",
-            "Local Jobs": [],
+            "Events": "Come and join in on our festival of the gods. Enter trounaments, find the finest wares and oddaties, make some extra cash on the side. What ever it is the festival of gods has it here! ",
+            "Jobs": [],
             "Ammenaties": ["Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }],
         "Village": [{
@@ -1452,7 +1451,7 @@ var markerData = {
             "Ruler": "Priest Greyhelm",
             "Government": "The town is directed by a priest who represents the will of both the bishop an the council of elder dragons.",
             "Races": ['DragonKin', 'Kobold', 'PolarKin', 'Half-Wolf', 'Half-Owl', 'Half-Stag(Deer like human)', 'Human', 'Halfling', 'Dwarf'],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1463,15 +1462,15 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/7b/f9/98/7bf99864224eb7addf41443e17fb2015.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["The town is abuzz with about how a man in town bought a map from a traveler that shows the location of an ancient artifact. This man wants someone to escort him to the location of the artifact and then bring him home safely.</span>"],
+            "Events": "",
+            "Jobs": ["The town is abuzz with about how a man in town bought a map from a traveler that shows the location of an ancient artifact. This man wants someone to escort him to the location of the artifact and then bring him home safely.</span>"],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen", "Ferrymen", "Merchant Guild"]
         }, {
             "Name": "Brighten Hill",
             "Cordidinates": [-77.01969, 71.89453],
             "Icon": "Village",
             "Races": ["Gnomes", "Halflings"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": ["Shelyn", "Cayden Cailean"]
             },
@@ -1482,8 +1481,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/38/a2/1e/38a21e4024127e4b128734e5093b5412.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["You could help us throw a grand festival in the name of the gods, and a good time."],
+            "Events": "",
+            "Jobs": ["You could help us throw a grand festival in the name of the gods, and a good time."],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen", "Ferrymen"]
         }, {
             "Name": "Crohunn Tahu",
@@ -1492,7 +1491,7 @@ var markerData = {
             "Ruler": "Captain Iron Claw",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1503,8 +1502,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/fb/11/d1/fb11d1533d18f693702cc3df7d9318e3.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<strong>Iron Claw:</strong> Some of my men have deserted and I need you to retrieve them for me. Most likely they have gone to Closteles.", "<strong>Leutinet:</strong> Will you take a shift for me and some of my men and make sure that nothing happens? "],
+            "Events": "",
+            "Jobs": ["<strong>Iron Claw:</strong> Some of my men have deserted and I need you to retrieve them for me. Most likely they have gone to Closteles.", "<strong>Leutinet:</strong> Will you take a shift for me and some of my men and make sure that nothing happens? "],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Crohunn Tahh",
@@ -1513,7 +1512,7 @@ var markerData = {
             "Ruler": "Captain Iron scale",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1524,8 +1523,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/d1/63/37/d16337cadbfb8053db3d9d5e94d54c84.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title='The PCs are sent to a battlefield to retrieve a family heirloom from a missing soldier where a necromancer and his corpse collector golem are raising the fallen as undead'>I had a brother who went north the Dronem to fight in the battle at Silver Mountain Pass. He has not returned and is most likely dead. I am hoping that you would be so kind to go and retrieve his sword it belonged to out father and he passed it down to us.</span>", "<span title='The pc's find out a soldier intercepted the merchant and killed him and stole the of food and boozs.'>A shipment of food, weapons, and booz has not arrived yet. I want you to head toward Closteles and see if you can figure out why it has not arrived yet."],
+            "Events": "",
+            "Jobs": ["<span title='The PCs are sent to a battlefield to retrieve a family heirloom from a missing soldier where a necromancer and his corpse collector golem are raising the fallen as undead'>I had a brother who went north the Dronem to fight in the battle at Silver Mountain Pass. He has not returned and is most likely dead. I am hoping that you would be so kind to go and retrieve his sword it belonged to out father and he passed it down to us.</span>", "<span title='The pc's find out a soldier intercepted the merchant and killed him and stole the of food and boozs.'>A shipment of food, weapons, and booz has not arrived yet. I want you to head toward Closteles and see if you can figure out why it has not arrived yet."],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Black Tree",
@@ -1534,7 +1533,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1545,8 +1544,8 @@ var markerData = {
             }, {
                 "Regional Images": [""]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Mytlenoris Village",
@@ -1555,7 +1554,7 @@ var markerData = {
             "Ruler": "Galan Aexidor",
             "Government": "Ruled by Galan Aexidor who controls the water at the oasis. By controling the water he controls the town.",
             "Races": ["Elves", " Half Elves", " Drow", " Kobold", "Lizardfolk"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1566,8 +1565,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/12/24/97/12249738a480cde2b10d36c3c201c79f.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title='A temple has hired a large number of bards for a festival where music is to be played from sun up until sundown, the only problem is that no one recalls the obscure holiday because it is a ruse to mask the sound of tomb robbers breaking into sealed vaults below the monistary'>A local monk: We are looking for musicians and performers to come to The Temple of the Moon for our Grand Festival in remeberance of the wandering monk Tiezen. </span>", "Galan is charging everyone for water and it is running the town into the ground. Please help.", "<span title='A bandit base full of hundreds of bandits and other creatures that they have captured.'>Deal with the bandits that live in the Moon Light Citadel</span>"],
+            "Events": "",
+            "Jobs": ["<span title='A temple has hired a large number of bards for a festival where music is to be played from sun up until sundown, the only problem is that no one recalls the obscure holiday because it is a ruse to mask the sound of tomb robbers breaking into sealed vaults below the monistary'>A local monk: We are looking for musicians and performers to come to The Temple of the Moon for our Grand Festival in remeberance of the wandering monk Tiezen. </span>", "Galan is charging everyone for water and it is running the town into the ground. Please help.", "<span title='A bandit base full of hundreds of bandits and other creatures that they have captured.'>Deal with the bandits that live in the Moon Light Citadel</span>"],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Yean Alora",
@@ -1576,7 +1575,7 @@ var markerData = {
             "Ruler": "Chief Smooth Scales",
             "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
             "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1587,8 +1586,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Dumwihr",
@@ -1597,7 +1596,7 @@ var markerData = {
             "Ruler": "Sargut Amberfury",
             "Government": "Sargut is known as the Iron Master. Proud owner of one of the two largest black smithys in this town he rules the town with his influence. He can be a little hot headed sometimes but not without good reason. He is quite prideful of his position and love that everyone in the town looks up to him, other than his brother that is. ",
             "Races": ["Dwarves"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1608,8 +1607,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://cdnb.artstation.com/p/assets/images/images/003/728/007/large/sergey-vasnev-tundrus-final-arts.jpg?1476872943"]
             }],
-            "Local Events": "Come one come all to the black smithing tournament. Care to test your metal against the best black smiths in all of the Dragon Circlet well look no further. You are all invited to participate in this tournament.",
-            "Local Jobs": [],
+            "Events": "Come one come all to the black smithing tournament. Care to test your metal against the best black smiths in all of the Dragon Circlet well look no further. You are all invited to participate in this tournament.",
+            "Jobs": [],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Village 3",
@@ -1618,7 +1617,7 @@ var markerData = {
             "Ruler": "Chief Smooth Scales",
             "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
             "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1629,8 +1628,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Dunnin Bark",
@@ -1639,7 +1638,7 @@ var markerData = {
             "Ruler": "Bailen Christian",
             "Government": "",
             "Races": [""],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": [""]
             },
@@ -1650,17 +1649,17 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/68/1e/53/681e5336889b0e010fc404e235354fd0.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [""],
+            "Events": "",
+            "Jobs": [""],
             "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
-        },{
+        }, {
             "Name": "Village 1",
             "Cordidinates": [11.43696, -106.25977],
             "Icon": "Village",
             "Ruler": "Chief Smooth Scales",
             "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
             "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1671,8 +1670,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Doonatel",
@@ -1681,7 +1680,7 @@ var markerData = {
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion and Gods": {
+            "Religion": {
                 "special": "",
                 "Gods": []
             },
@@ -1692,240 +1691,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/a4/82/23/a48223b8900a9bf61a6781c527392609.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }],
-        "Watchtower": [{
-            "Name": "",
-            "Cordidinates": [74.54333, 91.75781],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [32.39852, 85.25391],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-13.23995, 70.48828],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-68.00757, 36.5625],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-25.32417, 168.04688],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [65.80278, 74.88281],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [54.16243, 33.75],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-77.27385, 52.03125],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [64.92354, -29.53125],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-77.83607, -26.36719],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
-            "Ammenaties": []
-        }, {
-            "Name": "",
-            "Cordidinates": [-74.40216, -40.07813],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion and Gods": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }],
         "Windmill": [{
@@ -1938,8 +1705,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/b5/f8/ed/b5f8edd00708572b8a18821ff1afe5cd.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title = ' A Lodging camped is being haunted by the ghost of a treant/forest haunt and his dryad followers'>My mean in the forest are saying that they will no longer work there anymore. They think that it is haunted by the spirit of the forest and it is trying to kill them. We have had a lot of accidents lately. Can you investigate for me.</span>"],
+            "Events": "",
+            "Jobs": ["<span title = ' A Lodging camped is being haunted by the ghost of a treant/forest haunt and his dryad followers'>My mean in the forest are saying that they will no longer work there anymore. They think that it is haunted by the spirit of the forest and it is trying to kill them. We have had a lot of accidents lately. Can you investigate for me.</span>"],
             "Ammenaties": ["Food", " Drink", " Lodging", "Crafting Materials", "Class school: Nitojutsu Sensei"]
         }, {
             "Name": "Farm 2",
@@ -1951,8 +1718,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/34/c3/1d/34c31d0cb10ec32a0eb16f38581e92ea.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Farm 7",
@@ -1964,8 +1731,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ba/fb/c9/bafbc9069f5cc2d97f69bd5503989ecc.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": []
         }, {
             "Name": "Evermere shipwrights",
@@ -1977,8 +1744,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ea/9f/2e/ea9f2e46fcccacf3677cff162ca0eb92.jpg", ]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title='Wives of the loggers: Dryads have taken loggers hostage and are held up in the forest.'>Please you must help us. Dryads have taken our husbands captive you must save them!</span>"],
+            "Events": "",
+            "Jobs": ["<span title='Wives of the loggers: Dryads have taken loggers hostage and are held up in the forest.'>Please you must help us. Dryads have taken our husbands captive you must save them!</span>"],
             "Ammenaties": ["Food", " Drink", " Lodging"]
         }, {
             "Name": "Farm 4",
@@ -1990,8 +1757,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/7e/3d/3d/7e3d3d0e55cbf43902d50b758dda5509.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [""],
+            "Events": "",
+            "Jobs": [""],
             "Ammenaties": ["Food", " Drink", " Lodging", ]
         }, {
             "Name": "Black Brier Farm",
@@ -2003,8 +1770,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/16/8b/83/168b83c8dd3d641b148c766fe16cde4a.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": ["<span title='While looking through the belongings of the past residents on this farm you find in the library a letter and a map. Go to the west and find the palace of throns where this woman lives and you may be able to lift the curse that is now upon us. Be careful though for none have come back yet.'>Dispel the curse upon this land.</span>"],
+            "Events": "",
+            "Jobs": ["<span title='While looking through the belongings of the past residents on this farm you find in the library a letter and a map. Go to the west and find the palace of throns where this woman lives and you may be able to lift the curse that is now upon us. Be careful though for none have come back yet.'>Dispel the curse upon this land.</span>"],
             "Ammenaties": ["Lodging", "Library"]
         }, {
             "Name": "Blue Moon Farm",
@@ -2016,8 +1783,8 @@ var markerData = {
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/b5/f8/ed/b5f8edd00708572b8a18821ff1afe5cd.jpg"]
             }],
-            "Local Events": "",
-            "Local Jobs": [],
+            "Events": "",
+            "Jobs": [],
             "Ammenaties": ["Food", "Lodging", "Drinks"]
         }],
         "Portal": [{
@@ -2067,7 +1834,7 @@ var markerData = {
             "Religion": "All races are welcomed be it local or outsider. As such this has created a country with a plethera of differnt religious beliefs.",
             "Major Characters": [{
                 "Name": "Dwennon",
-                "Image": "http://s1.sinaimg.cn/bmiddle/63fe3cadxb342298e48a0&690",
+                "Image": "https://s1.sinaimg.cn/bmiddle/63fe3cadxb342298e48a0&690",
                 "Title": "The Scourage of the sea",
                 "Description": "I was cutting throats and sinking war galleys when you were still pissing your britches, boy. You don’t want to take me on. As unpredictable as he is brutal, the reaver king known as Dwennon is feared far and wide. Where he goes, death and ruin follow, and such is his infamy and reputation that the merest sight of his black sails on the horizon causes panic among even the hardiest crew. Having grown rich preying upon the trade routes of the Twelve Seas, Dwennon has made himself many powerful enemies. He has incurred the wrath of the order of assasions  after ransacking the Temple of the Jagged Knife. While Dwennon has incurred the wrath of many, none have yet been able to bring him to justice, despite assassins, bounty hunters, and entire armadas being sent after him. He takes grim pleasure in the ever-increasing rewards posted for his head, and makes sure to nail them to the Bounty Board in Bilgewater for all to see whenever he returns to port, his ships heavy with loot. <br />Now with all the gold and power that he has mustered he has created a new city under the banner of the black flag with himself at the helm of the people. ",
             }, {
@@ -2091,12 +1858,12 @@ var markerData = {
             "Religion": "The Elves worship the elements and the seasons.",
             "Major Characters": [{
                 "Name": "Fainwen Dagnis and Angren Dagnis",
-                "Image": "http://media-cache-ec0.pinimg.com/736x/9f/a8/a1/9fa8a174d2a047d435582da94424c7cb.jpg",
+                "Image": "https://media-cache-ec0.pinimg.com/736x/9f/a8/a1/9fa8a174d2a047d435582da94424c7cb.jpg",
                 "Title": "Pathfinder: High Guard",
                 "Description": "My brother and I fought in the revolution to create our country. Durring that war we where assigned to a special legion designed to deal with threats of demonic nature. Durring that time we became known as Pathfinders paithing the way through the darkness for all other legions to follow so that we may reign victorious. Today we serve as High Guards for Elin Veil and have been tasked with keeping any demon or those that might consider summoning demons from doing so. ",
             }, {
                 "Name": "Fainwen Dagnis and Angren Dagnis",
-                "Image": "http://www.blizz-art.com/illustrations/6/innj7sza255ikiswzebrh28u5ermss.jpg",
+                "Image": "https://www.blizz-art.com/illustrations/6/innj7sza255ikiswzebrh28u5ermss.jpg",
                 "Title": "Pathfinder: High Guard",
                 "Description": "My brother and I fought in the revolution to create our country. Durring that war we where assigned to a special legion designed to deal with threats of demonic nature. Durring that time we became known as Pathfinders paithing the way through the darkness for all other legions to follow so that we may reign victorious. Today we serve as High Guards for Elin Veil and have been tasked with keeping any demon or those that might consider summoning demons from doing so. ",
             }, ],
@@ -2107,10 +1874,10 @@ var markerData = {
             "History": "These lands once belonged to the Pruvell Kingdom but the Orc's came to this land and pillage and killed until the lands could no longer be defended. Every year the Orcs fight the Pruvell Kingdom to increase their territory and quench their blood lust but for now they are at a stalemate.",
             "Government": "Tribal lands ruled by chieftans that follow the rule of one leader. Only one may be the leader but may be challenged for leadership at any time. In this wasteland only the strong survive.",
             "Law Enforcement": "What is Law",
-            "Religion": "<a href='http://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/bargrieke/'>Bargrieke</a> and <a href='http://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/orcus/'>Orcus</a>",
+            "Religion": "<a href='https://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/bargrieke/'>Bargrieke</a> and <a href='https://www.d20pfsrd.com/classes/core-classes/cleric/gods-3rd-party-publishers/gods-frog-god-games/orcus/'>Orcus</a>",
             "Major Characters": [{
                 "Name": "Eri Daughter of Kallel ",
-                "Image": "http://pre13.deviantart.net/723b/th/pre/f/2016/309/a/3/eri_by_bayardwu-dandqac.jpg",
+                "Image": "https://pre13.deviantart.net/723b/th/pre/f/2016/309/a/3/eri_by_bayardwu-dandqac.jpg",
                 "Title": "Warchief",
                 "Description": "Don't think that just because I am she orc that you can best me.<br /><br /> A strong leader whose father was war chieftan before her. There are those that think that she only got the throne because of her lineage but her father taught her to be strong and how to fight. Many have challenged her but none have ever bested her and though things are changing in the world of the orcs one thing remains true. All land belongs to orcs, all lives belong to orcs. KILL THEM ALL. RAAAWWWWWAAARRRRGGGG! ",
             }, ],

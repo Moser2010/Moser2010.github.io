@@ -1,5 +1,16 @@
+/*Add a git remote in the Cloud9 console. Should look like this (replace the git url with your repo url):
+
+git remote add origin git@github.com:C9Support/testPush.git 
+Add files and commit them:
+
+git add . 
+git commit -m "First commit"
+Push to github:
+
+git push -u origin master
+*/
+
 import * as L from "../Transer_folder/Leaflet/leaflet.js";
-//import * as $ from "jquery";
 import "bootstrap";
 import {
     markerData
@@ -37,9 +48,9 @@ let Farms = L.layerGroup([]);
 let Temple = L.layerGroup([]);
 let OrcCitadel = L.layerGroup([]);
 let Town = L.layerGroup([]);
-let Watchtower = L.layerGroup([]);
+
 let portalGroup = L.layerGroup([]);
-let markers = L.layerGroup([Watchtower, Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
+let markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
 
 var baseLayers = {
     "Markers": markers
@@ -60,7 +71,6 @@ var overlays = {
     "Dungeon Tower": DungeonTower,
     "Millitary Tower": MilitaryBase,
     "Orc Citadel": OrcCitadel,
-    "Watchtower": Watchtower,
     "Portal": portalGroup,
     "Orc Town": OrcTown,
 
@@ -154,12 +164,6 @@ var windmill = L.icon({
     iconAnchor: [37.5, 37.5],
     popupAnchor: [0, 0]
 });
-var watchTower = L.icon({
-    iconUrl: '/Transer_folder/Markers/watchtower.svg',
-    iconSize: [40, 40],
-    iconAnchor: [20, 20],
-    popupAnchor: [0, 0]
-});
 var temple = L.icon({
     iconUrl: '/Transer_folder/Markers/temple.svg',
     iconSize: [60, 60],
@@ -178,8 +182,6 @@ let portal = L.icon({
     iconAnchor: [37.5, 37.5],
     popupAnchor: [0, 0]
 });
-
-//icon added to map and marker popups.  ------ Remove when done with these.
 var popup = L.popup();
 
 function addMarkers() {
@@ -189,15 +191,14 @@ function addMarkers() {
             switch (m) {
                 case 'Capitol':
                     markerData.Markers[0]["Capitol"].forEach(function() {
-                            var newMarker = L.marker(markerData.Markers[0]["Capitol"][i]["Cordidinates"], {
-                                icon: capitol,
-                                riseOnHover: true
-                            }).bindPopup(markerData.Markers[0]["Capitol"][i]["Name"]);
-                            Capitol.addLayer(newMarker)
+                        var newMarker = L.marker(markerData.Markers[0]["Capitol"][i]["Cordidinates"], {
+                            icon: capitol,
+                            riseOnHover: true
+                        }).bindPopup(markerData.Markers[0]["Capitol"][i]["Name"]);
+                        Capitol.addLayer(newMarker)
 
-                            i++;
-                        })
-                        // code
+                        i++;
+                    })
                     break;
                 case 'City':
                     markerData.Markers[0]["City"].forEach(function() {
@@ -302,15 +303,6 @@ function addMarkers() {
                         i++;
                     })
                     break;
-                case 'Watchtower':
-                    markerData.Markers[0]["Watchtower"].forEach(function() {
-                        var newMarker = L.marker(markerData.Markers[0]["Watchtower"][i]["Cordidinates"], {
-                            icon: watchTower
-                        }).bindPopup(markerData.Markers[0]["Watchtower"][i]["Name"]);
-                        Watchtower.addLayer(newMarker)
-                        i++;
-                    })
-                    break;
                 case 'Windmill':
                     markerData.Markers[0]["Windmill"].forEach(function() {
                         var newMarker = L.marker(markerData.Markers[0]["Windmill"][i]["Cordidinates"], {
@@ -338,7 +330,6 @@ function addMarkers() {
                         portalGroup.addLayer(newMarker);
                         i++;
                     });
-                    // code
                     break;
                 case 'Orc Town':
                     markerData.Markers[0]["Orc Town"].forEach(function() {
@@ -349,22 +340,12 @@ function addMarkers() {
                         OrcTown.addLayer(newMarker);
                         i++;
                     });
-                    // code
                     break;
             }
         }
     })
 }
 addMarkers();
-console.log("working uptill borders")
-
-
-//Marker info on Icon click//
-/* 
-        If user clicks on a marker and the marker has content then the content is displayed on the bar.
-    X   If the user clicks on the map the box closes.
-        If the user clicks on a differnt marker the content changes but the bar stays on.
-   */
 var mBar = document.getElementById('markerInfo');
 var mBarState = false;
 var mMarker = document.getElementsByClassName("leaflet-marker-icon");
@@ -381,16 +362,16 @@ let modalContent = document.getElementsByClassName('modal-content');
 let oModal = document.getElementsByClassName("openModal");
 let cModal = document.getElementsByClassName("closeModal");
 let mySlides = document.getElementsByClassName("slides");
-
+let special = document.getElementById("religionSpecial");
 let description = document.getElementById('description');
 let races = document.getElementById('races');
 let ruler = document.getElementById('ruler');
 let government = document.getElementById('government');
 let religion = document.getElementById('religion');
 let history = document.getElementById('history');
-let localIssues = document.getElementById('localIssues');
+let events = document.getElementById('events');
 let ammenaties = document.getElementById('ammenaties');
-let localJobs = document.getElementById('localJob');
+let jobs = document.getElementById('jobs');
 let navHist = document.getElementsByClassName('HIST');
 let navKC = document.getElementsByClassName('KC');
 let navLogo = document.getElementById('logo');
@@ -439,9 +420,7 @@ for (var b in markerData.KingdomData[0]) {
 for (let i = 0; i < navHist.length; i++) {
     navHist[i].addEventListener('click', rotate);
     navKC[i].addEventListener('click', rotate);
-    //navLogo.addEventListener('click', rotate);
     navHome.addEventListener('click', rotate);
-    //navMHome.addEventListener('click', rotate);
 };
 
 
@@ -449,7 +428,6 @@ for (let i = 0; i < navHist.length; i++) {
 oModal[0].addEventListener('click', openModal);
 cModal[0].addEventListener('click', closeModal);
 worldHistoryContent[0].innerHTML = markerData["World History"];
-//mButton.addEventListener('click', toggleNav);
 mymap.addEventListener('click', function() {
     mBarState = false;
     mBar.style.display = 'none';
@@ -459,7 +437,7 @@ exitBTN[0].addEventListener('click', removeSlideImages)
 Array.from(mMarker).forEach(function(element) {
     element.addEventListener('click', onMarkerClick);
 });
-
+/*
 function onMapClick(e) {
     popup
         .setLatLng(e.latlng)
@@ -467,24 +445,7 @@ function onMapClick(e) {
         .openOn(mymap);
 }
 mymap.on('click', onMapClick);
-
-//Sidebar open and close//
-function toggleNav() {
-    if (menu.style.left == '-100vw') {
-        menu.style.left = '0px';
-        mButton.style.left = '350px';
-
-    }
-    else {
-        menu.style.left = '-100vw';
-        mButton.style.left = '0vw';
-
-        for (var i = 0; i < section.length; i++) {
-            section[i].style.left = '0vw';
-        }
-    }
-}
-
+*/
 function rotate(navElement) {
     if (navElement.target.classList.contains("HIST")) {
         var audio = document.getElementById("audio");
@@ -537,45 +498,86 @@ function onMarkerClick(e) {
         mBar.style.display = 'none';
     }
 }
+//This whole thing needs to be redone to make it more dynamic. 
 mymap.on('popupopen', function(e) {
 
     var marker = e.popup._content;
     let i;
 
     for (var c in markerData.Markers[0]) {
+        console.log("start first for loop")
         for (i = 0; i < markerData.Markers[0][c].length; i++) {
-
             let b = markerData.Markers[0][c][i]["Name"];
             let obj = markerData.Markers[0][c][i];
             //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
-            let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"], obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
-            let domArray = [races, ruler, description, government, religion, history, ammenaties, localIssues, localJobs];
+            let k = [];
+            let jsonArray = [];
+            //let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"], obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
+            let domArray = [races, ruler, description, government, religion, special, history, ammenaties, events, jobs];
             var d = 0;
-
-
+            let q = 0;
             if (marker == b) {
-                mBarTitle[0].innerHTML = b;
-                while (d < jsonArray.length) {
-                    if (jsonArray[d] != undefined && jsonArray[d].length != 0) {
-                        markerItemTitle[d].style.display = "block";
-                        domArray[d].style.display = "block";
-                        domArray[d].innerHTML = jsonArray[d];
-                    }
-                    else {
-                        domArray[d].style.display = "none";
-                        markerItemTitle[d].style.display = "none";
+                for (var r in obj) {
+                    switch (r.toLowerCase()) {
+                        case 'icon':
 
+                            break;
+                        case 'cordidinates':
+                            break;
+                        case 'name':
+
+                            break;
+                        case 'images':
+                            // code
+                            break;
+
+
+                        default:
+                            k.push(r);
+                            jsonArray.push(obj[r])
+
+                    }
+                    q++
+                }
+                console.log(k)
+
+                mBarTitle[0].innerHTML = b;
+                while (d < domArray.length) {
+                    var s = 0;
+                    for (var s = 0; s < k.length; s++) {
+                        console.log(k.length + "   " + domArray.length)
+                        if (k[s].toLowerCase() == domArray[d].id) {
+
+                            switch (k[s]) {
+                                case 'Religion':
+                                    domArray[d].style.display = "block";
+                                    domArray[d].innerHTML = jsonArray[s]["special"];
+                                    domArray[5].innerHTML = jsonArray[s]["Gods"];
+                                    markerItemTitle[d].style.display = "block";
+                                    break;
+                                case undefined:
+                                    domArray[d].style.display = "none";
+                                    markerItemTitle[d].style.display = "none";
+                                    break;
+                                default:
+                                    domArray[d].style.display = "block";
+                                    domArray[d].innerHTML = jsonArray[s];
+                                    markerItemTitle[d].style.display = "block";
+                            }
+                            break;
+                        }
+                        else {
+                            domArray[d].style.display = "none";
+                            markerItemTitle[d].style.display = "none";
+                        }
                     }
                     d++;
                 }
-
                 images.src = markerData.Markers[0][c][i]["Images"][0]['Main Image'];
                 images.style.width = '100%';
                 mySlides[0].src = markerData.Markers[0][c][i]["Images"][1]['Regional Images'][0];
                 sliderImages(c, i);
-
             }
-            else {}
         }
     }
 });
@@ -628,11 +630,6 @@ function closeModal() {
         column.removeChild(localImg[0]);
     }
 }
-
-
-
-
-
 var acc = document.getElementsByClassName("accordian");
 var i;
 
