@@ -1,2 +1,9 @@
-This map may be freely used but used for profit of any kind. 
+This map may be freely used but never used for profit of any kind. 
 All visual images are works of the other artists and as such means that they are not to be used to make a profit off of. 
+
+This map is intended to give people looking for an RPG world to play with and work off of as a good starting point as well as allow
+other to create a world of their own by creating a JSON file called objects.json and attaching it to the core files. This site is still
+in the beta process and some aspects may come later
+
+Your feedback is welcome and the best feedback right now would be to go to the github repository and leave issues in there for me
+to take a look at.

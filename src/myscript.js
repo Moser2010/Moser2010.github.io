@@ -36,7 +36,7 @@ L.control.zoom({
 let Capitol = L.layerGroup([]);
 let Citadel = L.layerGroup([]);
 let Docs = L.layerGroup([]);
-let Dragon = L.layerGroup([]);
+//let Dragon = L.layerGroup([]);
 let OrcTown = L.layerGroup([]);
 let Outpost = L.layerGroup([]);
 let Ruins = L.layerGroup([]);
@@ -50,7 +50,7 @@ let OrcCitadel = L.layerGroup([]);
 let Town = L.layerGroup([]);
 
 let portalGroup = L.layerGroup([]);
-let markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
+let markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, /*Dragon,*/ Docs, Citadel, Capitol]).addTo(mymap);
 
 var baseLayers = {
     "Markers": markers
@@ -65,7 +65,7 @@ var overlays = {
     "Docs": Docs,
     "Farms": Farms,
     "Citadel": Citadel,
-    "Dragons": Dragon,
+    //"Dragons": Dragon,
     "Outpost": Outpost,
     "Ruins": Ruins,
     "Dungeon Tower": DungeonTower,
@@ -104,12 +104,12 @@ var docs = L.icon({
     iconAnchor: [20, 20],
     popupAnchor: [0, 0]
 });
-var dragon = L.icon({
+/*var dragon = L.icon({
     iconUrl: '/Transer_folder/Markers/dragon.svg',
     iconSize: [75, 75],
     iconAnchor: [37.5, 37.5],
     popupAnchor: [0, 0]
-});
+});*/
 var orcTown = L.icon({
     iconUrl: '/Transer_folder/Markers/Orc_town.svg',
     iconSize: [75, 75],
@@ -219,7 +219,7 @@ function addMarkers() {
                         i++;
                     })
                     break;
-                case 'Dragon':
+                /*case 'Dragon':
 
                     markerData.Markers[0]["Dragon"].forEach(function() {
                         var newMarker = L.marker(markerData.Markers[0]["Dragon"][i]["Cordidinates"], {
@@ -228,7 +228,7 @@ function addMarkers() {
                         Dragon.addLayer(newMarker)
                         i++;
                     })
-                    break;
+                    break;*/
                 case 'Dungeon Tower':
                     markerData.Markers[0]["Dungeon Tower"].forEach(function() {
                         var newMarker = L.marker(markerData.Markers[0]["Dungeon Tower"][i]["Cordidinates"], {
@@ -661,6 +661,17 @@ for (i = 0; i < acc.length; i++) {
         }
     }
 }
-
+let menuButton = document.getElementsByClassName('menu-open-button');
+let footer = document.getElementsByTagName('footer');
+menuButton[0].addEventListener('click',function(){
+    console.log(footer[0].style.height)
+    if (footer[0].style.height == '0px') {
+        footer[0].style.height = '120px';    
+        
+    } else {
+        footer[0].style.height = '0px';
+    }
+    
+})
 
 console.log("everything is working");

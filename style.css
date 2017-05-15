@@ -250,6 +250,8 @@ button img {
 }*/
 
 
+
+
 /*Marker bar*/
 
 #markerInfo {
@@ -264,6 +266,8 @@ button img {
   background: black;
   height: 400px;
   overflow: auto;
+  border-top: solid 7px #0d98ba;
+  border-radius: 0px 100px 0px 0px;
 }
 
 #kingdomsAndBorders {
@@ -728,7 +732,18 @@ header {
   transform: translate3d(0, 0, 0) rotate(-45deg);
   z-index: 0;
 }
-
+footer {
+  height: 0px;
+  background: black;
+  margin: 0px;
+  position: absolute;
+  bottom: 0px;
+  width: 335px;
+  border-top: solid #0d98ba;
+  border-radius: 0px 100px 0px 0px;
+  transition: 400ms;
+  overflow:hidden;
+}
 .logo {
   transition: 400ms;
 }

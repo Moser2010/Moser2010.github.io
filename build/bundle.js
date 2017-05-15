@@ -6695,7 +6695,7 @@ L.control.zoom({
 var Capitol = L.layerGroup([]);
 var Citadel = L.layerGroup([]);
 var Docs = L.layerGroup([]);
-var Dragon = L.layerGroup([]);
+//let Dragon = L.layerGroup([]);
 var OrcTown = L.layerGroup([]);
 var Outpost = L.layerGroup([]);
 var Ruins = L.layerGroup([]);
@@ -6709,7 +6709,7 @@ var OrcCitadel = L.layerGroup([]);
 var Town = L.layerGroup([]);
 
 var portalGroup = L.layerGroup([]);
-var markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, Dragon, Docs, Citadel, Capitol]).addTo(mymap);
+var markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, /*Dragon,*/Docs, Citadel, Capitol]).addTo(mymap);
 
 var baseLayers = {
     "Markers": markers
@@ -6724,7 +6724,7 @@ var overlays = {
     "Docs": Docs,
     "Farms": Farms,
     "Citadel": Citadel,
-    "Dragons": Dragon,
+    //"Dragons": Dragon,
     "Outpost": Outpost,
     "Ruins": Ruins,
     "Dungeon Tower": DungeonTower,
@@ -6763,12 +6763,12 @@ var docs = L.icon({
     iconAnchor: [20, 20],
     popupAnchor: [0, 0]
 });
-var dragon = L.icon({
+/*var dragon = L.icon({
     iconUrl: '/Transer_folder/Markers/dragon.svg',
     iconSize: [75, 75],
     iconAnchor: [37.5, 37.5],
     popupAnchor: [0, 0]
-});
+});*/
 var orcTown = L.icon({
     iconUrl: '/Transer_folder/Markers/Orc_town.svg',
     iconSize: [75, 75],
@@ -6878,16 +6878,15 @@ function addMarkers() {
                         i++;
                     });
                     break;
-                case 'Dragon':
-
-                    _objects.markerData.Markers[0]["Dragon"].forEach(function () {
-                        var newMarker = L.marker(_objects.markerData.Markers[0]["Dragon"][i]["Cordidinates"], {
+                /*case 'Dragon':
+                     markerData.Markers[0]["Dragon"].forEach(function() {
+                        var newMarker = L.marker(markerData.Markers[0]["Dragon"][i]["Cordidinates"], {
                             icon: dragon
-                        }).bindPopup(_objects.markerData.Markers[0]["Dragon"][i]["Name"]);
-                        Dragon.addLayer(newMarker);
+                        }).bindPopup(markerData.Markers[0]["Dragon"][i]["Name"]);
+                        Dragon.addLayer(newMarker)
                         i++;
-                    });
-                    break;
+                    })
+                    break;*/
                 case 'Dungeon Tower':
                     _objects.markerData.Markers[0]["Dungeon Tower"].forEach(function () {
                         var newMarker = L.marker(_objects.markerData.Markers[0]["Dungeon Tower"][i]["Cordidinates"], {
@@ -7308,6 +7307,16 @@ for (i = 0; i < acc.length; i++) {
         }
     };
 }
+var menuButton = document.getElementsByClassName('menu-open-button');
+var footer = document.getElementsByTagName('footer');
+menuButton[0].addEventListener('click', function () {
+    console.log(footer[0].style.height);
+    if (footer[0].style.height == '0px') {
+        footer[0].style.height = '120px';
+    } else {
+        footer[0].style.height = '0px';
+    }
+});
 
 console.log("everything is working");
 

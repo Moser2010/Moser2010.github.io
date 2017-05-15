@@ -15,8 +15,11 @@
 </head>
 
 <body>
-
+    <div>
+        <strong><p style="color:black; position:absolute; top:0px; right:0px; padding:20px;z-index:1000000000;">Beta</p></strong>
+    </div>
     <header>
+
         <h1 style="text-align:center; font-size:3em !important;">The Lost Isles</h1>
         <nav class="menu">
             <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
@@ -79,7 +82,6 @@
     </header>
     <div id="map" class="Translate" style="height:100vh;">
     </div>
-
     <section id="worldHistory" class="container-fluid Translate" style="height:0vh;">
         <div class="row">
             <div class="wrapper">
@@ -473,6 +475,8 @@
 
             </section>
             <div class='col-sm-12 col-md-3 col-lg-3 padding'>
+                <h1 class='title' style="margin:0;"></h1>
+                <hr />
                 <img id="image" class="openModal"></img>
                 <h3 class="markerItemTitle">Races</h3>
                 <p id="races"></p>
@@ -480,8 +484,7 @@
                 <p id="ruler"></p>
             </div>
             <div class='col-sm-12  col-md-9 col-lg-9 padding' style="margin-bottom:50px;">
-                <h1 class='title' style="margin:0;"></h1>
-                <hr />
+
                 <h3 class="markerItemTitle">Description</h3>
                 <p id="description"></p>
                 <h3 class="markerItemTitle">Government</h3>
@@ -502,6 +505,12 @@
             </div>
         </div>
     </div>
+    <footer class="footer" style="height:0px;">
+        <div style="padding:20px 0px 0px 15px; width:292px;">
+            <p>Created by <a href="https://github.com/Moser2010">moser2010</a>. Fork this repository on <a href="https://github.com/Moser2010/d-dMap">github</a> and feel free to leave some feedback on how I can help improve things.</p>
+            <p>This product is <a href="/copyRight.txt">@copyright</a></p>
+        </div>
+    </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="/Transer_folder/Leaflet/leaflet.js"></script>
     <script type="text/javascript" src='/build/bundle.js'></script>
