@@ -531,7 +531,6 @@ mymap.on('popupopen', function(e) {
                             // code
                             break;
 
-
                         default:
                             k.push(r);
                             jsonArray.push(obj[r])
@@ -545,24 +544,37 @@ mymap.on('popupopen', function(e) {
                 while (d < domArray.length) {
                     var s = 0;
                     for (var s = 0; s < k.length; s++) {
-                        console.log(k.length + "   " + domArray.length)
                         if (k[s].toLowerCase() == domArray[d].id) {
+                            if (jsonArray[s] != "" && jsonArray[s] != undefined) {
+                                console.log(domArray[d].id + "    " + k[s])
+                                switch (k[s]) {
+                                    case 'Religion':
+                                        console.log(domArray[d + 1].id)
 
-                            switch (k[s]) {
-                                case 'Religion':
-                                    domArray[d].style.display = "block";
-                                    domArray[d].innerHTML = jsonArray[s]["special"];
-                                    domArray[5].innerHTML = jsonArray[s]["Gods"];
-                                    markerItemTitle[d].style.display = "block";
-                                    break;
-                                case undefined:
-                                    domArray[d].style.display = "none";
-                                    markerItemTitle[d].style.display = "none";
-                                    break;
-                                default:
-                                    domArray[d].style.display = "block";
-                                    domArray[d].innerHTML = jsonArray[s];
-                                    markerItemTitle[d].style.display = "block";
+                                        domArray[d].style.display = "block";
+                                        domArray[d].innerHTML = jsonArray[s]["Gods"];
+                                        markerItemTitle[d].style.display = "block";
+                                        
+                                        console.log(jsonArray[s]["special"]);
+                                        special.style.display = "block !import";
+                                        special.innerHTML = jsonArray[s]["special"];
+                                        markerItemTitle[d+1].style.display = "block";
+
+
+                                        break;
+                                        /*case undefined:
+                                            domArray[d].style.display = "none";
+                                            markerItemTitle[d].style.display = "none";
+                                            break;*/
+                                    default:
+                                        domArray[d].style.display = "block";
+                                        domArray[d].innerHTML = jsonArray[s];
+                                        markerItemTitle[d].style.display = "block";
+                                }
+                            }
+                            else {
+                                domArray[d].style.display = "none";
+                                markerItemTitle[d].style.display = "none";
                             }
                             break;
                         }
