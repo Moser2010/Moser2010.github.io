@@ -398,7 +398,7 @@ let navMHome = document.getElementById("mHome");
 
 
 
-
+//adds the information to the the borders and main characters section
 var i = 0;
 var eleNum = 0;
 for (var b in markerData.KingdomData[0]) {
@@ -419,7 +419,7 @@ for (var b in markerData.KingdomData[0]) {
     }
     i++
 }
-
+//add event listener to nav elements
 for (let i = 0; i < navHist.length; i++) {
     navHist[i].addEventListener('click', rotate);
     navKC[i].addEventListener('click', rotate);
@@ -487,7 +487,7 @@ function rotate(navElement) {
 
     }
 }
-
+//adds and removes marker bar
 function onMarkerClick(e) {
 
     mBarState = true;
@@ -513,7 +513,7 @@ mymap.on('popupopen', function(e) {
         let i;
 
         for (var c in markerData.Markers[0]) {
-            
+
             for (i = 0; i < markerData.Markers[0][c].length; i++) {
                 let b = markerData.Markers[0][c][i]["Name"];
                 let obj = markerData.Markers[0][c][i];
@@ -546,27 +546,28 @@ mymap.on('popupopen', function(e) {
                         }
                         q++
                     }
-                    
+
 
                     mBarTitle[0].innerHTML = b;
                     while (d < domArray.length) {
                         var s = 0;
                         for (var s = 0; s < k.length; s++) {
+                           if (Array.isArray(jsonArray[s]) == true) {
+                                console.log('this is an array' + jsonArray[s].join(', '))
+                            }
                             if (k[s].toLowerCase() == domArray[d].id) {
                                 if (jsonArray[s] != "" && jsonArray[s] != undefined) {
-                                    
+
                                     switch (k[s]) {
                                         case 'Religion':
-                                            
-
                                             domArray[d].style.display = "block";
-                                            domArray[d].innerHTML = jsonArray[s]["Gods"];
+                                            domArray[d].innerHTML = jsonArray[s]["Gods"].join(', ');
                                             markerItemTitle[d].style.display = "block";
 
-                                            
-                                            special.style.display = "block !import";
-                                            special.innerHTML = jsonArray[s]["special"];
-                                            markerItemTitle[d + 1].style.display = "block";
+
+                                            //special.style.display = "block !import";
+                                            //special.innerHTML = jsonArray[s]["special"].join(', ');
+                                            //markerItemTitle[d + 1].style.display = "block";
 
 
                                             break;
@@ -674,7 +675,7 @@ for (i = 0; i < acc.length; i++) {
 let menuButton = document.getElementsByClassName('menu-open-button');
 let footer = document.getElementsByTagName('footer');
 menuButton[0].addEventListener('click', function() {
-    
+
     if (footer[0].style.height == '0px') {
         footer[0].style.height = '120px';
 

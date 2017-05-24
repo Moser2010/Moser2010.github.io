@@ -6890,6 +6890,7 @@ var kingdomMajorCharactersDescription = document.getElementsByClassName('kingdom
 var markerItemTitle = document.getElementsByClassName('markerItemTitle');
 var navMHome = document.getElementById("mHome");
 
+//adds the information to the the borders and main characters section
 var i = 0;
 var eleNum = 0;
 for (var b in _objects.markerData.KingdomData[0]) {
@@ -6910,7 +6911,7 @@ for (var b in _objects.markerData.KingdomData[0]) {
     }
     i++;
 }
-
+//add event listener to nav elements
 for (var _i = 0; _i < navHist.length; _i++) {
     navHist[_i].addEventListener('click', rotate);
     navKC[_i].addEventListener('click', rotate);
@@ -6972,7 +6973,7 @@ function rotate(navElement) {
         kingdomsAndBorders.style.overflow = "hidden";
     }
 }
-
+//adds and removes marker bar
 function onMarkerClick(e) {
 
     mBarState = true;
@@ -7034,19 +7035,22 @@ mymap.on('popupopen', function (e) {
                     while (d < domArray.length) {
                         var s = 0;
                         for (var s = 0; s < k.length; s++) {
+                            if (Array.isArray(jsonArray[s]) == true) {
+                                console.log('this is an array' + jsonArray[s].join(', '));
+                            }
                             if (k[s].toLowerCase() == domArray[d].id) {
                                 if (jsonArray[s] != "" && jsonArray[s] != undefined) {
 
                                     switch (k[s]) {
                                         case 'Religion':
-
                                             domArray[d].style.display = "block";
-                                            domArray[d].innerHTML = jsonArray[s]["Gods"];
+                                            domArray[d].innerHTML = jsonArray[s]["Gods"].join(', ');
                                             markerItemTitle[d].style.display = "block";
 
-                                            special.style.display = "block !import";
-                                            special.innerHTML = jsonArray[s]["special"];
-                                            markerItemTitle[d + 1].style.display = "block";
+                                            //special.style.display = "block !import";
+                                            //special.innerHTML = jsonArray[s]["special"].join(', ');
+                                            //markerItemTitle[d + 1].style.display = "block";
+
 
                                             break;
                                         /*case undefined:
