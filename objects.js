@@ -25,7 +25,7 @@ var markerData = {
             }],
             "Events": ["Poverty and lack of food for the poor", "<span title =' A powerful noble/wizard is hosting a masquerade ball where the guests are polymorphedinto monster as their costume, but an actual monster attends to kill the noble/wizard'>Come one come all to the mascarade ball hosted by Noble lord Holnor and be sure to wear your finest secound face!</span>"],
             "Jobs": ["Give Aid to the king to fight the Orcs.", "Get Help from other countries.", "Get us better weapons and supplies.", "Convince the Dwarves to trade us fire arms.", "<span title= 'A mage’s guild seeks thieves to steal an artifact that will hamper the use of magic. They plan to use it to control all magic in the city.' >Help Wanted: Mages guild!</span>"],
-            "Ammenaties": ["Magic Guild", "  Thieves Guild", "  Assasins Guild", "  Merchant Guild", "  Mercenary Guild", "  Adventurers Guilds", " Food", "  Drink", "  Lodging", "  Medicin", "  Magic Shop", "  Oddity Shop", "  Gear", "  Crafting Shop", " Blacksmith", "  Bowmen", " Alchemy", " Enchanters", " Library", " Museum"]
+            "Ammenaties": ["Magic Guild", "  Thieves Guild", "  Assasins Guild", "  Merchant Guild", "  <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", "  Adventurers Guilds", " Food", "  Drink", "  Lodging", "  Medicin", "  Magic Shop", "  Oddity Shop", "  Gear", "  Crafting Shop", " Blacksmith", "  Bowmen", " Alchemy", " Enchanters", " Library", " Museum"]
         }, {
             "Name": "Dhir Ladur",
             "Cordidinates": [68.13885, -101.25],
@@ -60,7 +60,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": ["<span title = '8. Shipments from a nearby mine have stopped, when the PCs investigate they find the minerscrazed and covered with red welts apparently from exposure to a new element they uncovered' >Shipments from our mines in the mountains have stopped coming and we want you to go and see what is going on!</span>", "<span title='A local craftsmen: Marble carved from a newfound quarry is animating.'>One of our local marbel quaries is under attack and we need some able bodies to help deal with the threat!</span>"],
-            "Ammenaties": ["Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }, {
             "Name": "Ulaxdale",
@@ -82,7 +82,7 @@ var markerData = {
             }],
             "Events": "At war with Dronem Empire.",
             "Jobs": ["<span title='Priest: Reports that a gold dragon is ravaging the countryside turn out to be true. The dragon, sick with a rare disease, has gone mad and must be stopped'>I have recieved reports that our a dragon is causing chaos in Norwich and I want you to go verify if this is true or not as well as what might be the cause. If it is and you cant find a cause then the council wants their brother put down.</span>", "Gather the crests from each nation and unlock the sphere so that we may once again be apart of the world and grow bountiful in trade.", "Gramrot: I want to end this war one way or another no matter the cost. I want you to either help us make peace with the Dwarven king or for you to kill him."],
-            "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }, {
             "Name": "Nilhalond",
@@ -104,7 +104,7 @@ var markerData = {
             }],
             "Events": "Bad stuff has been happening here",
             "Jobs": ["There is always work to be had"],
-            "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
 
         }],
         "City": [{
@@ -171,18 +171,14 @@ var markerData = {
             "Jobs": ["A group of pirates have not paid me their owed share of what they have plundered. I believe that they are held up in the dungeon tower to the north and I want you to go and get me my money.", "Strange creatures have been attacking pirate ships and they are reporting these creatures are coming from Red Spire. Go and clear them out and I will reward you greatly."],
             "Ammenaties": ["Class School: Pirate, Rouge, Exemplar, Mutagenic Mauler, Flying Blade, Bounty Hunter, Grave Warden,Black Powder Hood", "Magic Guild", " Thieves Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
-            "Name": "City 1",
+            "Name": "Roth Grom",
             "Cordidinates": [74.86789, -153.28125],
             "Icon": "City",
             "Ruler": "",
             "Government": "",
             "Races": [],
-            "Religion": {
-                "special": "",
-                "Gods": ['']
-            },
-            "History": "",
-            "Description": "",
+            "History": "Roth Grom is a city that was first built to be a military stronghold for the dwarves agains any invading forces as well as a fallback point should the Pruvell kingdom ever decided they want the Northern lands back. Since its completion into a full fledged stronghold many famialies have moved here with their husbands and sons who where inlisted in the military turning this small stronghold into a very large town. Now it a primary trading hub by way of the sea between the dwarves and some of the other island within the Lost Isles.",
+            "Description": "This city is well fortified in its interior and is full of life. People crowd the streets trying to get from place to place.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/3d/a2/00/3da2007f896eb2349a780316262232df.jpg"
             }, {
@@ -222,145 +218,51 @@ var markerData = {
             "Cordidinates": [72.52813, -3.16406],
             "Icon": "Docs",
         }, {
-            "Name": "Docs 1",
+            "Name": "",
             "Cordidinates": [10.31492, -103.00781],
             "Icon": "Docs",
         }, {
-            "Name": "Port of Closteles",
+            "Name": "",
             "Cordidinates": [68.4638, 145.10742],
             "Icon": "Docs",
-
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "Port of ",
             "Cordidinates": [-74.28356, -1.66992],
             "Icon": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Ship Inspection",
             "Cordidinates": [75.65043, 127.5293],
             "Icon": "Docs",
             "Description": "Inspection yard to enter into Draco Rignum",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "Ship Inspection",
             "Cordidinates": [75.40885, 152.13867],
             "Icon": "Docs",
             "Description": "Inspection yard to enter into Draco Rignum",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [19.31114, 1.05469],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [62.06273, 74.17969],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [41.37681, 89.12109],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [-66.72254, 134.29688],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [-57.79794, 130.60547],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "",
             "Cordidinates": [-30.29702, 105.29297],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "Ferry to Half Skull Prision",
             "Cordidinates": [9.0153, 100.89844],
@@ -368,16 +270,6 @@ var markerData = {
         }, {
             "Name": "",
             "Cordidinates": [4.74068, 40.16602],
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, {
             "Name": "Yean Alora Trading Port",
             "Cordidinates": [8.14624, -50.625],
@@ -394,16 +286,6 @@ var markerData = {
             "Name": "",
             "Cordidinates": [56.26776, -12.12891],
             "Icon": "",
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
         }, ],
         "Dragon": [{
             "Name": "",
@@ -502,6 +384,18 @@ var markerData = {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/11/0b/ed110bff25c843eaff89f9f8cc1f6b5c.jpg"]
             }],
         }, {
+            "Name": "Autumns Howling Tower",
+            "Cordidinates": [7.62389, -148.94141],
+            "Icon": "Military Tower",
+            "Ruler": "Grand Magi Axtxon",
+            "History": "Though this tower has a large dungeon in its depths the Pruvell Kingdom had no choice but to station soldiers here to protect the borders from the Orcish hords. All that is known about this tower is that it once belonged to a very powerful mage who performed expiroments on creatures and humans turning man into monster. The cries of some of the beasts down below still remain even now. No on knows how they have survived but the soldiers currently stationed here know better than to tempt fate and enter this dungeon.",
+            "Images": [{
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ed/11/0b/ed110bff25c843eaff89f9f8cc1f6b5c.jpg"
+            }, {
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/11/0b/ed110bff25c843eaff89f9f8cc1f6b5c.jpg"]
+            }],
+            "Jobs": ["Kill the monsters that inhabit the dungeon. Doing this will help boost the mens moral"],
+        }, {
             "Name": "Mountain Watch Tower",
             "Cordidinates": [-73.42842, 174.90234],
             "Icon": "Dungeon Tower",
@@ -516,15 +410,8 @@ var markerData = {
             "Name": "Magis Tower",
             "Cordidinates": [-25.56227, -80.68359],
             "Icon": "Dungeon Tower",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
+            "History": "This tower was created not to long ago. The last Grand magi, Vindal the Red Wizar, created this tower to serve as his home. Vindal served the king as the last Grand Magi, and was/is arguably the most powerful, now lives his remaining days tinkering and experimenting as he did when he was a child. ",
+            "Description": "Vindal the Red Wizard believes that he was unfairly dismissed but many believe that he is a little off his rocker.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/00/fe/cd/00fecd9f33f0a45157c78b360d9fd784.jpg"
             }, {
@@ -532,7 +419,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": []
+            "Ammenaties": ["Class School: Wizard, Alchemist, Skald"]
         }, {
             "Name": "Half Skull Prision Tower 2",
             "Cordidinates": [6.3153, 68.20313],
@@ -753,13 +640,15 @@ var markerData = {
                 "special": "",
                 "Gods": ['Cayden Cailean', 'Erastil', 'Torag']
             },
-            "History": "This now forgotten place was once the castle to a mighty order of created out of the unity of paladins, holy knights, and clerics. They where charged by the king to uphold truth and justice accross the land and defend the lands from the darness that emerge no matter where they may come from. Durring the hight of the kingdom it was a vast and powerful order but since the orcs came and the rebelion of the dwarves to the north the king had no choice but to call upon his finest warriors to help defend the land and its borders. With this the order was no more. All have gone to fight for the kingdom and few have ever returned to this place.",
-            "Description": "",
+            "History": "This now forgotten place was once the castle to a mighty order created out of a unity between paladins, holy knights, and clerics. They where charged by the king to uphold truth and justice accross the land and defend the lands from the darness that emerge no matter where they may come from. Durring the hight of the kingdom it was a vast and powerful order but since the orcs came and the rebelion of the dwarves to the north the king had no choice but to call upon his finest warriors to help defend the land and its borders. With this the order was no more. All have gone to fight for the kingdom and few have ever returned to this place.",
+            "Description": "Though the order has fallen and most have gone off to fight in the war with the Orcs there are a few that have returned to the Keep only to find it now inhabited with evil creatures.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/63/ae/f3/63aef33d1846bf062f17b9a6260d6a2f.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/63/ae/f3/63aef33d1846bf062f17b9a6260d6a2f.jpg"]
             }],
+            "Jobs": ["<span title='I am one of the last Paladins if not the last.'>I would like help to cleanse out the keep and teach you about our order if you so like.", "I believe that there are others surviving paladins out there I want you to try and find them on your journey and send them to me. There may still be hope to revive the order yet.</span>"],
+            "Ammenaties": ["<span title='Their remains but a small handfull of Paladins who have not died. Each one with their own martiel skill. If you can bring them back or find them they will surely teach you.'>Class School: Merciful Healer, <span title='He is a dwarf and can be found in Dronem'>Holy Gun</span>, Warrior of the Holy Light, Divine Hunter, Crusader, Divine Scourge</span>"]
         }, {
             "Name": "Black Gate Citadel",
             "Cordidinates": [58.53959, -133.24219],
@@ -780,7 +669,7 @@ var markerData = {
             "Cordidinates": [27.79989, 177.27539],
             "Icon": "Citadel",
             "Ruler": "Ele Trydyg",
-            "History": "This place used to be the old kings castle where he ruled over the kingdom now known as freehaven but now in his place a necromancer and a lich have moved into the citadel. They control most of this land as it is a rich resource of dead and decayed corpses from centeries past. These grasslands held many battles here and many a good man died here. The Lich and Necromancer work together to raise an undead army for unknown reasons. But the wardens of Dragons Tail Keep and the white necromancers to the south west have us in a war where we only get strong for each of them that we kill.",
+            "History": "<span title='The king who once lived here and ruled these halls has returned thanks to the help of a necromancer and has become a powerful Lich. Together they are raising the dead and building an army that none will be able to stand against.'>This place used to be the old kings castle where he ruled over the kingdom now known as freehaven but now in his place a necromancer and a lich have moved into the citadel. They control most of this land as it is a rich resource of dead and decayed corpses from centeries past. These grasslands held many battles here and many a good man died here. The Lich and Necromancer work together to raise an undead army for unknown reasons. But the wardens of Dragons Tail Keep and the white necromancers to the south west have us in a war where we only get strong for each of them that we kill.</span>",
             "Description": "These once gold and marbel hallways are covered in mold and dust. Unholy runes and magic are scattered about the entire castle warning any that dare enter. Giant magic crystals line the hallways bringing souls back from the nether world to be used to animate the dead.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/14/73/a8/1473a8741a251ecdfdbb60421985d924.jpg"
@@ -817,7 +706,7 @@ var markerData = {
             "Name": "Crohunn Tahul Tower",
             "Cordidinates": [74.77584, 157.14844],
             "Icon": "Military Tower",
-            "Ruler": "Captain Iron Claw",
+            "Ruler": "General Iron Claw",
             "Races": ["DragonKin"],
             "History": "After the country side came under rule of the dragonkin the council of elders decided that in order to defend the people the best thing for them to do is for them to construct two military watch towers to guard the enemy attacks from the north by way of sea. Each tower was put under the control of a Captian in the army who is in charge of maintaing the towers, keeping defences up to par, and being read to be defend the north.",
             "Description": "These two towers have a large grouping of chains with huge metal spikes coming off many sides of the chains. If a ship was to try and enter without first passing inspection from one of the towers the chains will raise from the ocean floor and create a blockade keeping any ship from entering as well as destroying those that attempted to do so.",
@@ -832,7 +721,7 @@ var markerData = {
             "Name": "Crohunn Tahh Tower",
             "Cordidinates": [74.4729, 123.22266],
             "Icon": "Military Tower",
-            "Ruler": "Captain Iron scale",
+            "Ruler": "General Iron scale",
             "Races": ["DragonKin"],
             "History": "After the country side came under rule of the dragonkin the council of elders decided that in order to defend the people the best thing for them to do is for them to construct two military watch towers to guard the enemy attacks from the north by way of sea. Each tower was put under the control of a Captian in the army who is in charge of maintaing the towers, keeping defences up to par, and being read to be defend the north.",
             "Description": "These two towers have a large grouping of chains with huge metal spikes coming off many sides of the chains. If a ship was to try and enter without first passing inspection from one of the towers the chains will raise from the ocean floor and create a blockade keeping any ship from entering as well as destroying those that attempted to do so.",
@@ -844,35 +733,16 @@ var markerData = {
             "Events": "",
             "Jobs": [],
         }, {
-            "Name": "M Tower 1",
-            "Cordidinates": [-7.62389, -149.94141],
-            "Icon": "Military Tower",
-            "Ruler": "",
-            "Races": ["Dwarf"],
-            "History": "",
-            "Description": "",
-            "Images": [{
-                "Main Image": ""
-            }, {
-                "Regional Images": [""]
-            }],
-            "Events": "",
-            "Jobs": [],
-        }, {
-            "Name": "M Tower 2",
+            "Name": "Roth Grom Tower",
             "Cordidinates": [72.44879, -142.20703],
             "Icon": "Military Tower",
-            "Ruler": "",
             "Races": ["Dwarf"],
-            "History": "",
-            "Description": "",
+            "History": "It is here on this land where the final battle happened between the Dwarves and the Orcs who invaded Dronem where pushed out with the power of Gunpowder and Firearms. On this historical spot a large tower was built to both remind the people of Dronem of what they overcame to keep their freedom as well as a to keep eyes on the horizion in case anymore Orcs dare step foot on their land again.",
             "Images": [{
-                "Main Image": ""
+                "Main Image": "https://s-media-cache-ak0.pinimg.com/736x/1a/a8/ed/1aa8edab0e380674756dc3ed2943e9d8.jpg"
             }, {
-                "Regional Images": [""]
+                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/736x/1a/a8/ed/1aa8edab0e380674756dc3ed2943e9d8.jpg"]
             }],
-            "Events": "",
-            "Jobs": [],
         }, {
             "Name": "Talons Canyon Pass Tower",
             "Cordidinates": [-25.00597, -103.00781],
@@ -921,6 +791,7 @@ var markerData = {
             }, {
                 "Regional Images": ["https://static1.squarespace.com/static/53b47904e4b078d8d9d974f6/53b4797ce4b0637b8d44b12a/53c44036e4b097c07c1c2f48/1405370430127/orgrimmar_8_6.jpg?format=1500w"]
             }],
+            "Ammenaties": ["Class School: Titan Mauler, Armored Hulk, Hateful Rager"]
         }, {
             "Name": "Ghul Koshbikh",
             "Cordidinates": [-8.05923, -169.80469],
@@ -953,7 +824,7 @@ var markerData = {
             }],
             "Events": "Come one come all to the tournament of champions. The winner will recieve fame and fortune as well as the skill an artifact of great power.",
             "Jobs": [],
-            "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }, {
             "Name": "Icial Peak Pass Outpost",
             "Cordidinates": [76.20597, -5.18555],
@@ -968,7 +839,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Class School: Beast Rider, Strategist, Wolfs Head Ninja, Sword Saint, Katana Duelist", " Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }, {
             "Name": "Eagles Talon Outpost",
             "Cordidinates": [-16.97274, -105.82031],
@@ -1001,19 +872,20 @@ var markerData = {
             }],
             "Events": "A tournament for the ultimate weapon and armor awaits challengers.",
             "Jobs": ["Capture a dangerous fugative", "Get information from a prisioner", "Help fight in the orc rebelion."],
-            "Ammenaties": ["Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " Mercenary Guild", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
+            "Ammenaties": ["Class School: Inquisitor, Hunter, Slayer, Witch Hunter","Magic Guild", " Thieves Guild", " Assasins Guild", " Merchant Guild", " <span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", "Food", " Drink", " Lodging", " Medicin", " Magic Shop", " Oddity Shop", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library", "Museum"]
         }],
         "Ruins": [{
             "Name": "Lost city of Dragons Tail Pass",
             "Cordidinates": [31.1282, 128.67188],
             "Icon": "Ruins",
-            "History": "This city was said to exist within the tears of the mountain. This ancient city of druids lived peacefully until both time and man cam in and destroyed it.",
-            "Description": "This lost city in ruins still holds secrets and lost relics to the world. A city made of waterways for living and travel no marvel of the ancient world was greater.",
+            "History": "This city was said to exist within the tears of the mountain. This ancient city was the capitol to an ancient order of druids who lived peacefully until man came in and destroyed it. Most believe that all the druids are gone but strange things have been sturring around this lost city and some believe that with the threat of the Orcish hords the Druids may return to help defend the land.",
+            "Description": "This lost city in ruins still holds secrets and lost relics to the world. A city made of waterways for living and traveling. No marvel of the ancient world was greater.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/d3/aa/52/d3aa52887fc356a1033fdfa383fa7665.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/41/05/8e/41058e58ede43e8fdf03617e82892b16.jpg", "https://s-media-cache-ak0.pinimg.com/564x/38/ff/4e/38ff4ead0c6a09bfabe7fd055d364b7d.jpg"]
             }],
+            "Ammenaties": ["<span title='There is a book and many mosaics that in this place detailing Druidic magic and life making it possible for to self teach one the way of the druids. Those that wish to become a druid must study here for a good amount of time.'>Class School: Wolf Shaman, Storm Druid, Pack Lord, Nature Fang, Dragon Shaman, Goliath Druid, Elemental Ally</span>"]
         }, {
             "Name": "Temple of a Forgotten God",
             "Cordidinates": [-67.54217, -108.80859],
@@ -1117,23 +989,17 @@ var markerData = {
         "Temple": [{
             "Name": "Temple of the Elder Dragons",
             "Cordidinates": [58.99531, 158.90625],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
+            "Icon": "Temple",
+            "Ruler": "The Council Elder Dragons",
+            "History": "This temple was built close to the resting grounds of the dragons who would come here to die. It is here that the Council of Elder Dragons chose to build it to both remeber the great tradgedy as well as protect this holy site.",
+            "Description": "Heavily guarded and on the side of a mountain where the only way it can be reached now is to fly this large temple hides in its rocky peaks.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/42/65/f8/4265f89d09d3d48522f1bd00ec7857f6.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/42/65/f8/4265f89d09d3d48522f1bd00ec7857f6.jpg"]
             }],
             "Events": "",
-            "Jobs": [],
+            "Jobs": ["<span title='A Council Members egg has been taken by someone and is on the way to the Pruvell Kingdom. The party will work with the leader of the Knights. They want the egg to be able to study it and hopefully learn new magic that will give them an edge in the war. If the party chooses to help Pruvell then the Council sends the White Hand after them and they believe that outsiders still can't be trusted. If they choose to return the egg then the council believes that they may now be able to trust outsiders and good things happen.'> Gildrunth: My child has been stolen. We must find who took him and why. I would start with the Dwarves they hate us it must surely be one of them!</span>"],
             "Ammenaties": []
         }, {
             "Name": "Temple of the white Necromancers",
@@ -1156,18 +1022,17 @@ var markerData = {
             "Jobs": ["The lands to the north east and south east have both darkenss fallen upon them. We want someone to investigate and bring the darkness into the light.", "We know that their is a necromancer that has taken up the old kings castle in the north east but we can not get their alone. If you would be willing to help us kill this necromancer we would be greatful."],
             "Ammenaties": ["Food", "Drink", "Lodging", "Class School: White Necromancer, Spellslinger, Shadowcaster, Primalist, Pact Wizard", "Mercenary"]
         }, {
-            "Name": "Temple 2",
+            "Name": "Black Forest Temple",
             "Cordidinates": [43.58039, -98.4375],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
+            "Icon": "Temple",
+            "Ruler": "Malith the Black One",
+            "Government": "Malith is not one to socialize with the other and is rarely seen walking about. Malith only comes out when he feels that he must. He is a dark individual and is easily the most powerful in the whole of the temple. Any that question or challenge his authority are quick to be silenced.",
             "Religion": {
                 "special": "",
                 "Gods": []
             },
-            "History": "",
-            "Description": "",
+            "History": "This temple was created for those that wish to hide away from the forces of light and cloak themselves in darkness. ",
+            "Description": "Here you will find all manner of darkness. Though this place is a holyland for people of shady nature there is one rule. This is a place of refuge to practice your dark art there for none shall harm or kill any others that are here or they will be punished severly.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/6b/ea/fe/6beafe20676c4862ec953e665aacd882.jpg"
             }, {
@@ -1175,7 +1040,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": []
+            "Ammenaties": ["Class School: Undead Lord, Witch, Wizards, Hungry Ghost Monk"]
         }, {
             "Name": "Casa dell'assassino",
             "Cordidinates": [-45.70618, 120.14648],
@@ -1197,26 +1062,21 @@ var markerData = {
             "Jobs": ["Kill: Grand Mage Xarath in Shroudcrest", "Kill: Leader of Druzdrug", "<span title='His daught wants him dead because Dwennon killed her mother'>Kill: Dwennon</span>", "Kill: Throruck Hammerhand and bring the war to an end", "Kill: The mayor of Dogwich"],
             "Ammenaties": ["Class School: -Prestige: Assasin, Formless Ninja, Advanced Rouge"]
         }, {
-            "Name": "Temple 3",
+            "Name": "Strawgoh",
             "Cordidinates": [2.46018, -77.34375],
-            "Icon": "",
-            "Ruler": "",
-            "Government": "",
-            "Races": [],
-            "Religion": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "",
-            "Description": "",
+            "Icon": "Temple",
+            "Ruler": "Professor Erodel Bumd",
+            "Government": "Head master, Teachers, and Students. Just your typical wizaring school.",
+            "History": "Magic is in our blood and it has always been in our blood it just took special tools for us to unlock it. It is Strawgoh's job to help grow the magic of those within Pruvell that posses it and turn them into great Wizards and more.",
+            "Description": "Ever since the war with Orcs started attendence at the school has become manditory and all graduating students are required to serve in the militarry for at least five years. Once that time is over they are allowed to return to their homes. Now days being a wizard is a high honor and is grand but it makes parents pray that their childen don't posses the gift.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/fc/ed/76/fced7604b945495b18a5b0410437c327.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/fc/ed/76/fced7604b945495b18a5b0410437c327.jpg", "https://s3.amazonaws.com/cgimg/t/g65/600265/1339055_large.jpg", "https://s-media-cache-ak0.pinimg.com/564x/6f/4d/c8/6f4dc89514842939c89894b414cc3d94.jpg"]
             }],
             "Events": "",
-            "Jobs": [],
-            "Ammenaties": []
+            "Jobs": ["People have been going missing at the base of the mountain and large sticky spider webs have been left where they where taken. Please invesigate the dissapearences.", "Mercinaries Wanted: A student summoned a Ecorche and it is now running through the contry side killing people.", "We have aquired a dragons egg but we need someone to go and pick it up in Free Haven and bring it to us. The power that the dragons posses may hold the secrets to help us win this war with the Orcs."],
+            "Ammenaties": ["Food", "Drinks", "Lodging", "Class School: Wizard, Sorcer, Arcanist, Shaman, Alchemist, Magus, Bloodrager, Skald"]
         }, {
             "Name": "Temple of the moon",
             "Cordidinates": [-34.88593, -5.27344],
@@ -1279,7 +1139,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }],
         "Town": [{
             "Name": "Closteles",
@@ -1301,7 +1161,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": ["<strong>Iron Claw:</strong> Loud roaring can be heard at night coming from the east. I want you to investigate it. I believe that it is coming from the forgotten citadel.", "<span title='The track a very large creature to a small cave where they have to stop it from attacking the caravans from now on.'>Our shipments to Ulaxdale are being attacked by something. We want you to track it down and kill it!</span>"],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Donbadihr",
             "Cordidinates": [76.63923, -98.78906],
@@ -1317,7 +1177,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [""],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Evermere",
             "Cordidinates": [-67.3737, 80.15625],
@@ -1338,7 +1198,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["Class School: Artificer","<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Vehl Harbor",
             "Cordidinates": [20, -73],
@@ -1379,7 +1239,7 @@ var markerData = {
             }],
             "Events": "<span title='Xarath has had an attempt made on his life. '>A reward will be paid to any that can find the person or people responsible for this attempt on his life.</span>",
             "Jobs": ["<span title='Though Xarath has saved the city it has come at a great cost. The lives essence of children who have gone missing are being sapped in order to power the device that keeps the city safe. Will they choose to destroy this device and let the hords of Orcs flood the cit or leave knowning that this will continue to happen.'>Xarath: Someone is trying to get into the citadel archive located below the city. I need you to go down there and find them and stop them.</span>", "<span title='My mother was taken by the city guards. I followed them and saw what they where doing to people. I saw them killing them. I found an assasin who would be willing to help save my mother and to kill Xarath.'>Young Boy: People in the city keep going missing and no one has seen them turn back up."],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Dogwich",
             "Cordidinates": [-76.4346, 150.29297],
@@ -1400,28 +1260,7 @@ var markerData = {
             }],
             "Events": "Rat Catchers needed.",
             "Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
-        }, {
-            "Name": "Town 3",
-            "Cordidinates": [21.04349, -129.81445],
-            "Icon": "Town",
-            "Ruler": "Mayor Brundwich",
-            "Government": "The leader of this small town who is quite wealthy.",
-            "Races": ["Human", " Catfolk", " Ratfolk", "Grippli", "Gillman", " Halfling", " Half elf", " Half Orc", " Gnome", " Gnoll", "DragonKin", "Kobold", "Lizardfolk", " Dhampire"],
-            "Religion": {
-                "special": "",
-                "Gods": ['Abadar', 'Cayden Cailean', 'Desna', 'Erastil', 'Torag', 'Shelyn', 'Sarenrae', 'Pharasma']
-            },
-            "History": "The city has always been like this. Leader after leader down the blood line of the mayor the city of Dogwich has suffered. Most have lost hope that one day someone would come along and make their town great like many of the other cities in Free Haven.",
-            "Description": "The mayor of this town is as greedy and as vile as they come. The only way he will do anything to help the starving people of this city is if it affects him or they start making a big enough fuss over the issue.",
-            "Images": [{
-                "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"
-            }, {
-                "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/61/c9/6c/61c96ca4dc9ffa9464ff024c6b265b36.jpg"]
-            }],
-            "Events": "Rat Catchers needed.",
-            "Jobs": ["<span title='The mayor is trying to deal with the overwhelming rat problem by sending rat catchers to the sewers but they are not returning. As they venture below the city streets they find that the eaten bodies of the rat catchers and that the source of the rat population growing so quickly is related to disgaurded magical mushrooms that have spawned fungi everywhere. The only way to solve the issue is for them to destroy the fugi with fire.'> The city is being over run by a plague of rats getting into everything. We have sent rat catchers to the sewers to deal with the issue but they have not returned. We want you to investigate</span>", "Someone please do something about the leadership that this town has to endure."],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["Class School: Investigator, Brawler, Drunken Rager ","<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Neaenalond",
             "Cordidinates": [-3.68886, -11.07422],
@@ -1504,7 +1343,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": ["<strong>Iron Claw:</strong> Some of my men have deserted and I need you to retrieve them for me. Most likely they have gone to Closteles.", "<strong>Leutinet:</strong> Will you take a shift for me and some of my men and make sure that nothing happens? "],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Crohunn Tahh",
             "Cordidinates": [73.30262, 114.3457],
@@ -1525,7 +1364,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": ["<span title='The PCs are sent to a battlefield to retrieve a family heirloom from a missing soldier where a necromancer and his corpse collector golem are raising the fallen as undead'>I had a brother who went north the Dronem to fight in the battle at Silver Mountain Pass. He has not returned and is most likely dead. I am hoping that you would be so kind to go and retrieve his sword it belonged to out father and he passed it down to us.</span>", "<span title='The pc's find out a soldier intercepted the merchant and killed him and stole the of food and boozs.'>A shipment of food, weapons, and booz has not arrived yet. I want you to head toward Closteles and see if you can figure out why it has not arrived yet."],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Black Tree",
             "Cordidinates": [10.14193, -45.70313],
@@ -1609,27 +1448,23 @@ var markerData = {
             }],
             "Events": "Come one come all to the black smithing tournament. Care to test your metal against the best black smiths in all of the Dragon Circlet well look no further. You are all invited to participate in this tournament.",
             "Jobs": [],
-            "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
+            "Ammenaties": ["Class School:Gun Slinger, Alchemist, Artificer","Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
-            "Name": "Village 3",
+            "Name": "Cresent Pass Village",
             "Cordidinates": [53.64464, -140.88867],
             "Icon": "Village",
-            "Ruler": "Chief Smooth Scales",
+            "Ruler": "<span title='Doctor Jeckyle'>Doctor Jake Hill</span>",
             "Government": "The village is governed by a single man but he hears all people and take their advice into consideration.",
             "Races": ["Dhampire", "Lizardfolk", "Human", "Half Elf", "Half Orc"],
-            "Religion": {
-                "special": "",
-                "Gods": []
-            },
-            "History": "The village of Yean Alora is very new. It has only been a few years now since it was settled. The people of the surrounding cities and desert saw a need for a port town to the east of Elen Veil for merchants and for travelers. They saw a profit in it and took it.",
-            "Description": "An odd village where most are not elves. The elves of Elin Veil are not happy that they settled here but they put up with it because the need for this town is logical. They are not fond of having other races other than elves living there though. This city has even attracted dhampires who have made it their home between traveling from place to place.",
+            "History": "Cresent Pass used to be the primary way to travel if you where heading to the north. It was because of this that the small village thrived off of travelers. Many used to go this way to visit the count who lived in Black Gae Citadel to the North but ever since it fell people have begun to take different routes through the mountains.",
+            "Description": "Due to its location this town has a bad fog that hangs over it for most of the day giving it a driery damp look and feel.",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"
             }, {
                 "Regional Images": ["https://s-media-cache-ak0.pinimg.com/564x/ed/f9/83/edf983d5ba7f7d7dc7da25c1d75a477a.jpg"]
             }],
             "Events": "",
-            "Jobs": [],
+            "Jobs": ["<span title='The mayor has been ubducting people and causing other crimes durring the night and he doesn't even fully know it. He has created a concoction that he belives will help him live longer but as a side effect he turns into Mr. Hyde at night and terroriezes the people'>Mayor Jack Hill: People are going missing I want you to investigate and find out what is happening to them.</span>"],
             "Ammenaties": ["Food", " Drink", " Lodging", " Gear", "Blacksmith", " Bowmen"]
         }, {
             "Name": "Dunnin Bark",
@@ -1651,7 +1486,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [""],
-            "Ammenaties": ["Mercenary Guild", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
+            "Ammenaties": ["<span title='Class School: Beastmaster, Corpse Hunter, Dragon Hunter, Dungeon Rover, Falconer, Horse Lord, Infiltrator, Shapeshifter, Sky Stalker, Yokai Hunter'>Mercenary Guild</span>", " Adventurers Guilds", " Food", " Drink", " Lodging", " Medicin", " Gear", " Crafting Shop", "Blacksmith", " Bowmen", "Alchemy", "Enchanters", "Library"]
         }, {
             "Name": "Village 1",
             "Cordidinates": [11.43696, -106.25977],
@@ -1722,10 +1557,9 @@ var markerData = {
             "Jobs": [],
             "Ammenaties": []
         }, {
-            "Name": "Farm 7",
+            "Name": "North Fork Farm",
             "Cordidinates": [45.64477, -148.35938],
-            "Icon": "",
-            "Description": "",
+            "Icon": "Windmill",
             "Images": [{
                 "Main Image": "https://s-media-cache-ak0.pinimg.com/564x/ba/fb/c9/bafbc9069f5cc2d97f69bd5503989ecc.jpg"
             }, {
@@ -1733,7 +1567,7 @@ var markerData = {
             }],
             "Events": "",
             "Jobs": [],
-            "Ammenaties": []
+            "Ammenaties": ["Food", "Drinks", "Lodging"]
         }, {
             "Name": "Evermere shipwrights",
             "Cordidinates": [-69.50377, 65.56641],
@@ -1810,7 +1644,7 @@ var markerData = {
             "Religion": "The Dragonkin believe that dragons created the world and it is because of that belief that the older dragons make the laws for the land. They don't worship traditional gods but in stead honor the memories of their ancestors and a few other gods that have connections to their ancestors",
             "Major Characters": [{
                 "Name": "High Priest Gramrot",
-                "Image": "https://s-media-cache-ak0.pinimg.com/736x/8b/d2/84/8bd284ab0196c981206542d2427ff5a3.jpg",
+                "Image": "http://pre03.deviantart.net/e03d/th/pre/i/2015/193/5/2/dragon_starpriest_by_pacelic-d9102ai.jpg",
                 "Title": "The Redeemer",
                 "Description": "<span title='Gildrunth is manipulating Gramrot and forcing him to do things that are against his moral compas but out of fear what might happen to him or to the people if he is no the one to do it he does it begrudgingly. If Gramrot tries to stand up to Gildrunth then Gildrunth calls him out as a liar and tries to have him executed for lieing to the people for so long.'>Dedicating his life to service of the Elder Dragons Gramrot is their voice. The Elders make the rules and he is the enforcer of those rules. A soft hearted man old in age Gramrot has served the last 10 generations of Elder dragons and until he himself dies he will have this post as High Priest. He is a very wise man and is not the quickest to trust those that are outsiders due to the events that have transpiled in the past but deep down he knows that a change for the dragonkin and the Dragon Circlet is coming be it a good change or a bad change he is not sure. He is not a brave warrior like most of his allies and has found himself in a situation under the thumb of a power that has caused him hurt the very people that he is trying to protect.</span>",
             }, {

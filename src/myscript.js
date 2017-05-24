@@ -52,8 +52,9 @@ let Town = L.layerGroup([]);
 let portalGroup = L.layerGroup([]);
 let markers = L.layerGroup([Town, OrcCitadel, Temple, Farms, Village, City, MilitaryBase, DungeonTower, Ruins, Outpost, /*Dragon,*/ Docs, Citadel, Capitol]).addTo(mymap);
 
+
 var baseLayers = {
-    "Markers": markers
+    "Markers On": markers,
 
 };
 var overlays = {
@@ -75,9 +76,11 @@ var overlays = {
     "Orc Town": OrcTown,
 
 };
+
 L.control.layers(baseLayers, overlays, {
     position: "topleft"
 }).addTo(mymap);
+
 
 //Map boundries
 var corner1 = L.latLng(85, 200),
@@ -219,16 +222,16 @@ function addMarkers() {
                         i++;
                     })
                     break;
-                /*case 'Dragon':
+                    /*case 'Dragon':
 
-                    markerData.Markers[0]["Dragon"].forEach(function() {
-                        var newMarker = L.marker(markerData.Markers[0]["Dragon"][i]["Cordidinates"], {
-                            icon: dragon
-                        }).bindPopup(markerData.Markers[0]["Dragon"][i]["Name"]);
-                        Dragon.addLayer(newMarker)
-                        i++;
-                    })
-                    break;*/
+                        markerData.Markers[0]["Dragon"].forEach(function() {
+                            var newMarker = L.marker(markerData.Markers[0]["Dragon"][i]["Cordidinates"], {
+                                icon: dragon
+                            }).bindPopup(markerData.Markers[0]["Dragon"][i]["Name"]);
+                            Dragon.addLayer(newMarker)
+                            i++;
+                        })
+                        break;*/
                 case 'Dungeon Tower':
                     markerData.Markers[0]["Dungeon Tower"].forEach(function() {
                         var newMarker = L.marker(markerData.Markers[0]["Dungeon Tower"][i]["Cordidinates"], {
@@ -486,6 +489,7 @@ function rotate(navElement) {
 }
 
 function onMarkerClick(e) {
+
     mBarState = true;
     while (localImg.length > 0) {
         column.removeChild(localImg[0]);
@@ -500,97 +504,103 @@ function onMarkerClick(e) {
 }
 //This whole thing needs to be redone to make it more dynamic. 
 mymap.on('popupopen', function(e) {
+    if (e.popup._content == "") {
+        mBarState = false;
+        mBar.style.display = 'none';
+    }
+    else {
+        var marker = e.popup._content;
+        let i;
 
-    var marker = e.popup._content;
-    let i;
+        for (var c in markerData.Markers[0]) {
+            
+            for (i = 0; i < markerData.Markers[0][c].length; i++) {
+                let b = markerData.Markers[0][c][i]["Name"];
+                let obj = markerData.Markers[0][c][i];
+                //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
+                let k = [];
+                let jsonArray = [];
+                //let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"], obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
+                let domArray = [races, ruler, description, government, religion, special, history, ammenaties, events, jobs];
+                var d = 0;
+                let q = 0;
+                if (marker == b) {
+                    for (var r in obj) {
+                        switch (r.toLowerCase()) {
+                            case 'icon':
 
-    for (var c in markerData.Markers[0]) {
-        console.log("start first for loop")
-        for (i = 0; i < markerData.Markers[0][c].length; i++) {
-            let b = markerData.Markers[0][c][i]["Name"];
-            let obj = markerData.Markers[0][c][i];
-            //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
-            let k = [];
-            let jsonArray = [];
-            //let jsonArray = [obj["Races"], obj["Ruler"], obj["Description"], obj["Government"], obj["Religion and Gods"], obj["History"], obj["Ammenaties"], obj["Local Events"], obj["Local Jobs"]];
-            let domArray = [races, ruler, description, government, religion, special, history, ammenaties, events, jobs];
-            var d = 0;
-            let q = 0;
-            if (marker == b) {
-                for (var r in obj) {
-                    switch (r.toLowerCase()) {
-                        case 'icon':
+                                break;
+                            case 'cordidinates':
+                                break;
+                            case 'name':
 
-                            break;
-                        case 'cordidinates':
-                            break;
-                        case 'name':
+                                break;
+                            case 'images':
+                                // code
+                                break;
 
-                            break;
-                        case 'images':
-                            // code
-                            break;
+                            default:
+                                k.push(r);
+                                jsonArray.push(obj[r])
 
-                        default:
-                            k.push(r);
-                            jsonArray.push(obj[r])
-
+                        }
+                        q++
                     }
-                    q++
-                }
-                console.log(k)
+                    
 
-                mBarTitle[0].innerHTML = b;
-                while (d < domArray.length) {
-                    var s = 0;
-                    for (var s = 0; s < k.length; s++) {
-                        if (k[s].toLowerCase() == domArray[d].id) {
-                            if (jsonArray[s] != "" && jsonArray[s] != undefined) {
-                                console.log(domArray[d].id + "    " + k[s])
-                                switch (k[s]) {
-                                    case 'Religion':
-                                        console.log(domArray[d + 1].id)
+                    mBarTitle[0].innerHTML = b;
+                    while (d < domArray.length) {
+                        var s = 0;
+                        for (var s = 0; s < k.length; s++) {
+                            if (k[s].toLowerCase() == domArray[d].id) {
+                                if (jsonArray[s] != "" && jsonArray[s] != undefined) {
+                                    
+                                    switch (k[s]) {
+                                        case 'Religion':
+                                            
 
-                                        domArray[d].style.display = "block";
-                                        domArray[d].innerHTML = jsonArray[s]["Gods"];
-                                        markerItemTitle[d].style.display = "block";
-                                        
-                                        console.log(jsonArray[s]["special"]);
-                                        special.style.display = "block !import";
-                                        special.innerHTML = jsonArray[s]["special"];
-                                        markerItemTitle[d+1].style.display = "block";
+                                            domArray[d].style.display = "block";
+                                            domArray[d].innerHTML = jsonArray[s]["Gods"];
+                                            markerItemTitle[d].style.display = "block";
+
+                                            
+                                            special.style.display = "block !import";
+                                            special.innerHTML = jsonArray[s]["special"];
+                                            markerItemTitle[d + 1].style.display = "block";
 
 
-                                        break;
-                                        /*case undefined:
-                                            domArray[d].style.display = "none";
-                                            markerItemTitle[d].style.display = "none";
-                                            break;*/
-                                    default:
-                                        domArray[d].style.display = "block";
-                                        domArray[d].innerHTML = jsonArray[s];
-                                        markerItemTitle[d].style.display = "block";
+                                            break;
+                                            /*case undefined:
+                                                domArray[d].style.display = "none";
+                                                markerItemTitle[d].style.display = "none";
+                                                break;*/
+                                        default:
+                                            domArray[d].style.display = "block";
+                                            domArray[d].innerHTML = jsonArray[s];
+                                            markerItemTitle[d].style.display = "block";
+                                    }
                                 }
+                                else {
+                                    domArray[d].style.display = "none";
+                                    markerItemTitle[d].style.display = "none";
+                                }
+                                break;
                             }
                             else {
                                 domArray[d].style.display = "none";
                                 markerItemTitle[d].style.display = "none";
                             }
-                            break;
                         }
-                        else {
-                            domArray[d].style.display = "none";
-                            markerItemTitle[d].style.display = "none";
-                        }
+                        d++;
                     }
-                    d++;
+                    images.src = markerData.Markers[0][c][i]["Images"][0]['Main Image'];
+                    images.style.width = '100%';
+                    mySlides[0].src = markerData.Markers[0][c][i]["Images"][1]['Regional Images'][0];
+                    sliderImages(c, i);
                 }
-                images.src = markerData.Markers[0][c][i]["Images"][0]['Main Image'];
-                images.style.width = '100%';
-                mySlides[0].src = markerData.Markers[0][c][i]["Images"][1]['Regional Images'][0];
-                sliderImages(c, i);
             }
         }
+
     }
 });
 
@@ -663,15 +673,16 @@ for (i = 0; i < acc.length; i++) {
 }
 let menuButton = document.getElementsByClassName('menu-open-button');
 let footer = document.getElementsByTagName('footer');
-menuButton[0].addEventListener('click',function(){
-    console.log(footer[0].style.height)
+menuButton[0].addEventListener('click', function() {
+    
     if (footer[0].style.height == '0px') {
-        footer[0].style.height = '120px';    
-        
-    } else {
+        footer[0].style.height = '120px';
+
+    }
+    else {
         footer[0].style.height = '0px';
     }
-    
+
 })
 
 console.log("everything is working");
