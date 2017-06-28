@@ -3,7 +3,6 @@ import {
     markerData
 }
 from "./objects.js";
-console.log("reading borders");
 // make a for loop for this.
 
 
@@ -73,7 +72,6 @@ var borders = {
     }]
 };
 
-console.log("borders.js is working");
 
 module.exports = {
     borders

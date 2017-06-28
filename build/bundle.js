@@ -4722,8 +4722,6 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 "use strict";
 
 
-console.log("reading objects");
-
 var data = {};
 var markerData = {
     "Markers": [{
@@ -6462,7 +6460,6 @@ var markerData = {
 module.exports = {
     markerData: markerData
 };
-console.log("Objects file is working");
 
 /***/ }),
 /* 2 */
@@ -6504,14 +6501,14 @@ var mymap = L.map('map', {
     attributionControl: false
 }).setView([0, 0], 2); /*Add a git remote in the Cloud9 console. Should look like this (replace the git url with your repo url):
                        
-                       git remote add origin git@github.com:C9Support/testPush.git 
+                       git remote add github git@github.com:C9Support/testPush.git 
                        Add files and commit them:
                        
                        git add . 
                        git commit -m "First commit"
                        Push to github:
                        
-                       git push -u origin master
+                       git push -u github master --force
                        */
 
 L.tileLayer('/Transer_folder/tiles/tiles/{z}/{x}/{y}.png', {
@@ -6987,7 +6984,7 @@ function onMarkerClick(e) {
         mBar.style.display = 'none';
     }
 }
-//This whole thing needs to be redone to make it more dynamic. 
+
 mymap.on('popupopen', function (e) {
     if (e.popup._content == "") {
         mBarState = false;
@@ -6996,11 +6993,14 @@ mymap.on('popupopen', function (e) {
         var marker = e.popup._content;
         var _i2 = void 0;
 
+        //Loops through markers to get Capitol, city....
         for (var c in _objects.markerData.Markers[0]) {
-
+            //loops through each capitol, city... to give you what is in each one like name...
             for (_i2 = 0; _i2 < _objects.markerData.Markers[0][c].length; _i2++) {
                 var _b = _objects.markerData.Markers[0][c][_i2]["Name"];
                 var obj = _objects.markerData.Markers[0][c][_i2];
+                //This whole thing needs to be redone to make it more dynamic. 
+
                 //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
                 var k = [];
                 var jsonArray = [];
@@ -7035,9 +7035,9 @@ mymap.on('popupopen', function (e) {
                     while (d < domArray.length) {
                         var s = 0;
                         for (var s = 0; s < k.length; s++) {
-                            if (Array.isArray(jsonArray[s]) == true) {
-                                console.log('this is an array' + jsonArray[s].join(', '));
-                            }
+                            /* if (Array.isArray(jsonArray[s]) == true) {
+                                 console.log('this is an array' + jsonArray[s].join(', '))
+                             }*/
                             if (k[s].toLowerCase() == domArray[d].id) {
                                 if (jsonArray[s] != "" && jsonArray[s] != undefined) {
 
@@ -7058,9 +7058,16 @@ mymap.on('popupopen', function (e) {
                                             markerItemTitle[d].style.display = "none";
                                             break;*/
                                         default:
-                                            domArray[d].style.display = "block";
-                                            domArray[d].innerHTML = jsonArray[s];
-                                            markerItemTitle[d].style.display = "block";
+                                            if (Array.isArray(jsonArray[s]) == true) {
+                                                domArray[d].style.display = "block";
+                                                domArray[d].innerHTML = jsonArray[s].join('<br />');
+                                                markerItemTitle[d].style.display = "block";
+                                            } else {
+                                                domArray[d].style.display = "block";
+                                                domArray[d].innerHTML = jsonArray[s];
+                                                markerItemTitle[d].style.display = "block";
+                                            }
+
                                     }
                                 } else {
                                     domArray[d].style.display = "none";
@@ -7094,6 +7101,7 @@ function sliderImages(c, i) {
         img.addEventListener('click', changeSlide);
         column.appendChild(li);
         li.appendChild(img);
+        column.style.width = _objects.markerData.Markers[0][c][i]["Images"][1]['Regional Images'].length * 195 + "px";
     }
 }
 
@@ -7158,8 +7166,6 @@ menuButton[0].addEventListener('click', function () {
         footer[0].style.height = '0px';
     }
 });
-
-console.log("everything is working");
 
 /***/ }),
 /* 4 */

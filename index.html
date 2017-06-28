@@ -1,16 +1,14 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <title>Lost Isles: Interactive Map</title>
     <meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" />
     <link href='/Transer_folder/Leaflet/leaflet.css' rel='stylesheet' />
     <link rel="stylesheet" href="style.css" />
-
-
 
 </head>
 
@@ -21,10 +19,10 @@
     <header>
 
         <h1 style="text-align:center; font-size:3em !important;">The Lost Isles</h1>
-        <nav class="menu">
+        <nav class="menu" style="-webkit-filter: url('#shadowed-goo'); filter: url('#shadowed-goo');">
             <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
             <label class="menu-open-button" for="menu-open">
-            <img class="logo" src="/Transer_folder/Images/dragonlogo.png"></img>
+            <span><img class="logo" src="/Transer_folder/Images/dragonlogo.png"></img></span>
         <span class="hamburger hamburger-1"></span>
         <span class="hamburger hamburger-2"></span>
         <span class="hamburger hamburger-3"></span>
@@ -60,7 +58,7 @@
             </ul>
         </nav>
         <!-- filters -->
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="display:none;">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" style="height:0px; width:0px;">
     <defs>
       <filter id="shadowed-goo">
           
@@ -453,21 +451,16 @@
             </div>
             <section id="myModal" class="modal">
                 <div class='wrapper'>
-                    <div class="col-sm-12">
-                        <span class="glyphicon glyphicon-remove closeModal cursor"></span>
-                    </div>
+
+                    <span class="glyphicon glyphicon-remove closeModal cursor"></span>
+
                 </div>
                 <div class="modal-content">
 
                     <div class="mySlides">
                         <img class="slides" src=""></img>
                     </div>
-
-                    <div class="caption-container">
-                        <p id="caption"></p>
-                    </div>
-
-                    <div>
+                    <div id="regImag" style="overflow:auto; background:black;">
                         <ul id="column" class="flex-container">
 
                         </ul>
@@ -482,29 +475,61 @@
             </div>
             <div class='col-sm-12 col-md-3 col-lg-3 padding'>
                 <img id="image" class="openModal"></img>
-                <h3 class="markerItemTitle">Races</h3>
-                <p id="races"></p>
-                <h3 class="markerItemTitle">Ruler</h3>
-                <p id="ruler"></p>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3 class="markerItemTitle">Races</h3>
+                        <hr>
+                        <p id="races"></p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3 class="markerItemTitle">Ruler</h3>
+                        <hr>
+                        <p id="ruler"></p>
+                    </div>
+                </div>
             </div>
             <div class='col-sm-12  col-md-9 col-lg-9 padding' style="margin-bottom:50px;">
 
                 <h3 class="markerItemTitle">Description</h3>
+                <hr>
                 <p id="description"></p>
-                <h3 class="markerItemTitle">Government</h3>
-                <p id="government"></p>
-                <h3 class="markerItemTitle">Religion & Gods</h3>
-                <p id="religionSpecial"></p>
-                <h3 class="markerItemTitle">Gods</h3>
-                <p id="religion"></p>
+                <div class="row">
+                    <div class="col-xs-6">
+                        <h3 class="markerItemTitle">Government</h3>
+                        <hr>
+                        <p id="government"></p>
+                    </div>
+                    <div class="col-xs-6">
+                        <h3 class="markerItemTitle">Religion & Gods</h3>
+                        <hr>
+                        <p id="religionSpecial"></p>
+                        <h3 class="markerItemTitle">Gods</h3>
+                        <hr>
+                        <p id="religion"></p>
+                    </div>
+                </div>
 
                 <h3 class="markerItemTitle">History</h3>
+                <hr>
                 <p id="history"></p>
                 <h3 class="markerItemTitle">Ammenaties</h3>
-                <p id="ammenaties"></p>
+                <hr>
+                <div class="row">
+                    <div id="ammCol1"class="col-md-4 col-sm-12">
+                        <p id="ammenaties"></p>
+                    </div>
+                    <!--<div id="ammCol2"class="col-md-4 col-sm-12">
+                        <p id="ammenaties"></p>
+                    </div>
+                    <div id="ammCol3"class="col-md-4 col-sm-12">
+                        <p id="ammenaties"></p>
+                    </div>-->
+                </div>
                 <h3 class="markerItemTitle"> Local Events</h3>
+                <hr>
                 <p id="events"></p>
                 <h3 class="markerItemTitle">Local Jobs</h3>
+                <hr>
                 <p id="jobs"></p>
             </div>
         </div>

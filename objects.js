@@ -1,4 +1,3 @@
-console.log("reading objects");
 
 var data = {
 
@@ -1754,4 +1753,3 @@ var markerData = {
 module.exports = {
     markerData
 };
-console.log("Objects file is working");

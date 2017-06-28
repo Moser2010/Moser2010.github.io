@@ -1,13 +1,13 @@
 /*Add a git remote in the Cloud9 console. Should look like this (replace the git url with your repo url):
 
-git remote add origin git@github.com:C9Support/testPush.git 
+git remote add github git@github.com:C9Support/testPush.git 
 Add files and commit them:
 
 git add . 
 git commit -m "First commit"
 Push to github:
 
-git push -u origin master
+git push -u github master --force
 */
 
 import * as L from "../Transer_folder/Leaflet/leaflet.js";
@@ -502,7 +502,7 @@ function onMarkerClick(e) {
         mBar.style.display = 'none';
     }
 }
-//This whole thing needs to be redone to make it more dynamic. 
+
 mymap.on('popupopen', function(e) {
     if (e.popup._content == "") {
         mBarState = false;
@@ -512,11 +512,15 @@ mymap.on('popupopen', function(e) {
         var marker = e.popup._content;
         let i;
 
+        
+            //Loops through markers to get Capitol, city....
         for (var c in markerData.Markers[0]) {
-
+            //loops through each capitol, city... to give you what is in each one like name...
             for (i = 0; i < markerData.Markers[0][c].length; i++) {
                 let b = markerData.Markers[0][c][i]["Name"];
                 let obj = markerData.Markers[0][c][i];
+                //This whole thing needs to be redone to make it more dynamic. 
+
                 //These two arrays and the html elements are order specific. If you change the order you have to change it everywhere.
                 let k = [];
                 let jsonArray = [];
@@ -552,9 +556,9 @@ mymap.on('popupopen', function(e) {
                     while (d < domArray.length) {
                         var s = 0;
                         for (var s = 0; s < k.length; s++) {
-                           if (Array.isArray(jsonArray[s]) == true) {
+                           /* if (Array.isArray(jsonArray[s]) == true) {
                                 console.log('this is an array' + jsonArray[s].join(', '))
-                            }
+                            }*/
                             if (k[s].toLowerCase() == domArray[d].id) {
                                 if (jsonArray[s] != "" && jsonArray[s] != undefined) {
 
@@ -576,9 +580,17 @@ mymap.on('popupopen', function(e) {
                                                 markerItemTitle[d].style.display = "none";
                                                 break;*/
                                         default:
-                                            domArray[d].style.display = "block";
-                                            domArray[d].innerHTML = jsonArray[s];
-                                            markerItemTitle[d].style.display = "block";
+                                            if (Array.isArray(jsonArray[s]) == true) {
+                                                domArray[d].style.display = "block";
+                                                domArray[d].innerHTML = jsonArray[s].join('<br />');
+                                                markerItemTitle[d].style.display = "block";
+                                            }
+                                            else {
+                                                domArray[d].style.display = "block";
+                                                domArray[d].innerHTML = jsonArray[s];
+                                                markerItemTitle[d].style.display = "block";
+                                            }
+
                                     }
                                 }
                                 else {
@@ -615,6 +627,7 @@ function sliderImages(c, i) {
         img.addEventListener('click', changeSlide);
         column.appendChild(li);
         li.appendChild(img);
+        column.style.width = markerData.Markers[0][c][i]["Images"][1]['Regional Images'].length * 195 +"px";
 
     }
 }
@@ -686,4 +699,3 @@ menuButton[0].addEventListener('click', function() {
 
 })
 
-console.log("everything is working");
